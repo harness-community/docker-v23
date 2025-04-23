@@ -3,10 +3,10 @@ package server
 import (
 	"net/http"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httpstatus"
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/api/server/httpstatus"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions"
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc/status"
 )

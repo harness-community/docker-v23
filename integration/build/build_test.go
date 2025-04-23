@@ -1,4 +1,4 @@
-package build // import "github.com/DevanshMathur19/docker-v23/integration/build"
+package build // import "github.com/harness-community/docker-v23/integration/build"
 
 import (
 	"archive/tar"
@@ -10,12 +10,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

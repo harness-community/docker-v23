@@ -1,10 +1,10 @@
-package requirement // import "github.com/DevanshMathur19/docker-v23/integration/internal/requirement"
+package requirement // import "github.com/harness-community/docker-v23/integration/internal/requirement"
 
 import (
 	"os"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
 	"gotest.tools/v3/icmd"
 )
 

@@ -1,4 +1,4 @@
-package local // import "github.com/DevanshMathur19/docker-v23/volume/local"
+package local // import "github.com/harness-community/docker-v23/volume/local"
 
 import (
 	"os"
@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/sys/mountinfo"
 	"gotest.tools/v3/skip"
 )

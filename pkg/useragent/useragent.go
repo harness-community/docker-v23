@@ -1,6 +1,6 @@
 // Package useragent provides helper functions to pack
 // version information into a single User-Agent header.
-package useragent // import "github.com/DevanshMathur19/docker-v23/pkg/useragent"
+package useragent // import "github.com/harness-community/docker-v23/pkg/useragent"
 
 import (
 	"strings"

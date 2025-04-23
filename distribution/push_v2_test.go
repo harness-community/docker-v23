@@ -1,4 +1,4 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
@@ -11,12 +11,12 @@ import (
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/distribution/metadata"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
-	refstore "github.com/DevanshMathur19/docker-v23/reference"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/distribution/metadata"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/progress"
+	refstore "github.com/harness-community/docker-v23/reference"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/opencontainers/go-digest"
 )
 

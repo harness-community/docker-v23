@@ -1,9 +1,9 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/image/tarexport"
+	"github.com/harness-community/docker-v23/image/tarexport"
 )
 
 // ExportImage exports a list of images to the given output stream. The

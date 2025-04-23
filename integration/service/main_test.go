@@ -1,11 +1,11 @@
-package service // import "github.com/DevanshMathur19/docker-v23/integration/service"
+package service // import "github.com/harness-community/docker-v23/integration/service"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

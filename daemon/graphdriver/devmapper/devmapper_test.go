@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package devmapper // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/harness-community/docker-v23/daemon/graphdriver/devmapper"
 
 import (
 	"fmt"
@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/graphtest"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/graphtest"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
 	"golang.org/x/sys/unix"
 )
 

@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package fuseoverlayfs // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/fuse-overlayfs"
+package fuseoverlayfs // import "github.com/harness-community/docker-v23/daemon/graphdriver/fuse-overlayfs"
 
 import (
 	"bytes"
@@ -15,14 +15,14 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlayutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/directory"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/overlayutils"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/chrootarchive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/directory"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

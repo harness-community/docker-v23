@@ -1,7 +1,7 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"fmt"
@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/daemon/links"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
-	"github.com/DevanshMathur19/docker-v23/runconfig"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/daemon/links"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/runconfig"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

@@ -1,4 +1,4 @@
-package image // import "github.com/DevanshMathur19/docker-v23/image"
+package image // import "github.com/harness-community/docker-v23/image"
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

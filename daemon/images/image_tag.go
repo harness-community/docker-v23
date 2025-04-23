@@ -1,8 +1,8 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/image"
+	"github.com/harness-community/docker-v23/image"
 )
 
 // TagImage creates the tag specified by newTag, pointing to the image named

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/iptables"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/options"
+	"github.com/harness-community/docker-v23/libnetwork/iptables"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/options"
 	"gotest.tools/v3/assert"
 )
 

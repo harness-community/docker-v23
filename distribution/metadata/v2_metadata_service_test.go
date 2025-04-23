@@ -1,4 +1,4 @@
-package metadata // import "github.com/DevanshMathur19/docker-v23/distribution/metadata"
+package metadata // import "github.com/harness-community/docker-v23/distribution/metadata"
 
 import (
 	"encoding/hex"
@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/harness-community/docker-v23/layer"
 	"github.com/opencontainers/go-digest"
 )
 

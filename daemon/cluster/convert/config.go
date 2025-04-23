@@ -1,8 +1,8 @@
-package convert // import "github.com/DevanshMathur19/docker-v23/daemon/cluster/convert"
+package convert // import "github.com/harness-community/docker-v23/daemon/cluster/convert"
 
 import (
-	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 )

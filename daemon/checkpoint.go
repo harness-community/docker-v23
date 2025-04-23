@@ -1,4 +1,4 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/daemon/names"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/daemon/names"
 )
 
 var (

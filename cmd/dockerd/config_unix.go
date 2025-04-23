@@ -7,11 +7,11 @@ import (
 	"net"
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/opts"
-	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
-	"github.com/DevanshMathur19/docker-v23/pkg/rootless"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/opts"
+	"github.com/harness-community/docker-v23/pkg/homedir"
+	"github.com/harness-community/docker-v23/pkg/rootless"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/spf13/pflag"
 )
 

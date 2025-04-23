@@ -16,20 +16,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/client"
-	dconfig "github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli/build"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
-	"github.com/DevanshMathur19/docker-v23/testutil/request"
-	"github.com/DevanshMathur19/docker-v23/volume"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/client"
+	dconfig "github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/cli/build"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/testutil/request"
+	"github.com/harness-community/docker-v23/volume"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
@@ -1225,7 +1225,7 @@ func (s *DockerAPISuite) TestContainerAPIDeleteRemoveVolume(c *testing.T) {
 	assert.Assert(c, os.IsNotExist(err), "expected to get ErrNotExist error, got %v", err)
 }
 
-// Regression test for https://github.com/DevanshMathur19/docker-v23/issues/6231
+// Regression test for https://github.com/harness-community/docker-v23/issues/6231
 func (s *DockerAPISuite) TestContainerAPIChunkedEncoding(c *testing.T) {
 	config := map[string]interface{}{
 		"Image":     "busybox",

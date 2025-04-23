@@ -1,4 +1,4 @@
-package jsonfilelog // import "github.com/DevanshMathur19/docker-v23/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/harness-community/docker-v23/daemon/logger/jsonfilelog"
 
 import (
 	"bufio"
@@ -12,8 +12,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggertest"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/loggertest"
 	"gotest.tools/v3/assert"
 )
 

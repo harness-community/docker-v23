@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/iptables"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/iptables"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

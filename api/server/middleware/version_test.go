@@ -1,4 +1,4 @@
-package middleware // import "github.com/DevanshMathur19/docker-v23/api/server/middleware"
+package middleware // import "github.com/harness-community/docker-v23/api/server/middleware"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/server/httputils"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

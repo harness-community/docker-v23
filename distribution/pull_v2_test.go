@@ -1,4 +1,4 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
@@ -16,10 +16,10 @@ import (
 
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	registrytypes "github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	registrytypes "github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"

@@ -1,7 +1,7 @@
-package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/backend"
 )
 
 func (m *Message) copy() *Message {

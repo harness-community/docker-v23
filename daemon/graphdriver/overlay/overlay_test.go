@@ -1,14 +1,14 @@
 //go:build linux
 // +build linux
 
-package overlay // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlay"
+package overlay // import "github.com/harness-community/docker-v23/daemon/graphdriver/overlay"
 
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/graphtest"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/graphtest"
+	"github.com/harness-community/docker-v23/pkg/archive"
 )
 
 func init() {
@@ -40,7 +40,7 @@ func TestOverlay50LayerRead(t *testing.T) {
 }
 
 // Fails due to bug in calculating changes after apply
-// likely related to https://github.com/DevanshMathur19/docker-v23/issues/21555
+// likely related to https://github.com/harness-community/docker-v23/issues/21555
 func TestOverlayDiffApply10Files(t *testing.T) {
 	t.Skipf("Fails to compute changes after apply intermittently")
 	graphtest.DriverTestDiffApply(t, 10, "overlay")

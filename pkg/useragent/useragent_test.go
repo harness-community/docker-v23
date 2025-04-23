@@ -1,4 +1,4 @@
-package useragent // import "github.com/DevanshMathur19/docker-v23/pkg/useragent"
+package useragent // import "github.com/harness-community/docker-v23/pkg/useragent"
 
 import "testing"
 

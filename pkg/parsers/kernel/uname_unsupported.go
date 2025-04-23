@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package kernel // import "github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
+package kernel // import "github.com/harness-community/docker-v23/pkg/parsers/kernel"
 
 import (
 	"errors"

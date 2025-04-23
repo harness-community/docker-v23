@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package opts // import "github.com/DevanshMathur19/docker-v23/opts"
+package opts // import "github.com/harness-community/docker-v23/opts"
 
 const (
 	// DefaultHTTPHost Default HTTP Host used if only port is provided to -H flag e.g. dockerd -H tcp://:8080

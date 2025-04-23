@@ -1,14 +1,14 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"os"
 	"sort"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/daemon/images"
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/daemon/images"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

@@ -1,13 +1,13 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"context"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	registrytypes "github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	registrytypes "github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/dockerversion"
 )
 
 var acceptedSearchFilterTags = map[string]bool{

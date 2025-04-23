@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/pkg/errors"
 	bolt "go.etcd.io/bbolt"
 	"golang.org/x/sync/errgroup"

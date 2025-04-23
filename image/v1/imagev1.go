@@ -1,13 +1,13 @@
-package v1 // import "github.com/DevanshMathur19/docker-v23/image/v1"
+package v1 // import "github.com/harness-community/docker-v23/image/v1"
 
 import (
 	"encoding/json"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

@@ -1,4 +1,4 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/api/server/router/distribution"
+package distribution // import "github.com/harness-community/docker-v23/api/server/router/distribution"
 
 import (
 	"context"
@@ -11,10 +11,10 @@ import (
 	"github.com/docker/distribution/manifest/schema1"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	registrytypes "github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
+	registrytypes "github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/errdefs"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

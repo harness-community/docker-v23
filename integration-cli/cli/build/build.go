@@ -1,11 +1,11 @@
-package build // import "github.com/DevanshMathur19/docker-v23/integration-cli/cli/build"
+package build // import "github.com/harness-community/docker-v23/integration-cli/cli/build"
 
 import (
 	"io"
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
 	"gotest.tools/v3/icmd"
 )
 

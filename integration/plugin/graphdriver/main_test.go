@@ -1,12 +1,12 @@
-package graphdriver // import "github.com/DevanshMathur19/docker-v23/integration/plugin/graphdriver"
+package graphdriver // import "github.com/harness-community/docker-v23/integration/plugin/graphdriver"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/reexec"
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/pkg/reexec"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var (

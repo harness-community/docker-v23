@@ -1,4 +1,4 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"bufio"
@@ -8,7 +8,7 @@ import (
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/pkg/progress"
 	"github.com/sirupsen/logrus"
 )
 

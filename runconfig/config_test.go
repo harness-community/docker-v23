@@ -1,4 +1,4 @@
-package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
+package runconfig // import "github.com/harness-community/docker-v23/runconfig"
 
 import (
 	"bytes"
@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/api/types/strslice"
-	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/api/types/container"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/strslice"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
 )
 
 type f struct {

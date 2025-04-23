@@ -1,11 +1,11 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
 	metrics "github.com/docker/go-metrics"
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"

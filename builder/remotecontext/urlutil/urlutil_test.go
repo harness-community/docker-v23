@@ -1,22 +1,22 @@
-package urlutil // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext/urlutil"
+package urlutil // import "github.com/harness-community/docker-v23/builder/remotecontext/urlutil"
 
 import "testing"
 
 var (
 	gitUrls = []string{
-		"git://github.com/DevanshMathur19/docker-v23",
+		"git://github.com/harness-community/docker-v23",
 		"git@github.com:docker/docker.git",
 		"git@bitbucket.org:atlassianlabs/atlassian-docker.git",
-		"https://github.com/DevanshMathur19/docker-v23.git",
-		"http://github.com/DevanshMathur19/docker-v23.git",
-		"http://github.com/DevanshMathur19/docker-v23.git#branch",
-		"http://github.com/DevanshMathur19/docker-v23.git#:dir",
+		"https://github.com/harness-community/docker-v23.git",
+		"http://github.com/harness-community/docker-v23.git",
+		"http://github.com/harness-community/docker-v23.git#branch",
+		"http://github.com/harness-community/docker-v23.git#:dir",
 	}
 	incompleteGitUrls = []string{
-		"github.com/DevanshMathur19/docker-v23",
+		"github.com/harness-community/docker-v23",
 	}
 	invalidGitUrls = []string{
-		"http://github.com/DevanshMathur19/docker-v23.git:#branch",
+		"http://github.com/harness-community/docker-v23.git:#branch",
 	}
 )
 

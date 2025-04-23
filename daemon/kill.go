@@ -1,4 +1,4 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"syscall"
 	"time"
 
-	containerpkg "github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	libcontainerdtypes "github.com/DevanshMathur19/docker-v23/libcontainerd/types"
+	containerpkg "github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 	"github.com/moby/sys/signal"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

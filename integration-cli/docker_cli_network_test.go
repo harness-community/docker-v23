@@ -4,7 +4,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/daemon"
+	"github.com/harness-community/docker-v23/integration-cli/daemon"
 )
 
 type DockerCLINetworkSuite struct {

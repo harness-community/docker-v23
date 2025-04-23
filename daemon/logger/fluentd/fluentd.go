@@ -1,6 +1,6 @@
 // Package fluentd provides the log driver for forwarding server logs
 // to fluentd endpoints.
-package fluentd // import "github.com/DevanshMathur19/docker-v23/daemon/logger/fluentd"
+package fluentd // import "github.com/harness-community/docker-v23/daemon/logger/fluentd"
 
 import (
 	"math"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/loggerutils"
+	"github.com/harness-community/docker-v23/errdefs"
 	units "github.com/docker/go-units"
 	"github.com/fluent/fluent-logger-golang/fluent"
 	"github.com/pkg/errors"

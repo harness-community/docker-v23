@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	mounttypes "github.com/DevanshMathur19/docker-v23/api/types/mount"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/api/types/strslice"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )

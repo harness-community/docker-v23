@@ -1,15 +1,15 @@
-package service // import "github.com/DevanshMathur19/docker-v23/integration/service"
+package service // import "github.com/harness-community/docker-v23/integration/service"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/swarm"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/integration/internal/swarm"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

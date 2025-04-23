@@ -1,12 +1,12 @@
 //go:build linux || windows
 // +build linux windows
 
-package service // import "github.com/DevanshMathur19/docker-v23/volume/service"
+package service // import "github.com/harness-community/docker-v23/volume/service"
 import (
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/volume"
-	"github.com/DevanshMathur19/docker-v23/volume/drivers"
-	"github.com/DevanshMathur19/docker-v23/volume/local"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/volume"
+	"github.com/harness-community/docker-v23/volume/drivers"
+	"github.com/harness-community/docker-v23/volume/local"
 	"github.com/pkg/errors"
 )
 

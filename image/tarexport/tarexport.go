@@ -1,10 +1,10 @@
-package tarexport // import "github.com/DevanshMathur19/docker-v23/image/tarexport"
+package tarexport // import "github.com/harness-community/docker-v23/image/tarexport"
 
 import (
 	"github.com/docker/distribution"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	refstore "github.com/DevanshMathur19/docker-v23/reference"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
+	refstore "github.com/harness-community/docker-v23/reference"
 )
 
 const (

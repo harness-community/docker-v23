@@ -1,4 +1,4 @@
-package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
 	"encoding/binary"
@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/plugins/logdriver"
+	"github.com/harness-community/docker-v23/api/types/plugins/logdriver"
 	protoio "github.com/gogo/protobuf/io"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

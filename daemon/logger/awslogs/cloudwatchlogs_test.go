@@ -1,4 +1,4 @@
-package awslogs // import "github.com/DevanshMathur19/docker-v23/daemon/logger/awslogs"
+package awslogs // import "github.com/harness-community/docker-v23/daemon/logger/awslogs"
 
 import (
 	"errors"
@@ -18,9 +18,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
-	"github.com/DevanshMathur19/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/loggerutils"
+	"github.com/harness-community/docker-v23/dockerversion"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

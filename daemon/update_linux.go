@@ -1,10 +1,10 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	libcontainerdtypes "github.com/DevanshMathur19/docker-v23/libcontainerd/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

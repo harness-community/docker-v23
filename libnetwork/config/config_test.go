@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
 )
 
 func TestOptionsLabels(t *testing.T) {

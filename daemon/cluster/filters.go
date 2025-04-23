@@ -1,11 +1,11 @@
-package cluster // import "github.com/DevanshMathur19/docker-v23/daemon/cluster"
+package cluster // import "github.com/harness-community/docker-v23/daemon/cluster"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	runconfigopts "github.com/DevanshMathur19/docker-v23/runconfig/opts"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	runconfigopts "github.com/harness-community/docker-v23/runconfig/opts"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 )
 

@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/osl"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/testutils"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	"github.com/harness-community/docker-v23/libnetwork/osl"
+	"github.com/harness-community/docker-v23/libnetwork/testutils"
 )
 
 func TestHostsEntries(t *testing.T) {

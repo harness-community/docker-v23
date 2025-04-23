@@ -1,7 +1,7 @@
 //go:build freebsd
 // +build freebsd
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/testutil/daemon"
+package daemon // import "github.com/harness-community/docker-v23/testutil/daemon"
 
 import (
 	"testing"

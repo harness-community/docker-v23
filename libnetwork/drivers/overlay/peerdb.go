@@ -10,9 +10,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/internal/caller"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/internal/setmatrix"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/osl"
+	"github.com/harness-community/docker-v23/libnetwork/internal/caller"
+	"github.com/harness-community/docker-v23/libnetwork/internal/setmatrix"
+	"github.com/harness-community/docker-v23/libnetwork/osl"
 	"github.com/sirupsen/logrus"
 )
 

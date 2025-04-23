@@ -1,4 +1,4 @@
-package cluster // import "github.com/DevanshMathur19/docker-v23/daemon/cluster"
+package cluster // import "github.com/harness-community/docker-v23/daemon/cluster"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/daemon/cluster/executor/container"
-	lncluster "github.com/DevanshMathur19/docker-v23/libnetwork/cluster"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/daemon/cluster/executor/container"
+	lncluster "github.com/harness-community/docker-v23/libnetwork/cluster"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	swarmallocator "github.com/moby/swarmkit/v2/manager/allocator/cnmallocator"
 	swarmnode "github.com/moby/swarmkit/v2/node"

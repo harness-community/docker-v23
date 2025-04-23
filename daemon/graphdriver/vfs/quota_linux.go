@@ -1,7 +1,7 @@
-package vfs // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/vfs"
+package vfs // import "github.com/harness-community/docker-v23/daemon/graphdriver/vfs"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/quota"
+	"github.com/harness-community/docker-v23/quota"
 	"github.com/sirupsen/logrus"
 )
 

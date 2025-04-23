@@ -1,4 +1,4 @@
-package reference // import "github.com/DevanshMathur19/docker-v23/reference"
+package reference // import "github.com/harness-community/docker-v23/reference"
 
 import (
 	"encoding/json"
@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 )

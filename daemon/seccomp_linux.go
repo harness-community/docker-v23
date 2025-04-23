@@ -1,4 +1,4 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
-	"github.com/DevanshMathur19/docker-v23/container"
-	dconfig "github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/profiles/seccomp"
+	"github.com/harness-community/docker-v23/container"
+	dconfig "github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/profiles/seccomp"
 	"github.com/sirupsen/logrus"
 )
 

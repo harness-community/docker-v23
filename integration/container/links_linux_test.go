@@ -1,13 +1,13 @@
-package container // import "github.com/DevanshMathur19/docker-v23/integration/container"
+package container // import "github.com/harness-community/docker-v23/integration/container"
 
 import (
 	"context"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/integration/internal/container"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

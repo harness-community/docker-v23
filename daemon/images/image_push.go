@@ -1,4 +1,4 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"context"
@@ -7,10 +7,10 @@ import (
 
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/distribution"
-	progressutils "github.com/DevanshMathur19/docker-v23/distribution/utils"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/distribution"
+	progressutils "github.com/harness-community/docker-v23/distribution/utils"
+	"github.com/harness-community/docker-v23/pkg/progress"
 )
 
 // PushImage initiates a push operation on the repository named localName.

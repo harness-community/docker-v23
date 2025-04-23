@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"fmt"
@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"strings"
 
-	mounttypes "github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/fileutils"
-	volumemounts "github.com/DevanshMathur19/docker-v23/volume/mounts"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/pkg/fileutils"
+	volumemounts "github.com/harness-community/docker-v23/volume/mounts"
 	"github.com/moby/sys/mount"
 )
 

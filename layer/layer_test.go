@@ -1,4 +1,4 @@
-package layer // import "github.com/DevanshMathur19/docker-v23/layer"
+package layer // import "github.com/harness-community/docker-v23/layer"
 
 import (
 	"bytes"
@@ -10,12 +10,12 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/vfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/vfs"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 )
 

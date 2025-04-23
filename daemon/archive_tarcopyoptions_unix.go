@@ -1,12 +1,12 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 )
 
 func (daemon *Daemon) tarCopyOptions(container *container.Container, noOverwriteDirNonDir bool) (*archive.TarOptions, error) {

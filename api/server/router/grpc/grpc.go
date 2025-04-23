@@ -1,7 +1,7 @@
-package grpc // import "github.com/DevanshMathur19/docker-v23/api/server/router/grpc"
+package grpc // import "github.com/harness-community/docker-v23/api/server/router/grpc"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/server/router"
+	"github.com/harness-community/docker-v23/api/server/router"
 	"github.com/moby/buildkit/util/grpcerrors"
 	"golang.org/x/net/http2"
 	"google.golang.org/grpc"

@@ -1,4 +1,4 @@
-package tarsum // import "github.com/DevanshMathur19/docker-v23/pkg/tarsum"
+package tarsum // import "github.com/harness-community/docker-v23/pkg/tarsum"
 
 // BuilderContext is an interface extending TarSum by adding the Remove method.
 // In general there was concern about adding this method to TarSum itself

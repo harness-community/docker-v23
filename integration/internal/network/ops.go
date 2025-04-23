@@ -1,8 +1,8 @@
 package network
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/network"
 )
 
 // WithDriver sets the driver of the network

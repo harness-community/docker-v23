@@ -1,4 +1,4 @@
-package cli // import "github.com/DevanshMathur19/docker-v23/cli"
+package cli // import "github.com/harness-community/docker-v23/cli"
 
 import (
 	"strings"

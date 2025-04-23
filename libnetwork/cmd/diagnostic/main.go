@@ -11,9 +11,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/diagnostic"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/overlay"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/libnetwork/diagnostic"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/overlay"
 	"github.com/sirupsen/logrus"
 )
 
@@ -55,7 +55,7 @@ func main() {
 
 	if _, ok := os.LookupEnv("DIND_CLIENT"); !ok && *joinPtr {
 		logrus.Fatal("you are not using the client in docker in docker mode, the use of the -a flag can be disruptive, " +
-			"please remove it (doc:https://github.com/DevanshMathur19/docker-v23/libnetwork/blob/master/cmd/diagnostic/README.md)")
+			"please remove it (doc:https://github.com/harness-community/docker-v23/libnetwork/blob/master/cmd/diagnostic/README.md)")
 	}
 
 	logrus.Infof("Connecting to %s:%d checking ready", *ipPtr, *portPtr)

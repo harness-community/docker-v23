@@ -1,4 +1,4 @@
-package container // import "github.com/DevanshMathur19/docker-v23/api/server/router/container"
+package container // import "github.com/harness-community/docker-v23/api/server/router/container"
 
 import (
 	"context"
@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
 	"github.com/sirupsen/logrus"
 )
 

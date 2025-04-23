@@ -1,15 +1,15 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/builder"
-	containerpkg "github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/builder"
+	containerpkg "github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

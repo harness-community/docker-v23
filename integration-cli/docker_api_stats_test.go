@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/testutil/request"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

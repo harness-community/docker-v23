@@ -1,4 +1,4 @@
-package tarexport // import "github.com/DevanshMathur19/docker-v23/image/tarexport"
+package tarexport // import "github.com/harness-community/docker-v23/image/tarexport"
 
 import (
 	"encoding/json"
@@ -11,11 +11,11 @@ import (
 
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/image"
-	v1 "github.com/DevanshMathur19/docker-v23/image/v1"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/image"
+	v1 "github.com/harness-community/docker-v23/image/v1"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/moby/sys/sequential"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"

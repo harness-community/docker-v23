@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/filters"
 )
 
 // BuilderGCRule represents a GC rule for buildkit cache

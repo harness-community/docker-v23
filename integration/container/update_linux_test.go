@@ -1,4 +1,4 @@
-package container // import "github.com/DevanshMathur19/docker-v23/integration/container"
+package container // import "github.com/harness-community/docker-v23/integration/container"
 
 import (
 	"context"
@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	"github.com/DevanshMathur19/docker-v23/testutil/request"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

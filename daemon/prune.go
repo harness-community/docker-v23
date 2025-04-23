@@ -1,4 +1,4 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -8,13 +8,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	timetypes "github.com/DevanshMathur19/docker-v23/api/types/time"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
-	"github.com/DevanshMathur19/docker-v23/runconfig"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	timetypes "github.com/harness-community/docker-v23/api/types/time"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/runconfig"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )
@@ -165,7 +165,7 @@ func (daemon *Daemon) clusterNetworksPrune(ctx context.Context, pruneFilters fil
 			if !matchLabels(pruneFilters, nw.Labels) {
 				continue
 			}
-			// https://github.com/DevanshMathur19/docker-v23/issues/24186
+			// https://github.com/harness-community/docker-v23/issues/24186
 			// `docker network inspect` unfortunately displays ONLY those containers that are local to that node.
 			// So we try to remove it anyway and check the error
 			err = cluster.RemoveNetwork(nw.ID)

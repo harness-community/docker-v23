@@ -1,6 +1,6 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/server/router/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/server/router/swarm"
 
-import "github.com/DevanshMathur19/docker-v23/api/server/router"
+import "github.com/harness-community/docker-v23/api/server/router"
 
 // swarmRouter is a router to talk with the build controller
 type swarmRouter struct {

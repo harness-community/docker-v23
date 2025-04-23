@@ -1,4 +1,4 @@
-package containerfs // import "github.com/DevanshMathur19/docker-v23/pkg/containerfs"
+package containerfs // import "github.com/harness-community/docker-v23/pkg/containerfs"
 
 import "path/filepath"
 

@@ -1,4 +1,4 @@
-package authorization // import "github.com/DevanshMathur19/docker-v23/pkg/authorization"
+package authorization // import "github.com/harness-community/docker-v23/pkg/authorization"
 
 import (
 	"bufio"
@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/sirupsen/logrus"
 )
 

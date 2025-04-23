@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/DevanshMathur19/docker-v23/pkg/fileutils"
+	"github.com/harness-community/docker-v23/pkg/fileutils"
 	"github.com/pkg/errors"
 	"github.com/tonistiigi/fsutil"
 )

@@ -1,4 +1,4 @@
-package opts // import "github.com/DevanshMathur19/docker-v23/opts"
+package opts // import "github.com/harness-community/docker-v23/opts"
 
 import (
 	"net"
@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
+	"github.com/harness-community/docker-v23/pkg/homedir"
 	"github.com/pkg/errors"
 )
 

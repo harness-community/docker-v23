@@ -1,10 +1,10 @@
-package stream // import "github.com/DevanshMathur19/docker-v23/container/stream"
+package stream // import "github.com/harness-community/docker-v23/container/stream"
 
 import (
 	"context"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/pools"
+	"github.com/harness-community/docker-v23/pkg/pools"
 	"github.com/moby/term"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

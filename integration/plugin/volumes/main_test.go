@@ -1,11 +1,11 @@
-package volumes // import "github.com/DevanshMathur19/docker-v23/integration/plugin/volumes"
+package volumes // import "github.com/harness-community/docker-v23/integration/plugin/volumes"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var (

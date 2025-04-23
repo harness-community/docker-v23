@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package copy // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/copy"
+package copy // import "github.com/harness-community/docker-v23/daemon/graphdriver/copy"
 
 import (
 	"container/list"
@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/DevanshMathur19/docker-v23/pkg/pools"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/pools"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

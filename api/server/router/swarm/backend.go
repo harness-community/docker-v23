@@ -1,11 +1,11 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/server/router/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/server/router/swarm"
 
 import (
 	"context"
 
-	basictypes "github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	basictypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
 )
 
 // Backend abstracts a swarm manager.

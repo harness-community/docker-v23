@@ -1,9 +1,9 @@
-package mounts // import "github.com/DevanshMathur19/docker-v23/volume/mounts"
+package mounts // import "github.com/harness-community/docker-v23/volume/mounts"
 
 import (
 	"fmt"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/mount"
 	"github.com/pkg/errors"
 )
 

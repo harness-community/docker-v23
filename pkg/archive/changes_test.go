@@ -1,4 +1,4 @@
-package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"os"
@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim/osversion"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )
@@ -189,7 +189,7 @@ func TestChangesWithChanges(t *testing.T) {
 	checkChanges(expectedChanges, changes, t)
 }
 
-// See https://github.com/DevanshMathur19/docker-v23/pull/13590
+// See https://github.com/harness-community/docker-v23/pull/13590
 func TestChangesWithChangesGH13590(t *testing.T) {
 	// TODO Windows. Needs further investigation to identify the failure
 	if runtime.GOOS == "windows" {

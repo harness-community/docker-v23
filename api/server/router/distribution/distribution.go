@@ -1,6 +1,6 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/api/server/router/distribution"
+package distribution // import "github.com/harness-community/docker-v23/api/server/router/distribution"
 
-import "github.com/DevanshMathur19/docker-v23/api/server/router"
+import "github.com/harness-community/docker-v23/api/server/router"
 
 // distributionRouter is a router to talk with the registry
 type distributionRouter struct {

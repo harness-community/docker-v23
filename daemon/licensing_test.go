@@ -1,10 +1,10 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/dockerversion"
 	"gotest.tools/v3/assert"
 )
 

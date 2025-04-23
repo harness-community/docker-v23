@@ -1,1 +1,1 @@
-package plugin // import "github.com/DevanshMathur19/docker-v23/integration/plugin"
+package plugin // import "github.com/harness-community/docker-v23/integration/plugin"

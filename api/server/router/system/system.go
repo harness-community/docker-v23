@@ -1,8 +1,8 @@
-package system // import "github.com/DevanshMathur19/docker-v23/api/server/router/system"
+package system // import "github.com/harness-community/docker-v23/api/server/router/system"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/server/router"
-	buildkit "github.com/DevanshMathur19/docker-v23/builder/builder-next"
+	"github.com/harness-community/docker-v23/api/server/router"
+	buildkit "github.com/harness-community/docker-v23/builder/builder-next"
 )
 
 // systemRouter provides information about the Docker system overall.

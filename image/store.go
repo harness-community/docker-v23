@@ -1,13 +1,13 @@
-package image // import "github.com/DevanshMathur19/docker-v23/image"
+package image // import "github.com/harness-community/docker-v23/image"
 
 import (
 	"fmt"
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/go-digest/digestset"
 	"github.com/pkg/errors"

@@ -1,4 +1,4 @@
-package supervisor // import "github.com/DevanshMathur19/docker-v23/libcontainerd/supervisor"
+package supervisor // import "github.com/harness-community/docker-v23/libcontainerd/supervisor"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/services/server/config"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/pelletier/go-toml"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

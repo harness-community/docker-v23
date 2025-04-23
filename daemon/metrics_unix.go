@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"net"
@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
-	"github.com/DevanshMathur19/docker-v23/plugin"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/plugin"
 	metrics "github.com/docker/go-metrics"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"

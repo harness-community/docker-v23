@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/registry"
+	"github.com/harness-community/docker-v23/testutil/registry"
 	"gotest.tools/v3/assert"
 )
 

@@ -1,4 +1,4 @@
-package cluster // import "github.com/DevanshMathur19/docker-v23/daemon/cluster"
+package cluster // import "github.com/harness-community/docker-v23/daemon/cluster"
 
 import (
 	"context"
@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	apitypes "github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/daemon/cluster/convert"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/opts"
-	"github.com/DevanshMathur19/docker-v23/pkg/stack"
+	apitypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/daemon/cluster/convert"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/opts"
+	"github.com/harness-community/docker-v23/pkg/stack"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"github.com/moby/swarmkit/v2/manager/encryption"
 	swarmnode "github.com/moby/swarmkit/v2/node"

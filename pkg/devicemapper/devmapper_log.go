@@ -1,7 +1,7 @@
 //go:build linux && cgo
 // +build linux,cgo
 
-package devicemapper // import "github.com/DevanshMathur19/docker-v23/pkg/devicemapper"
+package devicemapper // import "github.com/harness-community/docker-v23/pkg/devicemapper"
 
 import "C"
 

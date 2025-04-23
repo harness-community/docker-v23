@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/runconfig"
+	"github.com/harness-community/docker-v23/runconfig"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 )

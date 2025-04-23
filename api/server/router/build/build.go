@@ -1,10 +1,10 @@
-package build // import "github.com/DevanshMathur19/docker-v23/api/server/router/build"
+package build // import "github.com/harness-community/docker-v23/api/server/router/build"
 
 import (
 	"runtime"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/router"
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/server/router"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // buildRouter is a router to talk with the build controller

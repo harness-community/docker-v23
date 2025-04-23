@@ -1,4 +1,4 @@
-package pools // import "github.com/DevanshMathur19/docker-v23/pkg/pools"
+package pools // import "github.com/harness-community/docker-v23/pkg/pools"
 
 import (
 	"bufio"

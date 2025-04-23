@@ -1,15 +1,15 @@
-package jsonfilelog // import "github.com/DevanshMathur19/docker-v23/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/harness-community/docker-v23/daemon/logger/jsonfilelog"
 
 import (
 	"context"
 	"encoding/json"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/jsonfilelog/jsonlog"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/tailfile"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/jsonfilelog/jsonlog"
+	"github.com/harness-community/docker-v23/daemon/logger/loggerutils"
+	"github.com/harness-community/docker-v23/pkg/tailfile"
 )
 
 // ReadLogs implements the logger's LogReader interface for the logs

@@ -1,9 +1,9 @@
-package config // import "github.com/DevanshMathur19/docker-v23/daemon/config"
+package config // import "github.com/harness-community/docker-v23/daemon/config"
 
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/opts"
+	"github.com/harness-community/docker-v23/opts"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

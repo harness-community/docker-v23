@@ -1,4 +1,4 @@
-package drivers // import "github.com/DevanshMathur19/docker-v23/volume/drivers"
+package drivers // import "github.com/harness-community/docker-v23/volume/drivers"
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/pkg/plugins"
 	"github.com/docker/go-connections/tlsconfig"
 )
 

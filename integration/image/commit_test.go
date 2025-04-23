@@ -1,13 +1,13 @@
-package image // import "github.com/DevanshMathur19/docker-v23/integration/image"
+package image // import "github.com/harness-community/docker-v23/integration/image"
 
 import (
 	"context"
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/integration/internal/container"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

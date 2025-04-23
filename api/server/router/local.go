@@ -1,9 +1,9 @@
-package router // import "github.com/DevanshMathur19/docker-v23/api/server/router"
+package router // import "github.com/harness-community/docker-v23/api/server/router"
 
 import (
 	"net/http"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/server/httputils"
 )
 
 // RouteWrapper wraps a route with extra functionality.

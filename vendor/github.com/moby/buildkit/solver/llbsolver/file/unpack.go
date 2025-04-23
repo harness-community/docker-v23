@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/chrootarchive"
 	copy "github.com/tonistiigi/fsutil/copy"
 )
 

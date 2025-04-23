@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"os"
@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 )
 
 func fixPermissions(source, destination string, identity idtools.Identity, overrideSkip bool) error {

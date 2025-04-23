@@ -1,4 +1,4 @@
-package network // import "github.com/DevanshMathur19/docker-v23/integration/network"
+package network // import "github.com/harness-community/docker-v23/integration/network"
 
 import (
 	"bytes"
@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/network"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
-	"github.com/DevanshMathur19/docker-v23/testutil/request"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/integration/internal/network"
+	"github.com/harness-community/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/icmd"

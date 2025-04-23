@@ -1,14 +1,14 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package graphtest // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/graphtest"
+package graphtest // import "github.com/harness-community/docker-v23/daemon/graphdriver/graphtest"
 
 import (
 	"io"
 	"testing"
 
 	contdriver "github.com/containerd/continuity/driver"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"gotest.tools/v3/assert"
 )
 

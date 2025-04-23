@@ -1,11 +1,11 @@
-package session // import "github.com/DevanshMathur19/docker-v23/integration/session"
+package session // import "github.com/harness-community/docker-v23/integration/session"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

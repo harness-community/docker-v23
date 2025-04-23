@@ -1,4 +1,4 @@
-package httputils // import "github.com/DevanshMathur19/docker-v23/api/server/httputils"
+package httputils // import "github.com/harness-community/docker-v23/api/server/httputils"
 
 import (
 	"context"
@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/pkg/errors"
 )
 

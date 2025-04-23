@@ -1,4 +1,4 @@
-package stack // import "github.com/DevanshMathur19/docker-v23/pkg/stack"
+package stack // import "github.com/harness-community/docker-v23/pkg/stack"
 
 import (
 	"fmt"

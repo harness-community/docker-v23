@@ -1,13 +1,13 @@
-package remotecontext // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/builder"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/reexec"
+	"github.com/harness-community/docker-v23/builder"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/reexec"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/skip"
 )

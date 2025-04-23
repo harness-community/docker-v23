@@ -1,4 +1,4 @@
-package image // import "github.com/DevanshMathur19/docker-v23/integration/image"
+package image // import "github.com/harness-community/docker-v23/integration/image"
 
 import (
 	"archive/tar"
@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/testutil"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/testutil"
+	"github.com/harness-community/docker-v23/testutil/daemon"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

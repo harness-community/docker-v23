@@ -1,14 +1,14 @@
-package image // import "github.com/DevanshMathur19/docker-v23/api/server/router/image"
+package image // import "github.com/harness-community/docker-v23/api/server/router/image"
 
 import (
 	"context"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/image"
-	"github.com/DevanshMathur19/docker-v23/api/types/registry"
-	dockerimage "github.com/DevanshMathur19/docker-v23/image"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/image"
+	"github.com/harness-community/docker-v23/api/types/registry"
+	dockerimage "github.com/harness-community/docker-v23/image"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/checker"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/integration-cli/checker"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/poll"
 )

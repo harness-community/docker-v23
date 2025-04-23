@@ -1,15 +1,15 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package initlayer // import "github.com/DevanshMathur19/docker-v23/daemon/initlayer"
+package initlayer // import "github.com/harness-community/docker-v23/daemon/initlayer"
 
 import (
 	"os"
 	"path/filepath"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"golang.org/x/sys/unix"
 )
 

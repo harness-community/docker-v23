@@ -1,13 +1,13 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"encoding/json"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/pkg/errors"
 )
 

@@ -1,4 +1,4 @@
-package pubsub // import "github.com/DevanshMathur19/docker-v23/pkg/pubsub"
+package pubsub // import "github.com/harness-community/docker-v23/pkg/pubsub"
 
 import "github.com/moby/pubsub"
 

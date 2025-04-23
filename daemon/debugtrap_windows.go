@@ -1,11 +1,11 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"fmt"
 	"os"
 	"unsafe"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/stack"
+	"github.com/harness-community/docker-v23/pkg/stack"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/windows"
 )

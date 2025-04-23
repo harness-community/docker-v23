@@ -1,4 +1,4 @@
-package server // import "github.com/DevanshMathur19/docker-v23/api/server"
+package server // import "github.com/harness-community/docker-v23/api/server"
 
 import (
 	"context"
@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httpstatus"
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
-	"github.com/DevanshMathur19/docker-v23/api/server/middleware"
-	"github.com/DevanshMathur19/docker-v23/api/server/router"
-	"github.com/DevanshMathur19/docker-v23/api/server/router/debug"
-	"github.com/DevanshMathur19/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/api/server/httpstatus"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/server/middleware"
+	"github.com/harness-community/docker-v23/api/server/router"
+	"github.com/harness-community/docker-v23/api/server/router/debug"
+	"github.com/harness-community/docker-v23/dockerversion"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

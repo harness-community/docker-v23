@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/cache"
 	"github.com/moby/buildkit/session"
 	"github.com/moby/buildkit/snapshot"

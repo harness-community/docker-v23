@@ -1,10 +1,10 @@
-package environment // import "github.com/DevanshMathur19/docker-v23/integration-cli/environment"
+package environment // import "github.com/harness-community/docker-v23/integration-cli/environment"
 
 import (
 	"os"
 	"os/exec"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var (

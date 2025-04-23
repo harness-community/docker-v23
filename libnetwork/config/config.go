@@ -3,12 +3,12 @@ package config
 import (
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/cluster"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamutils"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/osl"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/libnetwork/cluster"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/ipamutils"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/osl"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
 	"github.com/docker/libkv/store"
 	"github.com/sirupsen/logrus"
 )

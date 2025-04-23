@@ -3,9 +3,9 @@ package windowsipam
 import (
 	"net"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/discoverapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/discoverapi"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

@@ -6,12 +6,12 @@ package builtin
 import (
 	"errors"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipam"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamutils"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/ipam"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	"github.com/harness-community/docker-v23/libnetwork/ipamutils"
 
-	windowsipam "github.com/DevanshMathur19/docker-v23/libnetwork/ipams/windowsipam"
+	windowsipam "github.com/harness-community/docker-v23/libnetwork/ipams/windowsipam"
 )
 
 var (

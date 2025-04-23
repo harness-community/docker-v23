@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package overlay // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlay"
+package overlay // import "github.com/harness-community/docker-v23/daemon/graphdriver/overlay"
 
 import (
 	"fmt"
@@ -13,13 +13,13 @@ import (
 	"strings"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/copy"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlayutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/copy"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/overlayutils"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

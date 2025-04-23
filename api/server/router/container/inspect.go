@@ -1,10 +1,10 @@
-package container // import "github.com/DevanshMathur19/docker-v23/api/server/router/container"
+package container // import "github.com/harness-community/docker-v23/api/server/router/container"
 
 import (
 	"context"
 	"net/http"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/server/httputils"
 )
 
 // getContainersByName inspects container's configuration and serializes it as json.

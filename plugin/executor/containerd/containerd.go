@@ -1,4 +1,4 @@
-package containerd // import "github.com/DevanshMathur19/docker-v23/plugin/executor/containerd"
+package containerd // import "github.com/harness-community/docker-v23/plugin/executor/containerd"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/libcontainerd"
-	libcontainerdtypes "github.com/DevanshMathur19/docker-v23/libcontainerd/types"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/libcontainerd"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

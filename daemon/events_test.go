@@ -1,13 +1,13 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"testing"
 	"time"
 
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	eventtypes "github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/daemon/events"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	eventtypes "github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/daemon/events"
 )
 
 func TestLogContainerEventCopyLabels(t *testing.T) {

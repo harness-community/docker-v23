@@ -21,12 +21,12 @@ import (
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/discoverapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/driverapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/portmapper"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/discoverapi"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/portmapper"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

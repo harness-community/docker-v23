@@ -1,4 +1,4 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"github.com/docker/distribution/manifest/manifestlist"
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/sirupsen/logrus"
 )

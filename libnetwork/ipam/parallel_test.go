@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sync/semaphore"
 	"gotest.tools/v3/assert"

@@ -1,12 +1,12 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"sort"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	volumemounts "github.com/DevanshMathur19/docker-v23/volume/mounts"
+	"github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	volumemounts "github.com/harness-community/docker-v23/volume/mounts"
 )
 
 // setupMounts configures the mount points for a container by appending each

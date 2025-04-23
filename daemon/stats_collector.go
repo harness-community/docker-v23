@@ -1,11 +1,11 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"runtime"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/stats"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/daemon/stats"
+	"github.com/harness-community/docker-v23/pkg/system"
 )
 
 // newStatsCollector returns a new statsCollector that collections

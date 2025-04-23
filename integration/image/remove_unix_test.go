@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package image // import "github.com/DevanshMathur19/docker-v23/integration/image"
+package image // import "github.com/harness-community/docker-v23/integration/image"
 
 import (
 	"context"
@@ -14,13 +14,13 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	_ "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/register" // register graph drivers
-	"github.com/DevanshMathur19/docker-v23/daemon/images"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/api/types"
+	_ "github.com/harness-community/docker-v23/daemon/graphdriver/register" // register graph drivers
+	"github.com/harness-community/docker-v23/daemon/images"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

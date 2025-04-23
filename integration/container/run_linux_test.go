@@ -1,4 +1,4 @@
-package container // import "github.com/DevanshMathur19/docker-v23/integration/container"
+package container // import "github.com/harness-community/docker-v23/integration/container"
 
 import (
 	"bytes"
@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	net "github.com/DevanshMathur19/docker-v23/integration/internal/network"
-	"github.com/DevanshMathur19/docker-v23/pkg/stdcopy"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	net "github.com/harness-community/docker-v23/integration/internal/network"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/testutil/daemon"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

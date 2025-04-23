@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/DevanshMathur19/docker-v23/testutil/fakestorage"
+package fakestorage // import "github.com/harness-community/docker-v23/testutil/fakestorage"
 
 import (
 	"context"
@@ -9,8 +9,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/pkg/archive"
 	"gotest.tools/v3/assert"
 )
 
@@ -55,7 +55,7 @@ func ensureHTTPServerImage(t testing.TB) {
 			t.Fatalf("could not build http server: %v", lookErr)
 		}
 
-		cmd := exec.Command(goCmd, "build", "-o", filepath.Join(tmp, "httpserver"), "github.com/DevanshMathur19/docker-v23/contrib/httpserver")
+		cmd := exec.Command(goCmd, "build", "-o", filepath.Join(tmp, "httpserver"), "github.com/harness-community/docker-v23/contrib/httpserver")
 		cmd.Env = append(os.Environ(), []string{
 			"CGO_ENABLED=0",
 			"GOOS=" + goos,

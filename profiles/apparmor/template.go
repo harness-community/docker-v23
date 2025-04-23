@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package apparmor // import "github.com/DevanshMathur19/docker-v23/profiles/apparmor"
+package apparmor // import "github.com/harness-community/docker-v23/profiles/apparmor"
 
 // NOTE: This profile is replicated in containerd and libpod. If you make a
 //       change to this profile, please make follow-up PRs to those projects so

@@ -1,4 +1,4 @@
-package service // import "github.com/DevanshMathur19/docker-v23/volume/service"
+package service // import "github.com/harness-community/docker-v23/volume/service"
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/volume"
-	"github.com/DevanshMathur19/docker-v23/volume/drivers"
-	volumemounts "github.com/DevanshMathur19/docker-v23/volume/mounts"
-	"github.com/DevanshMathur19/docker-v23/volume/service/opts"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/volume"
+	"github.com/harness-community/docker-v23/volume/drivers"
+	volumemounts "github.com/harness-community/docker-v23/volume/mounts"
+	"github.com/harness-community/docker-v23/volume/service/opts"
 	"github.com/moby/locker"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

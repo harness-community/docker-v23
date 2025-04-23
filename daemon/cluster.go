@@ -1,12 +1,12 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
-	apitypes "github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	lncluster "github.com/DevanshMathur19/docker-v23/libnetwork/cluster"
+	apitypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	lncluster "github.com/harness-community/docker-v23/libnetwork/cluster"
 )
 
-// Cluster is the interface for github.com/DevanshMathur19/docker-v23/daemon/cluster.(*Cluster).
+// Cluster is the interface for github.com/harness-community/docker-v23/daemon/cluster.(*Cluster).
 type Cluster interface {
 	ClusterStatus
 	NetworkManager

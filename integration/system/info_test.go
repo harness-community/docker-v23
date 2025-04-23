@@ -1,4 +1,4 @@
-package system // import "github.com/DevanshMathur19/docker-v23/integration/system"
+package system // import "github.com/harness-community/docker-v23/integration/system"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/registry"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/testutil/daemon"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

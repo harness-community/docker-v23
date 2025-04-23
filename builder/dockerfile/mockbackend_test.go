@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/builder"
-	containerpkg "github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/builder"
+	containerpkg "github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
 )
 
 // MockBackend implements the builder.Backend interface for unit testing

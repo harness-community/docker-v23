@@ -1,10 +1,10 @@
-package chrootarchive // import "github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
+package chrootarchive // import "github.com/harness-community/docker-v23/pkg/chrootarchive"
 
 import (
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/longpath"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/longpath"
 )
 
 // chroot is not supported by Windows

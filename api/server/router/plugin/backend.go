@@ -1,4 +1,4 @@
-package plugin // import "github.com/DevanshMathur19/docker-v23/api/server/router/plugin"
+package plugin // import "github.com/harness-community/docker-v23/api/server/router/plugin"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/docker/distribution/reference"
-	enginetypes "github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/plugin"
+	enginetypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/plugin"
 )
 
 // Backend for Plugin

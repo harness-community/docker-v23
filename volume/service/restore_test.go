@@ -1,14 +1,14 @@
-package service // import "github.com/DevanshMathur19/docker-v23/volume/service"
+package service // import "github.com/harness-community/docker-v23/volume/service"
 
 import (
 	"context"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/volume"
-	volumedrivers "github.com/DevanshMathur19/docker-v23/volume/drivers"
-	"github.com/DevanshMathur19/docker-v23/volume/service/opts"
-	volumetestutils "github.com/DevanshMathur19/docker-v23/volume/testutils"
+	"github.com/harness-community/docker-v23/volume"
+	volumedrivers "github.com/harness-community/docker-v23/volume/drivers"
+	"github.com/harness-community/docker-v23/volume/service/opts"
+	volumetestutils "github.com/harness-community/docker-v23/volume/testutils"
 	"gotest.tools/v3/assert"
 )
 

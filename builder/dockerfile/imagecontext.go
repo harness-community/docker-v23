@@ -1,13 +1,13 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"context"
 	"runtime"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/builder"
-	dockerimage "github.com/DevanshMathur19/docker-v23/image"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/builder"
+	dockerimage "github.com/harness-community/docker-v23/image"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

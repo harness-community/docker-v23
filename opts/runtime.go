@@ -1,10 +1,10 @@
-package opts // import "github.com/DevanshMathur19/docker-v23/opts"
+package opts // import "github.com/harness-community/docker-v23/opts"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // RuntimeOpt defines a map of Runtimes

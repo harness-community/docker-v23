@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/windows"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipams/windowsipam"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/windows"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	"github.com/harness-community/docker-v23/libnetwork/ipams/windowsipam"
 	"github.com/sirupsen/logrus"
 )
 

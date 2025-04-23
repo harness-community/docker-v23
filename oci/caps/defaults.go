@@ -1,4 +1,4 @@
-package caps // import "github.com/DevanshMathur19/docker-v23/oci/caps"
+package caps // import "github.com/harness-community/docker-v23/oci/caps"
 
 // DefaultCapabilities returns a Linux kernel default capabilities
 func DefaultCapabilities() []string {

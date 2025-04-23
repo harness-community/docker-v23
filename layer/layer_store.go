@@ -1,4 +1,4 @@
-package layer // import "github.com/DevanshMathur19/docker-v23/layer"
+package layer // import "github.com/harness-community/docker-v23/layer"
 
 import (
 	"errors"
@@ -9,10 +9,10 @@ import (
 	"sync"
 
 	"github.com/docker/distribution"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/moby/locker"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"

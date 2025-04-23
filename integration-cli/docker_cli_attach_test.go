@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )

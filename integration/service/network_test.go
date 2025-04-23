@@ -1,14 +1,14 @@
-package service // import "github.com/DevanshMathur19/docker-v23/integration/service"
+package service // import "github.com/harness-community/docker-v23/integration/service"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	net "github.com/DevanshMathur19/docker-v23/integration/internal/network"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/swarm"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	net "github.com/harness-community/docker-v23/integration/internal/network"
+	"github.com/harness-community/docker-v23/integration/internal/swarm"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

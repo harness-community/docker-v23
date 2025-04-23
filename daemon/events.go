@@ -1,4 +1,4 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/container"
-	daemonevents "github.com/DevanshMathur19/docker-v23/daemon/events"
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/container"
+	daemonevents "github.com/harness-community/docker-v23/daemon/events"
+	"github.com/harness-community/docker-v23/libnetwork"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"github.com/sirupsen/logrus"

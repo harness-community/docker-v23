@@ -1,14 +1,14 @@
 //go:build !linux
 // +build !linux
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
-	"github.com/DevanshMathur19/docker-v23/container"
+	"github.com/harness-community/docker-v23/container"
 )
 
 const supportsSeccomp = false

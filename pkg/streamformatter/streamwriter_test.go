@@ -1,4 +1,4 @@
-package streamformatter // import "github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
+package streamformatter // import "github.com/harness-community/docker-v23/pkg/streamformatter"
 
 import (
 	"bytes"

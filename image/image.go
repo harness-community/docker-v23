@@ -1,4 +1,4 @@
-package image // import "github.com/DevanshMathur19/docker-v23/image"
+package image // import "github.com/harness-community/docker-v23/image"
 
 import (
 	"encoding/json"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/dockerversion"
-	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/layer"
 	"github.com/opencontainers/go-digest"
 )
 

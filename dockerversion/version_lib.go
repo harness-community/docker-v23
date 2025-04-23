@@ -1,4 +1,4 @@
-package dockerversion // import "github.com/DevanshMathur19/docker-v23/dockerversion"
+package dockerversion // import "github.com/harness-community/docker-v23/dockerversion"
 
 // Default build-time variable for library-import.
 // These variables are overridden on build with build-time information.

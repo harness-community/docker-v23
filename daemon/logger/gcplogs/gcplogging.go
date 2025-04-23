@@ -1,4 +1,4 @@
-package gcplogs // import "github.com/DevanshMathur19/docker-v23/daemon/logger/gcplogs"
+package gcplogs // import "github.com/harness-community/docker-v23/daemon/logger/gcplogs"
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger"
 
 	"cloud.google.com/go/compute/metadata"
 	"cloud.google.com/go/logging"

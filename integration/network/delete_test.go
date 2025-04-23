@@ -1,13 +1,13 @@
-package network // import "github.com/DevanshMathur19/docker-v23/integration/network"
+package network // import "github.com/harness-community/docker-v23/integration/network"
 
 import (
 	"context"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	dclient "github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/network"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	dclient "github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration/internal/network"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

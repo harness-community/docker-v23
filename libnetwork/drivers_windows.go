@@ -1,10 +1,10 @@
 package libnetwork
 
 import (
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/null"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/remote"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/windows"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/windows/overlay"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/null"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/remote"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/windows"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/windows/overlay"
 )
 
 func getInitializers() []initializer {

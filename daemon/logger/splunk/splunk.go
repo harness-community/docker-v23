@@ -1,6 +1,6 @@
 // Package splunk provides the log driver for forwarding server logs to
 // Splunk HTTP Event Collector endpoint.
-package splunk // import "github.com/DevanshMathur19/docker-v23/daemon/logger/splunk"
+package splunk // import "github.com/harness-community/docker-v23/daemon/logger/splunk"
 
 import (
 	"bytes"
@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/pools"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/loggerutils"
+	"github.com/harness-community/docker-v23/pkg/pools"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
 )

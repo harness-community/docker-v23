@@ -2,4 +2,4 @@
 
 package main
 
-import _ "github.com/DevanshMathur19/docker-v23/cli/winresources/docker-proxy"
+import _ "github.com/harness-community/docker-v23/cli/winresources/docker-proxy"

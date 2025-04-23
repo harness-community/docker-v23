@@ -1,4 +1,4 @@
-package tarsum // import "github.com/DevanshMathur19/docker-v23/pkg/tarsum"
+package tarsum // import "github.com/harness-community/docker-v23/pkg/tarsum"
 
 import "testing"
 

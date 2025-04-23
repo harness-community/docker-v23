@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package ipvlan // import "github.com/DevanshMathur19/docker-v23/integration/network/ipvlan"
+package ipvlan // import "github.com/harness-community/docker-v23/integration/network/ipvlan"
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 	"sync"
 	"testing"
 
-	dclient "github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	net "github.com/DevanshMathur19/docker-v23/integration/internal/network"
-	n "github.com/DevanshMathur19/docker-v23/integration/network"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
+	dclient "github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	net "github.com/harness-community/docker-v23/integration/internal/network"
+	n "github.com/harness-community/docker-v23/integration/network"
+	"github.com/harness-community/docker-v23/testutil/daemon"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

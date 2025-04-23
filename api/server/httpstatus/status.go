@@ -1,4 +1,4 @@
-package httpstatus // import "github.com/DevanshMathur19/docker-v23/api/server/httpstatus"
+package httpstatus // import "github.com/harness-community/docker-v23/api/server/httpstatus"
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 
 	containerderrors "github.com/containerd/containerd/errdefs"
 	"github.com/docker/distribution/registry/api/errcode"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

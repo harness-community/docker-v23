@@ -1,11 +1,11 @@
-package volume // import "github.com/DevanshMathur19/docker-v23/integration/volume"
+package volume // import "github.com/harness-community/docker-v23/integration/volume"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

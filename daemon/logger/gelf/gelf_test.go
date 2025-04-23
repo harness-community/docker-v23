@@ -1,13 +1,13 @@
 //go:build linux
 // +build linux
 
-package gelf // import "github.com/DevanshMathur19/docker-v23/daemon/logger/gelf"
+package gelf // import "github.com/harness-community/docker-v23/daemon/logger/gelf"
 
 import (
 	"net"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger"
 )
 
 // Validate parseAddress

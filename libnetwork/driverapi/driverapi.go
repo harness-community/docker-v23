@@ -3,8 +3,8 @@ package driverapi
 import (
 	"net"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/discoverapi"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/libnetwork/discoverapi"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
 )
 
 // NetworkPluginEndpointType represents the Endpoint Type used by Plugin system

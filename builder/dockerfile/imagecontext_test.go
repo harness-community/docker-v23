@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/DevanshMathur19/docker-v23/builder"
-	"github.com/DevanshMathur19/docker-v23/image"
+	"github.com/harness-community/docker-v23/builder"
+	"github.com/harness-community/docker-v23/image"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 )

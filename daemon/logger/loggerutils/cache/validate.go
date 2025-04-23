@@ -3,8 +3,8 @@ package cache
 import (
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/local"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/local"
 	"github.com/pkg/errors"
 )
 

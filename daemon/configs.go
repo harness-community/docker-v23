@@ -1,7 +1,7 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
-	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/sirupsen/logrus"
 )
 

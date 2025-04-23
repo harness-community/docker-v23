@@ -1,10 +1,10 @@
-package events // import "github.com/DevanshMathur19/docker-v23/daemon/events"
+package events // import "github.com/harness-community/docker-v23/daemon/events"
 
 import (
 	"sync"
 	"time"
 
-	eventtypes "github.com/DevanshMathur19/docker-v23/api/types/events"
+	eventtypes "github.com/harness-community/docker-v23/api/types/events"
 	"github.com/moby/pubsub"
 )
 

@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package authz // import "github.com/DevanshMathur19/docker-v23/integration/plugin/authz"
+package authz // import "github.com/harness-community/docker-v23/integration/plugin/authz"
 
 import (
 	"context"
@@ -18,13 +18,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	eventtypes "github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/authorization"
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/api/types"
+	eventtypes "github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/authorization"
+	"github.com/harness-community/docker-v23/testutil/environment"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/poll"
 	"gotest.tools/v3/skip"

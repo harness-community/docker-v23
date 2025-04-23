@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/resolvconf"
+	"github.com/harness-community/docker-v23/libnetwork/resolvconf"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

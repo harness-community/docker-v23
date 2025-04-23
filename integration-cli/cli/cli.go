@@ -1,4 +1,4 @@
-package cli // import "github.com/DevanshMathur19/docker-v23/integration-cli/cli"
+package cli // import "github.com/harness-community/docker-v23/integration-cli/cli"
 
 import (
 	"fmt"
@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/daemon"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/environment"
+	"github.com/harness-community/docker-v23/integration-cli/daemon"
+	"github.com/harness-community/docker-v23/integration-cli/environment"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/icmd"
 )

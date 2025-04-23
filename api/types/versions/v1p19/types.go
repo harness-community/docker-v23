@@ -1,10 +1,10 @@
 // Package v1p19 provides specific API types for the API version 1, patch 19.
-package v1p19 // import "github.com/DevanshMathur19/docker-v23/api/types/versions/v1p19"
+package v1p19 // import "github.com/harness-community/docker-v23/api/types/versions/v1p19"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions/v1p20"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/versions/v1p20"
 	"github.com/docker/go-connections/nat"
 )
 

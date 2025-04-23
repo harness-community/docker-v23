@@ -1,12 +1,12 @@
-package cluster // import "github.com/DevanshMathur19/docker-v23/daemon/cluster"
+package cluster // import "github.com/harness-community/docker-v23/daemon/cluster"
 
 import (
 	"context"
 
-	apitypes "github.com/DevanshMathur19/docker-v23/api/types"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/daemon/cluster/convert"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	apitypes "github.com/harness-community/docker-v23/api/types"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/daemon/cluster/convert"
+	"github.com/harness-community/docker-v23/errdefs"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"google.golang.org/grpc"
 )

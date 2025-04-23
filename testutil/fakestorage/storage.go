@@ -1,4 +1,4 @@
-package fakestorage // import "github.com/DevanshMathur19/docker-v23/testutil/fakestorage"
+package fakestorage // import "github.com/harness-community/docker-v23/testutil/fakestorage"
 
 import (
 	"context"
@@ -11,13 +11,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/testutil"
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
-	"github.com/DevanshMathur19/docker-v23/testutil/request"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/testutil"
+	"github.com/harness-community/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"github.com/docker/go-connections/nat"
 	"gotest.tools/v3/assert"
 )

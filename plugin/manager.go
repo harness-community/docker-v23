@@ -1,4 +1,4 @@
-package plugin // import "github.com/DevanshMathur19/docker-v23/plugin"
+package plugin // import "github.com/harness-community/docker-v23/plugin"
 
 import (
 	"context"
@@ -15,12 +15,12 @@ import (
 
 	"github.com/containerd/containerd/content"
 	"github.com/containerd/containerd/content/local"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/pkg/authorization"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
-	v2 "github.com/DevanshMathur19/docker-v23/plugin/v2"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/pkg/authorization"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	v2 "github.com/harness-community/docker-v23/plugin/v2"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/moby/pubsub"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

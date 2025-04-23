@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	dockeropts "github.com/DevanshMathur19/docker-v23/opts"
+	dockeropts "github.com/harness-community/docker-v23/opts"
 	"github.com/moby/buildkit/util/suggest"
 	"github.com/pkg/errors"
 )

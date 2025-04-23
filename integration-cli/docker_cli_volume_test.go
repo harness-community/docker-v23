@@ -9,11 +9,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli/build"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration-cli/cli/build"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )
@@ -403,7 +403,7 @@ func (s *DockerCLIVolumeSuite) TestVolumeCLIRmForce(c *testing.T) {
 }
 
 // TestVolumeCLIRmForceInUse verifies that repeated `docker volume rm -f` calls does not remove a volume
-// if it is in use. Test case for https://github.com/DevanshMathur19/docker-v23/issues/31446
+// if it is in use. Test case for https://github.com/harness-community/docker-v23/issues/31446
 func (s *DockerCLIVolumeSuite) TestVolumeCLIRmForceInUse(c *testing.T) {
 	name := "testvolume"
 	out, _ := dockerCmd(c, "volume", "create", name)

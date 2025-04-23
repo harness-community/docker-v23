@@ -1,18 +1,18 @@
 //go:build !windows
 // +build !windows
 
-package macvlan // import "github.com/DevanshMathur19/docker-v23/integration/network/macvlan"
+package macvlan // import "github.com/harness-community/docker-v23/integration/network/macvlan"
 
 import (
 	"context"
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	net "github.com/DevanshMathur19/docker-v23/integration/internal/network"
-	n "github.com/DevanshMathur19/docker-v23/integration/network"
-	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	net "github.com/harness-community/docker-v23/integration/internal/network"
+	n "github.com/harness-community/docker-v23/integration/network"
+	"github.com/harness-community/docker-v23/testutil/daemon"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

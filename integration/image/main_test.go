@@ -1,11 +1,11 @@
-package image // import "github.com/DevanshMathur19/docker-v23/integration/image"
+package image // import "github.com/harness-community/docker-v23/integration/image"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

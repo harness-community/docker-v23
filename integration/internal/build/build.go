@@ -6,10 +6,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
 	"gotest.tools/v3/assert"
 )
 

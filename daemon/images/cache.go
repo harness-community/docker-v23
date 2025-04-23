@@ -1,8 +1,8 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/builder"
-	"github.com/DevanshMathur19/docker-v23/image/cache"
+	"github.com/harness-community/docker-v23/builder"
+	"github.com/harness-community/docker-v23/image/cache"
 	"github.com/sirupsen/logrus"
 )
 

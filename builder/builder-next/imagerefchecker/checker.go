@@ -3,8 +3,8 @@ package imagerefchecker
 import (
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
 	"github.com/moby/buildkit/cache"
 	"github.com/opencontainers/go-digest"
 )

@@ -1,8 +1,8 @@
-package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
+package runconfig // import "github.com/harness-community/docker-v23/runconfig"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/container"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
 )
 
 // ContainerConfigWrapper is a Config wrapper that holds the container Config (portable)

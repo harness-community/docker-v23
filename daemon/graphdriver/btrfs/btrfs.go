@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package btrfs // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/btrfs"
+package btrfs // import "github.com/harness-community/docker-v23/daemon/graphdriver/btrfs"
 
 /*
 #include <stdlib.h>
@@ -35,10 +35,10 @@ import (
 	"unsafe"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers"
 	units "github.com/docker/go-units"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

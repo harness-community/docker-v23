@@ -6,7 +6,7 @@ package bridge
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/testutils"
+	"github.com/harness-community/docker-v23/libnetwork/testutils"
 	"github.com/vishvananda/netlink"
 )
 

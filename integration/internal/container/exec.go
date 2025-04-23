@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
 )
 
 // ExecResult represents a result returned from Exec()

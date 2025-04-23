@@ -1,11 +1,11 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"encoding/json"
 	"fmt"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/daemon/config"
 	"github.com/sirupsen/logrus"
 )
 

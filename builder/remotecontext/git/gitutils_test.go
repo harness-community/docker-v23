@@ -1,4 +1,4 @@
-package git // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext/git"
+package git // import "github.com/harness-community/docker-v23/builder/remotecontext/git"
 
 import (
 	"bytes"
@@ -156,7 +156,7 @@ func TestCloneArgsDumbHttp(t *testing.T) {
 }
 
 func TestCloneArgsGit(t *testing.T) {
-	args := fetchArgs("git://github.com/DevanshMathur19/docker-v23", "master")
+	args := fetchArgs("git://github.com/harness-community/docker-v23", "master")
 	exp := []string{"fetch", "--depth", "1", "origin", "--", "master"}
 	assert.Check(t, is.DeepEqual(exp, args))
 }
@@ -338,16 +338,16 @@ func TestCheckoutGit(t *testing.T) {
 
 func TestValidGitTransport(t *testing.T) {
 	gitUrls := []string{
-		"git://github.com/DevanshMathur19/docker-v23",
+		"git://github.com/harness-community/docker-v23",
 		"git@github.com:docker/docker.git",
 		"git@bitbucket.org:atlassianlabs/atlassian-docker.git",
-		"https://github.com/DevanshMathur19/docker-v23.git",
-		"http://github.com/DevanshMathur19/docker-v23.git",
-		"http://github.com/DevanshMathur19/docker-v23.git#branch",
-		"http://github.com/DevanshMathur19/docker-v23.git#:dir",
+		"https://github.com/harness-community/docker-v23.git",
+		"http://github.com/harness-community/docker-v23.git",
+		"http://github.com/harness-community/docker-v23.git#branch",
+		"http://github.com/harness-community/docker-v23.git#:dir",
 	}
 	incompleteGitUrls := []string{
-		"github.com/DevanshMathur19/docker-v23",
+		"github.com/harness-community/docker-v23",
 	}
 
 	for _, url := range gitUrls {

@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package container // import "github.com/DevanshMathur19/docker-v23/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"os"
@@ -9,13 +9,13 @@ import (
 	"syscall"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	mounttypes "github.com/DevanshMathur19/docker-v23/api/types/mount"
-	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
-	"github.com/DevanshMathur19/docker-v23/volume"
-	volumemounts "github.com/DevanshMathur19/docker-v23/volume/mounts"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/volume"
+	volumemounts "github.com/harness-community/docker-v23/volume/mounts"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

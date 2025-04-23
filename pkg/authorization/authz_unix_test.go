@@ -4,7 +4,7 @@
 // TODO Windows: This uses a Unix socket for testing. This might be possible
 // to port to Windows using a named pipe instead.
 
-package authorization // import "github.com/DevanshMathur19/docker-v23/pkg/authorization"
+package authorization // import "github.com/harness-community/docker-v23/pkg/authorization"
 
 import (
 	"bytes"
@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/pkg/plugins"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/gorilla/mux"
 )

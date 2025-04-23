@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/daemon"
+	"github.com/harness-community/docker-v23/integration-cli/daemon"
 )
 
 func (s *DockerSwarmSuite) getDaemon(c *testing.T, nodeID string) *daemon.Daemon {

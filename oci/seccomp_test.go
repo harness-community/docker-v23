@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/profiles/seccomp"
+	"github.com/harness-community/docker-v23/profiles/seccomp"
 )
 
 func TestSeccompLoadProfile(t *testing.T) {

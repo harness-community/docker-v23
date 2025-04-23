@@ -1,4 +1,4 @@
-package plugins // import "github.com/DevanshMathur19/docker-v23/pkg/plugins"
+package plugins // import "github.com/harness-community/docker-v23/pkg/plugins"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins/transport"
+	"github.com/harness-community/docker-v23/pkg/plugins/transport"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"

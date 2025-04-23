@@ -1,13 +1,13 @@
-package events // import "github.com/DevanshMathur19/docker-v23/daemon/events"
+package events // import "github.com/harness-community/docker-v23/daemon/events"
 
 import (
 	"fmt"
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/events"
-	timetypes "github.com/DevanshMathur19/docker-v23/api/types/time"
-	eventstestutils "github.com/DevanshMathur19/docker-v23/daemon/events/testutils"
+	"github.com/harness-community/docker-v23/api/types/events"
+	timetypes "github.com/harness-community/docker-v23/api/types/time"
+	eventstestutils "github.com/harness-community/docker-v23/daemon/events/testutils"
 )
 
 func TestEventsLog(t *testing.T) {
@@ -160,7 +160,7 @@ func TestLogEvents(t *testing.T) {
 	}
 }
 
-// https://github.com/DevanshMathur19/docker-v23/issues/20999
+// https://github.com/harness-community/docker-v23/issues/20999
 // Fixtures:
 //
 // 2016-03-07T17:28:03.022433271+02:00 container die 0b863f2a26c18557fc6cdadda007c459f9ec81b874780808138aea78a3595079 (image=ubuntu, name=small_hoover)

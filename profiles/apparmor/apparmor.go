@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package apparmor // import "github.com/DevanshMathur19/docker-v23/profiles/apparmor"
+package apparmor // import "github.com/harness-community/docker-v23/profiles/apparmor"
 
 import (
 	"bufio"
@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/aaparser"
+	"github.com/harness-community/docker-v23/pkg/aaparser"
 )
 
 var (

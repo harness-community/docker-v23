@@ -1,4 +1,4 @@
-package logdriver // import "github.com/DevanshMathur19/docker-v23/api/types/plugins/logdriver"
+package logdriver // import "github.com/harness-community/docker-v23/api/types/plugins/logdriver"
 
 import (
 	"encoding/binary"

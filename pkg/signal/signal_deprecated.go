@@ -1,16 +1,16 @@
 // Package signal provides helper functions for dealing with signals across
 // various operating systems.
-package signal // import "github.com/DevanshMathur19/docker-v23/pkg/signal"
+package signal // import "github.com/harness-community/docker-v23/pkg/signal"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/pkg/stack"
+	"github.com/harness-community/docker-v23/pkg/stack"
 	msignal "github.com/moby/sys/signal"
 )
 
 var (
 	// DumpStacks appends the runtime stack into file in dir and returns full path
 	// to that file.
-	// Deprecated: use github.com/DevanshMathur19/docker-v23/pkg/stack.Dump instead.
+	// Deprecated: use github.com/harness-community/docker-v23/pkg/stack.Dump instead.
 	DumpStacks = stack.DumpToFile
 
 	// CatchAll catches all signals and relays them to the specified channel.
@@ -50,6 +50,6 @@ const (
 	SIGPIPE = msignal.SIGPIPE
 
 	// DefaultStopSignal has been deprecated and removed. The default value is
-	// now defined in github.com/DevanshMathur19/docker-v23/container. Clients should omit
+	// now defined in github.com/harness-community/docker-v23/container. Clients should omit
 	// the container's stop-signal field if the default should be used.
 )

@@ -1,4 +1,4 @@
-package environment // import "github.com/DevanshMathur19/docker-v23/testutil/environment"
+package environment // import "github.com/harness-community/docker-v23/testutil/environment"
 
 import (
 	"context"
@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/errdefs"
 	"gotest.tools/v3/assert"
 )
 

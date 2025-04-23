@@ -1,12 +1,12 @@
 //go:build linux
 // +build linux
 
-package zfs // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/zfs"
+package zfs // import "github.com/harness-community/docker-v23/daemon/graphdriver/zfs"
 
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/graphtest"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/graphtest"
 )
 
 // This avoids creating a new driver for each test if all tests are run

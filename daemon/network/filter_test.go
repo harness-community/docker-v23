@@ -1,14 +1,14 @@
 //go:build !windows
 // +build !windows
 
-package network // import "github.com/DevanshMathur19/docker-v23/daemon/network"
+package network // import "github.com/harness-community/docker-v23/daemon/network"
 
 import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
 )
 
 func TestFilterNetworks(t *testing.T) {

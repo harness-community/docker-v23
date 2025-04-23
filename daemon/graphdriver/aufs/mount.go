@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package aufs // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/aufs"
+package aufs // import "github.com/harness-community/docker-v23/daemon/graphdriver/aufs"
 
 import (
 	"os/exec"

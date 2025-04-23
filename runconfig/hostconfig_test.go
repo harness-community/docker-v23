@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
+package runconfig // import "github.com/harness-community/docker-v23/runconfig"
 
 import (
 	"bytes"
@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

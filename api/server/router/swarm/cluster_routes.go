@@ -1,4 +1,4 @@
-package swarm // import "github.com/DevanshMathur19/docker-v23/api/server/router/swarm"
+package swarm // import "github.com/harness-community/docker-v23/api/server/router/swarm"
 
 import (
 	"context"
@@ -6,13 +6,13 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
-	basictypes "github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/api/types/versions"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	basictypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

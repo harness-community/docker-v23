@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	eventstestutils "github.com/DevanshMathur19/docker-v23/daemon/events/testutils"
+	eventstestutils "github.com/harness-community/docker-v23/daemon/events/testutils"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/v3/assert"
 )

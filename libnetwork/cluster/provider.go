@@ -3,7 +3,7 @@ package cluster
 import (
 	"context"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/network"
 )
 
 const (

@@ -1,4 +1,4 @@
-package config // import "github.com/DevanshMathur19/docker-v23/daemon/config"
+package config // import "github.com/harness-community/docker-v23/daemon/config"
 
 import (
 	"fmt"
@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/cgroups"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/opts"
-	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
-	"github.com/DevanshMathur19/docker-v23/pkg/rootless"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/opts"
+	"github.com/harness-community/docker-v23/pkg/homedir"
+	"github.com/harness-community/docker-v23/pkg/rootless"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

@@ -1,16 +1,16 @@
-package remotecontext // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"io"
 	"os"
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/builder"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/tarsum"
+	"github.com/harness-community/docker-v23/builder"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/chrootarchive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/tarsum"
 	"github.com/pkg/errors"
 )
 

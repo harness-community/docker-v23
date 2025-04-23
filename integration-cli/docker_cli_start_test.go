@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )
@@ -23,7 +23,7 @@ func (s *DockerCLIStartSuite) OnTimeout(c *testing.T) {
 	s.ds.OnTimeout(c)
 }
 
-// Regression test for https://github.com/DevanshMathur19/docker-v23/issues/7843
+// Regression test for https://github.com/harness-community/docker-v23/issues/7843
 func (s *DockerCLIStartSuite) TestStartAttachReturnsOnError(c *testing.T) {
 	// Windows does not support link
 	testRequires(c, DaemonIsLinux)

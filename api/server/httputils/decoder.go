@@ -1,10 +1,10 @@
-package httputils // import "github.com/DevanshMathur19/docker-v23/api/server/httputils"
+package httputils // import "github.com/harness-community/docker-v23/api/server/httputils"
 
 import (
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/network"
 )
 
 // ContainerDecoder specifies how

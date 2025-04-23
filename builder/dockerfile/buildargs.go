@@ -1,10 +1,10 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"fmt"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/runconfig/opts"
+	"github.com/harness-community/docker-v23/runconfig/opts"
 )
 
 // builtinAllowedBuildArgs is list of built-in allowed build args

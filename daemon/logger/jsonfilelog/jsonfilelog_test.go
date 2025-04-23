@@ -1,4 +1,4 @@
-package jsonfilelog // import "github.com/DevanshMathur19/docker-v23/daemon/logger/jsonfilelog"
+package jsonfilelog // import "github.com/harness-community/docker-v23/daemon/logger/jsonfilelog"
 
 import (
 	"bytes"
@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/jsonfilelog/jsonlog"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/jsonfilelog/jsonlog"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

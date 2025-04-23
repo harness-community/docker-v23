@@ -1,10 +1,10 @@
-package graphdriver // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
+package graphdriver // import "github.com/harness-community/docker-v23/daemon/graphdriver"
 
 import (
 	"encoding/json"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"gotest.tools/v3/assert"
 )
 

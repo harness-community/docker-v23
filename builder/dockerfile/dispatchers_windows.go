@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"errors"
@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 )
 

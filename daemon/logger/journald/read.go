@@ -1,7 +1,7 @@
 //go:build linux && cgo && !static_build && journald
 // +build linux,cgo,!static_build,journald
 
-package journald // import "github.com/DevanshMathur19/docker-v23/daemon/logger/journald"
+package journald // import "github.com/harness-community/docker-v23/daemon/logger/journald"
 
 // #include <sys/types.h>
 // #include <sys/poll.h>
@@ -111,8 +111,8 @@ import (
 	"unsafe"
 
 	"github.com/coreos/go-systemd/v22/journal"
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/daemon/logger"
 	"github.com/sirupsen/logrus"
 )
 

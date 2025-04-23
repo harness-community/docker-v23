@@ -1,10 +1,10 @@
-package urlutil // import "github.com/DevanshMathur19/docker-v23/pkg/urlutil"
+package urlutil // import "github.com/harness-community/docker-v23/pkg/urlutil"
 
-import "github.com/DevanshMathur19/docker-v23/builder/remotecontext/urlutil"
+import "github.com/harness-community/docker-v23/builder/remotecontext/urlutil"
 
 // IsURL returns true if the provided str is an HTTP(S) URL.
 //
-// Deprecated: use github.com/DevanshMathur19/docker-v23/builder/remotecontext/urlutil.IsURL
+// Deprecated: use github.com/harness-community/docker-v23/builder/remotecontext/urlutil.IsURL
 // to detect build-context type, or use strings.HasPrefix() to check if the
 // string has a https:// or http:// prefix.
 func IsURL(str string) bool {
@@ -14,7 +14,7 @@ func IsURL(str string) bool {
 
 // IsGitURL returns true if the provided str is a git repository URL.
 //
-// Deprecated: use github.com/DevanshMathur19/docker-v23/builder/remotecontext/urlutil.IsGitURL
+// Deprecated: use github.com/harness-community/docker-v23/builder/remotecontext/urlutil.IsGitURL
 func IsGitURL(str string) bool {
 	// TODO(thaJeztah) when removing this alias, remove the exception from hack/validate/pkg-imports and hack/make.ps1 (Validate-PkgImports)
 	return urlutil.IsGitURL(str)

@@ -10,7 +10,7 @@
 //       for both xfs/ext4 for kernel version >= v4.5
 //
 
-package quota // import "github.com/DevanshMathur19/docker-v23/quota"
+package quota // import "github.com/harness-community/docker-v23/quota"
 
 /*
 #include <stdlib.h>

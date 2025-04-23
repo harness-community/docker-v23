@@ -1,4 +1,4 @@
-package local // import "github.com/DevanshMathur19/docker-v23/daemon/logger/local"
+package local // import "github.com/harness-community/docker-v23/daemon/logger/local"
 
 import (
 	"encoding/binary"
@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/api/types/plugins/logdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/plugins/logdriver"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/loggerutils"
+	"github.com/harness-community/docker-v23/errdefs"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

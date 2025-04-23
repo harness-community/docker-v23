@@ -3,7 +3,7 @@
 
 // TODO Windows: Some of these tests may be salvageable and portable to Windows.
 
-package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"bytes"

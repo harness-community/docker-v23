@@ -1,10 +1,10 @@
-package cache // import "github.com/DevanshMathur19/docker-v23/image/cache"
+package cache // import "github.com/harness-community/docker-v23/image/cache"
 
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/api/types/strslice"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/strslice"
 	"github.com/docker/go-connections/nat"
 )
 

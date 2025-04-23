@@ -1,12 +1,12 @@
-package dockerversion // import "github.com/DevanshMathur19/docker-v23/dockerversion"
+package dockerversion // import "github.com/harness-community/docker-v23/dockerversion"
 
 import (
 	"context"
 	"fmt"
 	"runtime"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
-	"github.com/DevanshMathur19/docker-v23/pkg/useragent"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/pkg/useragent"
 )
 
 // UAStringKey is used as key type for user-agent string in net/context struct

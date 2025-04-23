@@ -1,12 +1,12 @@
-package common // import "github.com/DevanshMathur19/docker-v23/integration/plugin/common"
+package common // import "github.com/harness-community/docker-v23/integration/plugin/common"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/reexec"
-	"github.com/DevanshMathur19/docker-v23/testutil/environment"
+	"github.com/harness-community/docker-v23/pkg/reexec"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

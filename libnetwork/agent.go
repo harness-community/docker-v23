@@ -1,6 +1,6 @@
 package libnetwork
 
-//go:generate protoc -I.:Godeps/_workspace/src/github.com/gogo/protobuf  --gogo_out=import_path=github.com/DevanshMathur19/docker-v23/libnetwork,Mgogoproto/gogo.proto=github.com/gogo/protobuf/gogoproto:. agent.proto
+//go:generate protoc -I.:Godeps/_workspace/src/github.com/gogo/protobuf  --gogo_out=import_path=github.com/harness-community/docker-v23/libnetwork,Mgogoproto/gogo.proto=github.com/gogo/protobuf/gogoproto:. agent.proto
 
 import (
 	"encoding/json"
@@ -9,12 +9,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/cluster"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/discoverapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/driverapi"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/networkdb"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/cluster"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/discoverapi"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	"github.com/harness-community/docker-v23/libnetwork/networkdb"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/docker/go-events"
 	"github.com/gogo/protobuf/proto"
 	"github.com/sirupsen/logrus"

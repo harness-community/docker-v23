@@ -1,4 +1,4 @@
-package metadata // import "github.com/DevanshMathur19/docker-v23/distribution/metadata"
+package metadata // import "github.com/harness-community/docker-v23/distribution/metadata"
 
 import (
 	"crypto/hmac"
@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/layer"
 	"github.com/opencontainers/go-digest"
 )
 

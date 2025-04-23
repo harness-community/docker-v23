@@ -1,4 +1,4 @@
-package config // import "github.com/DevanshMathur19/docker-v23/integration/config"
+package config // import "github.com/harness-community/docker-v23/integration/config"
 
 import (
 	"bytes"
@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	swarmtypes "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/swarm"
-	"github.com/DevanshMathur19/docker-v23/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/integration/internal/swarm"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

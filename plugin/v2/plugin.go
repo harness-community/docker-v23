@@ -1,4 +1,4 @@
-package v2 // import "github.com/DevanshMathur19/docker-v23/plugin/v2"
+package v2 // import "github.com/harness-community/docker-v23/plugin/v2"
 
 import (
 	"fmt"
@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )

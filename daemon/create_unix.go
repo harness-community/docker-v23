@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 	"os"
 	"path/filepath"
 
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	mounttypes "github.com/DevanshMathur19/docker-v23/api/types/mount"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/oci"
-	volumeopts "github.com/DevanshMathur19/docker-v23/volume/service/opts"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/oci"
+	volumeopts "github.com/harness-community/docker-v23/volume/service/opts"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/sirupsen/logrus"
 )

@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package overlayutils // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlayutils"
+package overlayutils // import "github.com/harness-community/docker-v23/daemon/graphdriver/overlayutils"
 
 import (
 	"crypto/rand"

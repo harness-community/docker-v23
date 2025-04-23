@@ -1,4 +1,4 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
@@ -19,17 +19,17 @@ import (
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/DevanshMathur19/docker-v23/distribution/metadata"
-	"github.com/DevanshMathur19/docker-v23/distribution/xfer"
-	"github.com/DevanshMathur19/docker-v23/image"
-	v1 "github.com/DevanshMathur19/docker-v23/image/v1"
-	"github.com/DevanshMathur19/docker-v23/layer"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
-	refstore "github.com/DevanshMathur19/docker-v23/reference"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/distribution/metadata"
+	"github.com/harness-community/docker-v23/distribution/xfer"
+	"github.com/harness-community/docker-v23/image"
+	v1 "github.com/harness-community/docker-v23/image/v1"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/pkg/system"
+	refstore "github.com/harness-community/docker-v23/reference"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -681,7 +681,7 @@ func (p *puller) pullSchema2Layers(ctx context.Context, target distribution.Desc
 		layerStoreOS = platform.OS
 	}
 
-	// https://github.com/DevanshMathur19/docker-v23/issues/24766 - Err on the side of caution,
+	// https://github.com/harness-community/docker-v23/issues/24766 - Err on the side of caution,
 	// explicitly blocking images intended for linux from the Windows daemon. On
 	// Windows, we do this before the attempt to download, effectively serialising
 	// the download slightly slowing it down. We have to do it this way, as

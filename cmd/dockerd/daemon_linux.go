@@ -3,8 +3,8 @@ package main
 import (
 	cdcgroups "github.com/containerd/cgroups"
 	systemdDaemon "github.com/coreos/go-systemd/v22/daemon"
-	"github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
 	"github.com/pkg/errors"
 )
 

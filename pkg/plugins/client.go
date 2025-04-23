@@ -1,4 +1,4 @@
-package plugins // import "github.com/DevanshMathur19/docker-v23/pkg/plugins"
+package plugins // import "github.com/harness-community/docker-v23/pkg/plugins"
 
 import (
 	"bytes"
@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins/transport"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/plugins/transport"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/sirupsen/logrus"

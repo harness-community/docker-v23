@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/etchosts"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/resolvconf"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/etchosts"
+	"github.com/harness-community/docker-v23/libnetwork/resolvconf"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

@@ -1,4 +1,4 @@
-package archive // import "github.com/DevanshMathur19/docker-v23/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"archive/tar"
@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 )
 
 func TestHardLinkOrder(t *testing.T) {

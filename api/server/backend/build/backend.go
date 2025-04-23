@@ -1,4 +1,4 @@
-package build // import "github.com/DevanshMathur19/docker-v23/api/server/backend/build"
+package build // import "github.com/harness-community/docker-v23/api/server/backend/build"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"strconv"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/api/types/events"
-	"github.com/DevanshMathur19/docker-v23/builder"
-	buildkit "github.com/DevanshMathur19/docker-v23/builder/builder-next"
-	daemonevents "github.com/DevanshMathur19/docker-v23/daemon/events"
-	"github.com/DevanshMathur19/docker-v23/image"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/builder"
+	buildkit "github.com/harness-community/docker-v23/builder/builder-next"
+	daemonevents "github.com/harness-community/docker-v23/daemon/events"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc"
 )

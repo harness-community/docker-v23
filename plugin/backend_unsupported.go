@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package plugin // import "github.com/DevanshMathur19/docker-v23/plugin"
+package plugin // import "github.com/harness-community/docker-v23/plugin"
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 	"net/http"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
 )
 
 var errNotSupported = errors.New("plugins are not supported on this platform")

@@ -10,8 +10,8 @@ import (
 	"github.com/containerd/containerd/remotes"
 	"github.com/containerd/containerd/remotes/docker"
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/dockerversion"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

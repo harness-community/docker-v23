@@ -1,7 +1,7 @@
 //go:build race
 // +build race
 
-package loggerutils // import "github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
+package loggerutils // import "github.com/harness-community/docker-v23/daemon/logger/loggerutils"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/pkg/tailfile"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/pkg/tailfile"
 	"golang.org/x/sync/errgroup"
 	"gotest.tools/v3/assert"
 )

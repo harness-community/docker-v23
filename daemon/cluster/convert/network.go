@@ -1,12 +1,12 @@
-package convert // import "github.com/DevanshMathur19/docker-v23/daemon/cluster/convert"
+package convert // import "github.com/harness-community/docker-v23/daemon/cluster/convert"
 
 import (
 	"strings"
 
-	basictypes "github.com/DevanshMathur19/docker-v23/api/types"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
-	netconst "github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
+	basictypes "github.com/harness-community/docker-v23/api/types"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
+	netconst "github.com/harness-community/docker-v23/libnetwork/datastore"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 )

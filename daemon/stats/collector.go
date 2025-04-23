@@ -1,13 +1,13 @@
-package stats // import "github.com/DevanshMathur19/docker-v23/daemon/stats"
+package stats // import "github.com/harness-community/docker-v23/daemon/stats"
 
 import (
 	"bufio"
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/moby/pubsub"
 	"github.com/sirupsen/logrus"
 )

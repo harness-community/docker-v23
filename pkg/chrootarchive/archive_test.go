@@ -1,4 +1,4 @@
-package chrootarchive // import "github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
+package chrootarchive // import "github.com/harness-community/docker-v23/pkg/chrootarchive"
 
 import (
 	"bytes"
@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/reexec"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/reexec"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"gotest.tools/v3/skip"
 )
 

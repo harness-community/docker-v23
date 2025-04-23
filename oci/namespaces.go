@@ -1,4 +1,4 @@
-package oci // import "github.com/DevanshMathur19/docker-v23/oci"
+package oci // import "github.com/harness-community/docker-v23/oci"
 
 import specs "github.com/opencontainers/runtime-spec/specs-go"
 

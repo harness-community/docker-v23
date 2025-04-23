@@ -1,4 +1,4 @@
-package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
+package runconfig // import "github.com/harness-community/docker-v23/runconfig"
 
 const (
 	// ErrConflictContainerNetworkAndLinks conflict between --net=container and links

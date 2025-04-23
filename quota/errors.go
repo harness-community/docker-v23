@@ -1,6 +1,6 @@
-package quota // import "github.com/DevanshMathur19/docker-v23/quota"
+package quota // import "github.com/harness-community/docker-v23/quota"
 
-import "github.com/DevanshMathur19/docker-v23/errdefs"
+import "github.com/harness-community/docker-v23/errdefs"
 
 var (
 	_ errdefs.ErrNotImplemented = (*errQuotaNotSupported)(nil)

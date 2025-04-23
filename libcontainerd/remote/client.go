@@ -1,4 +1,4 @@
-package remote // import "github.com/DevanshMathur19/docker-v23/libcontainerd/remote"
+package remote // import "github.com/harness-community/docker-v23/libcontainerd/remote"
 
 import (
 	"context"
@@ -24,10 +24,10 @@ import (
 	"github.com/containerd/containerd/images"
 	v2runcoptions "github.com/containerd/containerd/runtime/v2/runc/options"
 	"github.com/containerd/typeurl"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/libcontainerd/queue"
-	libcontainerdtypes "github.com/DevanshMathur19/docker-v23/libcontainerd/types"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/libcontainerd/queue"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"

@@ -1,6 +1,6 @@
-package session // import "github.com/DevanshMathur19/docker-v23/api/server/router/session"
+package session // import "github.com/harness-community/docker-v23/api/server/router/session"
 
-import "github.com/DevanshMathur19/docker-v23/api/server/router"
+import "github.com/harness-community/docker-v23/api/server/router"
 
 // sessionRouter is a router to talk with the session controller
 type sessionRouter struct {

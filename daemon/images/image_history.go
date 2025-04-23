@@ -1,12 +1,12 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"fmt"
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types/image"
-	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/harness-community/docker-v23/api/types/image"
+	"github.com/harness-community/docker-v23/layer"
 )
 
 // ImageHistory returns a slice of ImageHistory structures for the specified image

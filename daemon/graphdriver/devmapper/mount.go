@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package devmapper // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/harness-community/docker-v23/daemon/graphdriver/devmapper"
 
 import (
 	"bytes"

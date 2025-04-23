@@ -1,12 +1,12 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 
 	"github.com/containerd/containerd/pkg/apparmor"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/daemon/exec"
-	"github.com/DevanshMathur19/docker-v23/oci/caps"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/daemon/exec"
+	"github.com/harness-community/docker-v23/oci/caps"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

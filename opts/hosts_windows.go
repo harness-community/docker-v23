@@ -1,4 +1,4 @@
-package opts // import "github.com/DevanshMathur19/docker-v23/opts"
+package opts // import "github.com/harness-community/docker-v23/opts"
 
 const (
 	// TODO Windows. Identify bug in GOLang 1.5.1+ and/or Windows Server 2016 TP5.

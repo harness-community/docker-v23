@@ -1,4 +1,4 @@
-package remote // import "github.com/DevanshMathur19/docker-v23/libcontainerd/remote"
+package remote // import "github.com/harness-community/docker-v23/libcontainerd/remote"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/cio"
 	"github.com/containerd/containerd/containers"
-	libcontainerdtypes "github.com/DevanshMathur19/docker-v23/libcontainerd/types"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

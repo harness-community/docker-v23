@@ -1,4 +1,4 @@
-package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	types "github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	types "github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/sirupsen/logrus"
 )
 

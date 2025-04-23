@@ -1,6 +1,6 @@
 package main
 
-import "github.com/DevanshMathur19/docker-v23/daemon/config"
+import "github.com/harness-community/docker-v23/daemon/config"
 
 // preNotifyReady sends a message to the host when the API is active, but before the daemon is
 func preNotifyReady() {

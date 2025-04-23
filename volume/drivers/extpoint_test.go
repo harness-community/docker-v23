@@ -1,9 +1,9 @@
-package drivers // import "github.com/DevanshMathur19/docker-v23/volume/drivers"
+package drivers // import "github.com/harness-community/docker-v23/volume/drivers"
 
 import (
 	"testing"
 
-	volumetestutils "github.com/DevanshMathur19/docker-v23/volume/testutils"
+	volumetestutils "github.com/harness-community/docker-v23/volume/testutils"
 )
 
 func TestGetDriver(t *testing.T) {

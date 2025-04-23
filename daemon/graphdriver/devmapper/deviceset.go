@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package devmapper // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/harness-community/docker-v23/daemon/graphdriver/devmapper"
 
 import (
 	"bufio"
@@ -18,13 +18,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/pkg/devicemapper"
-	"github.com/DevanshMathur19/docker-v23/pkg/dmesg"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/loopback"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/devicemapper"
+	"github.com/harness-community/docker-v23/pkg/dmesg"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/loopback"
+	"github.com/harness-community/docker-v23/pkg/parsers"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
 	units "github.com/docker/go-units"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"
@@ -1669,7 +1669,7 @@ func (devices *DeviceSet) initDevmapper(doInit bool) (retErr error) {
 
 	logger := logrus.WithField("storage-driver", "devicemapper")
 
-	// https://github.com/DevanshMathur19/docker-v23/issues/4036
+	// https://github.com/harness-community/docker-v23/issues/4036
 	if supported := devicemapper.UdevSetSyncSupport(true); !supported {
 		logger.Error("Udev sync is not supported, which will lead to data loss and unexpected behavior. Make sure you have a recent version of libdevmapper installed and are running a dynamic binary, or select a different storage driver. For more information, see https://docs.docker.com/go/storage-driver/")
 		if !devices.overrideUdevSyncCheck {

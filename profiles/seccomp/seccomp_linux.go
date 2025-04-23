@@ -1,6 +1,6 @@
 //go:generate go run -tags 'seccomp' generate.go
 
-package seccomp // import "github.com/DevanshMathur19/docker-v23/profiles/seccomp"
+package seccomp // import "github.com/harness-community/docker-v23/profiles/seccomp"
 
 import (
 	"encoding/json"

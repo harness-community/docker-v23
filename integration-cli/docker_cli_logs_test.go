@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
-	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )

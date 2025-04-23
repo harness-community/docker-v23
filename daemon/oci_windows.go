@@ -1,4 +1,4 @@
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"encoding/json"
@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/container"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/oci"
-	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/oci"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/pkg/system"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

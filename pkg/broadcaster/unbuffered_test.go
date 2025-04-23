@@ -1,4 +1,4 @@
-package broadcaster // import "github.com/DevanshMathur19/docker-v23/pkg/broadcaster"
+package broadcaster // import "github.com/harness-community/docker-v23/pkg/broadcaster"
 
 import (
 	"bytes"

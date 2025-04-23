@@ -1,12 +1,12 @@
-package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
 	"fmt"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api"
-	refstore "github.com/DevanshMathur19/docker-v23/reference"
+	"github.com/harness-community/docker-v23/api"
+	refstore "github.com/harness-community/docker-v23/reference"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

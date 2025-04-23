@@ -1,12 +1,12 @@
-package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
+package runconfig // import "github.com/harness-community/docker-v23/runconfig"
 
 import (
 	"encoding/json"
 	"io"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/api/types/container"
+	networktypes "github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
 )
 
 // ContainerDecoder implements httputils.ContainerDecoder

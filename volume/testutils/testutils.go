@@ -1,4 +1,4 @@
-package testutils // import "github.com/DevanshMathur19/docker-v23/volume/testutils"
+package testutils // import "github.com/harness-community/docker-v23/volume/testutils"
 
 import (
 	"encoding/json"
@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
-	"github.com/DevanshMathur19/docker-v23/volume"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/volume"
 )
 
 // NoopVolume is a volume that doesn't perform any operation

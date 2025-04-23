@@ -1,11 +1,11 @@
-package cache // import "github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils/cache"
+package cache // import "github.com/harness-community/docker-v23/daemon/logger/loggerutils/cache"
 
 import (
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger/local"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/local"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -1,4 +1,4 @@
-package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"context"
@@ -10,12 +10,12 @@ import (
 	"github.com/containerd/containerd/namespaces"
 	dist "github.com/docker/distribution"
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/distribution"
-	progressutils "github.com/DevanshMathur19/docker-v23/distribution/utils"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	"github.com/DevanshMathur19/docker-v23/pkg/progress"
-	"github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/distribution"
+	progressutils "github.com/harness-community/docker-v23/distribution/utils"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/pkg/streamformatter"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -66,7 +66,7 @@ func (i *ImageService) PullImage(ctx context.Context, image, tag string, platfor
 		img, err := i.GetImage(image, platform)
 
 		// Note that this is a special case where GetImage returns both an image
-		// and an error: https://github.com/DevanshMathur19/docker-v23/blob/v20.10.7/daemon/images/image.go#L175-L183
+		// and an error: https://github.com/harness-community/docker-v23/blob/v20.10.7/daemon/images/image.go#L175-L183
 		if errdefs.IsNotFound(err) && img != nil {
 			po := streamformatter.NewJSONProgressOutput(outStream, false)
 			progress.Messagef(po, "", `WARNING: %s`, err.Error())

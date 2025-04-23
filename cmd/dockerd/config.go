@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/opts"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/opts"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/spf13/pflag"
 )
 

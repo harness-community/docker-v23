@@ -3,7 +3,7 @@ package daemon
 import (
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/libnetwork"
 )
 
 // getEndpointInNetwork returns the container's endpoint to the provided network.

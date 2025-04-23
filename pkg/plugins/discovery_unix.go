@@ -1,12 +1,12 @@
 //go:build !windows
 // +build !windows
 
-package plugins // import "github.com/DevanshMathur19/docker-v23/pkg/plugins"
+package plugins // import "github.com/harness-community/docker-v23/pkg/plugins"
 import (
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
-	"github.com/DevanshMathur19/docker-v23/pkg/rootless"
+	"github.com/harness-community/docker-v23/pkg/homedir"
+	"github.com/harness-community/docker-v23/pkg/rootless"
 )
 
 const globalConfigPluginsPath = "/etc/docker/plugins"

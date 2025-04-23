@@ -16,14 +16,14 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli/build"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
-	"github.com/DevanshMathur19/docker-v23/testutil"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakegit"
-	"github.com/DevanshMathur19/docker-v23/testutil/fakestorage"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/cli/build"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/testutil"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/testutil/fakegit"
+	"github.com/harness-community/docker-v23/testutil/fakestorage"
 	"github.com/moby/buildkit/frontend/dockerfile/command"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/v3/assert"
@@ -442,7 +442,7 @@ ADD %s/file /`
 	}
 }
 
-// Regression for https://github.com/DevanshMathur19/docker-v23/pull/27805
+// Regression for https://github.com/harness-community/docker-v23/pull/27805
 // Makes sure that we don't use the cache if the contents of
 // a file in a subfolder of the context is modified and we re-build.
 func (s *DockerCLIBuildSuite) TestBuildModifyFileInFolder(c *testing.T) {
@@ -5943,7 +5943,7 @@ func (s *DockerCLIBuildSuite) TestBuildIntermediateTarget(c *testing.T) {
 
 // TestBuildOpaqueDirectory tests that a build succeeds which
 // creates opaque directories.
-// See https://github.com/DevanshMathur19/docker-v23/issues/25244
+// See https://github.com/harness-community/docker-v23/issues/25244
 func (s *DockerCLIBuildSuite) TestBuildOpaqueDirectory(c *testing.T) {
 	testRequires(c, DaemonIsLinux)
 	dockerFile := `

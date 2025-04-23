@@ -1,4 +1,4 @@
-package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
 	"fmt"

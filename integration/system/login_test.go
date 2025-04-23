@@ -1,13 +1,13 @@
-package system // import "github.com/DevanshMathur19/docker-v23/integration/system"
+package system // import "github.com/harness-community/docker-v23/integration/system"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/requirement"
-	"github.com/DevanshMathur19/docker-v23/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/integration/internal/requirement"
+	"github.com/harness-community/docker-v23/registry"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/skip"

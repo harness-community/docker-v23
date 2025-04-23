@@ -1,7 +1,7 @@
 //go:build !linux && !windows && !freebsd
 // +build !linux,!windows,!freebsd
 
-package graphdriver // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
+package graphdriver // import "github.com/harness-community/docker-v23/daemon/graphdriver"
 
 var (
 	// List of drivers that should be used in an order

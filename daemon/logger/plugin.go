@@ -1,4 +1,4 @@
-package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
 	"fmt"
@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/plugins/logdriver"
-	"github.com/DevanshMathur19/docker-v23/errdefs"
-	getter "github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/api/types/plugins/logdriver"
+	"github.com/harness-community/docker-v23/errdefs"
+	getter "github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/pkg/errors"
 )
 

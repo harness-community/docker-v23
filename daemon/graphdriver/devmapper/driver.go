@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package devmapper // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/devmapper"
+package devmapper // import "github.com/harness-community/docker-v23/daemon/graphdriver/devmapper"
 
 import (
 	"fmt"
@@ -9,10 +9,10 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/devicemapper"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/devicemapper"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	units "github.com/docker/go-units"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

@@ -1,12 +1,12 @@
 package libnetwork
 
 import (
-	"github.com/DevanshMathur19/docker-v23/libnetwork/drvregistry"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
-	builtinIpam "github.com/DevanshMathur19/docker-v23/libnetwork/ipams/builtin"
-	nullIpam "github.com/DevanshMathur19/docker-v23/libnetwork/ipams/null"
-	remoteIpam "github.com/DevanshMathur19/docker-v23/libnetwork/ipams/remote"
-	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamutils"
+	"github.com/harness-community/docker-v23/libnetwork/drvregistry"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	builtinIpam "github.com/harness-community/docker-v23/libnetwork/ipams/builtin"
+	nullIpam "github.com/harness-community/docker-v23/libnetwork/ipams/null"
+	remoteIpam "github.com/harness-community/docker-v23/libnetwork/ipams/remote"
+	"github.com/harness-community/docker-v23/libnetwork/ipamutils"
 )
 
 func initIPAMDrivers(r *drvregistry.DrvRegistry, lDs, gDs interface{}, addressPool []*ipamutils.NetworkToSplit) error {

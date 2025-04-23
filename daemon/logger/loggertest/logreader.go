@@ -1,4 +1,4 @@
-package loggertest // import "github.com/DevanshMathur19/docker-v23/daemon/logger/loggertest"
+package loggertest // import "github.com/harness-community/docker-v23/daemon/logger/loggertest"
 
 import (
 	"runtime"
@@ -11,8 +11,8 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"gotest.tools/v3/assert"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/backend"
-	"github.com/DevanshMathur19/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/daemon/logger"
 )
 
 // Reader tests that a logger.LogReader implementation behaves as it should.

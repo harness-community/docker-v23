@@ -19,7 +19,7 @@ import (
 	containerdoci "github.com/containerd/containerd/oci"
 	"github.com/containerd/continuity/fs"
 	runc "github.com/containerd/go-runc"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/executor/oci"
 	gatewayapi "github.com/moby/buildkit/frontend/gateway/pb"

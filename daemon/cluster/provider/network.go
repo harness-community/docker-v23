@@ -1,6 +1,6 @@
-package provider // import "github.com/DevanshMathur19/docker-v23/daemon/cluster/provider"
+package provider // import "github.com/harness-community/docker-v23/daemon/cluster/provider"
 
-import "github.com/DevanshMathur19/docker-v23/api/types"
+import "github.com/harness-community/docker-v23/api/types"
 
 // NetworkCreateRequest is a request when creating a network.
 type NetworkCreateRequest struct {

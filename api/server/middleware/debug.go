@@ -1,4 +1,4 @@
-package middleware // import "github.com/DevanshMathur19/docker-v23/api/server/middleware"
+package middleware // import "github.com/harness-community/docker-v23/api/server/middleware"
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/sirupsen/logrus"
 )
 

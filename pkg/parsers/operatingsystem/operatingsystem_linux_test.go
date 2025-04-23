@@ -1,7 +1,7 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package operatingsystem // import "github.com/DevanshMathur19/docker-v23/pkg/parsers/operatingsystem"
+package operatingsystem // import "github.com/harness-community/docker-v23/pkg/parsers/operatingsystem"
 
 import (
 	"os"

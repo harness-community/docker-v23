@@ -1,4 +1,4 @@
-package streamformatter // import "github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
+package streamformatter // import "github.com/harness-community/docker-v23/pkg/streamformatter"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"gotest.tools/v3/assert"

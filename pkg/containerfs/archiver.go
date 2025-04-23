@@ -1,4 +1,4 @@
-package containerfs // import "github.com/DevanshMathur19/docker-v23/pkg/containerfs"
+package containerfs // import "github.com/harness-community/docker-v23/pkg/containerfs"
 
 import (
 	"archive/tar"
@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/sirupsen/logrus"
 )
 

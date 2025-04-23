@@ -1,4 +1,4 @@
-package fsutils // import "github.com/DevanshMathur19/docker-v23/pkg/fsutils"
+package fsutils // import "github.com/harness-community/docker-v23/pkg/fsutils"
 
 import "github.com/containerd/continuity/fs"
 

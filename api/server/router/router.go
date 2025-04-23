@@ -1,6 +1,6 @@
-package router // import "github.com/DevanshMathur19/docker-v23/api/server/router"
+package router // import "github.com/harness-community/docker-v23/api/server/router"
 
-import "github.com/DevanshMathur19/docker-v23/api/server/httputils"
+import "github.com/harness-community/docker-v23/api/server/httputils"
 
 // Router defines an interface to specify a group of routes to add to the docker server.
 type Router interface {

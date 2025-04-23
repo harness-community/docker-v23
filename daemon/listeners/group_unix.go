@@ -1,13 +1,13 @@
 //go:build !windows
 // +build !windows
 
-package listeners // import "github.com/DevanshMathur19/docker-v23/daemon/listeners"
+package listeners // import "github.com/harness-community/docker-v23/daemon/listeners"
 
 import (
 	"fmt"
 	"strconv"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 )
 
 const defaultSocketGroup = "docker"

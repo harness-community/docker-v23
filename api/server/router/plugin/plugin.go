@@ -1,6 +1,6 @@
-package plugin // import "github.com/DevanshMathur19/docker-v23/api/server/router/plugin"
+package plugin // import "github.com/harness-community/docker-v23/api/server/router/plugin"
 
-import "github.com/DevanshMathur19/docker-v23/api/server/router"
+import "github.com/harness-community/docker-v23/api/server/router"
 
 // pluginRouter is a router to talk with the plugin controller
 type pluginRouter struct {

@@ -1,4 +1,4 @@
-package jsonlog // import "github.com/DevanshMathur19/docker-v23/daemon/logger/jsonfilelog/jsonlog"
+package jsonlog // import "github.com/harness-community/docker-v23/daemon/logger/jsonfilelog/jsonlog"
 
 import (
 	"testing"

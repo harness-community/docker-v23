@@ -1,12 +1,12 @@
-package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
 	"fmt"
 	"sort"
 	"sync"
 
-	containertypes "github.com/DevanshMathur19/docker-v23/api/types/container"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

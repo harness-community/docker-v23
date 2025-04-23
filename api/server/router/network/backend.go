@@ -1,12 +1,12 @@
-package network // import "github.com/DevanshMathur19/docker-v23/api/server/router/network"
+package network // import "github.com/harness-community/docker-v23/api/server/router/network"
 
 import (
 	"context"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/network"
-	"github.com/DevanshMathur19/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/libnetwork"
 )
 
 // Backend is all the methods that need to be implemented

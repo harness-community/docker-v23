@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
-	"github.com/DevanshMathur19/docker-v23/integration-cli/daemon"
-	"github.com/DevanshMathur19/docker-v23/testutil/fixtures/plugin"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/daemon"
+	"github.com/harness-community/docker-v23/testutil/fixtures/plugin"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )
@@ -329,7 +329,7 @@ func (ps *DockerPluginSuite) TestPluginInspect(c *testing.T) {
 	assert.ErrorContains(c, err, "")
 }
 
-// Test case for https://github.com/DevanshMathur19/docker-v23/pull/29186#discussion_r91277345
+// Test case for https://github.com/harness-community/docker-v23/pull/29186#discussion_r91277345
 func (s *DockerCLIPluginsSuite) TestPluginInspectOnWindows(c *testing.T) {
 	// This test should work on Windows only
 	testRequires(c, DaemonIsWindows)

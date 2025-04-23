@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package overlay2 // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlay2"
+package overlay2 // import "github.com/harness-community/docker-v23/daemon/graphdriver/overlay2"
 
 import (
 	"context"
@@ -16,15 +16,15 @@ import (
 	"sync"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlayutils"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
-	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
-	"github.com/DevanshMathur19/docker-v23/pkg/directory"
-	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
-	"github.com/DevanshMathur19/docker-v23/pkg/parsers"
-	"github.com/DevanshMathur19/docker-v23/quota"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/daemon/graphdriver/overlayutils"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/chrootarchive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/directory"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers"
+	"github.com/harness-community/docker-v23/quota"
 	units "github.com/docker/go-units"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

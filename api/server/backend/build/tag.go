@@ -1,11 +1,11 @@
-package build // import "github.com/DevanshMathur19/docker-v23/api/server/backend/build"
+package build // import "github.com/harness-community/docker-v23/api/server/backend/build"
 
 import (
 	"fmt"
 	"io"
 
 	"github.com/docker/distribution/reference"
-	"github.com/DevanshMathur19/docker-v23/image"
+	"github.com/harness-community/docker-v23/image"
 	"github.com/pkg/errors"
 )
 

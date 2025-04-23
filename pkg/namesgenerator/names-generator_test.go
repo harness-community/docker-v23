@@ -1,4 +1,4 @@
-package namesgenerator // import "github.com/DevanshMathur19/docker-v23/pkg/namesgenerator"
+package namesgenerator // import "github.com/harness-community/docker-v23/pkg/namesgenerator"
 
 import (
 	"strings"

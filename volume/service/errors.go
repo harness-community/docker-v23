@@ -1,4 +1,4 @@
-package service // import "github.com/DevanshMathur19/docker-v23/volume/service"
+package service // import "github.com/harness-community/docker-v23/volume/service"
 
 import (
 	"fmt"

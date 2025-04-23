@@ -1,4 +1,4 @@
-package layer // import "github.com/DevanshMathur19/docker-v23/layer"
+package layer // import "github.com/harness-community/docker-v23/layer"
 
 import (
 	"bytes"
@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
-	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/vbatts/tar-split/tar/asm"
 	"github.com/vbatts/tar-split/tar/storage"
 )

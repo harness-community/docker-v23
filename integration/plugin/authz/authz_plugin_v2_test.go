@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package authz // import "github.com/DevanshMathur19/docker-v23/integration/plugin/authz"
+package authz // import "github.com/harness-community/docker-v23/integration/plugin/authz"
 
 import (
 	"context"
@@ -11,12 +11,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/api/types"
-	"github.com/DevanshMathur19/docker-v23/api/types/filters"
-	"github.com/DevanshMathur19/docker-v23/api/types/volume"
-	"github.com/DevanshMathur19/docker-v23/client"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
-	"github.com/DevanshMathur19/docker-v23/integration/internal/requirement"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/volume"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/integration/internal/requirement"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

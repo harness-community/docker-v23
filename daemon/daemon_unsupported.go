@@ -1,11 +1,11 @@
 //go:build !linux && !freebsd && !windows
 // +build !linux,!freebsd,!windows
 
-package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
-	"github.com/DevanshMathur19/docker-v23/daemon/config"
-	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
 )
 
 const platformSupported = false

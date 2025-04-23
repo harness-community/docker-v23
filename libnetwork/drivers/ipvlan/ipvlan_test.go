@@ -6,8 +6,8 @@ package ipvlan
 import (
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/libnetwork/driverapi"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
 )
 
 const testNetworkType = "ipvlan"

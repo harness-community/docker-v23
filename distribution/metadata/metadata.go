@@ -1,11 +1,11 @@
-package metadata // import "github.com/DevanshMathur19/docker-v23/distribution/metadata"
+package metadata // import "github.com/harness-community/docker-v23/distribution/metadata"
 
 import (
 	"os"
 	"path/filepath"
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 )
 
 // Store implements a K/V store for mapping distribution-related IDs

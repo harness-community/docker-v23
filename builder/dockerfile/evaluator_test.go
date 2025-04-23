@@ -1,13 +1,13 @@
-package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"os"
 	"runtime"
 	"testing"
 
-	"github.com/DevanshMathur19/docker-v23/builder/remotecontext"
-	"github.com/DevanshMathur19/docker-v23/pkg/archive"
-	"github.com/DevanshMathur19/docker-v23/pkg/reexec"
+	"github.com/harness-community/docker-v23/builder/remotecontext"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/reexec"
 	"github.com/moby/buildkit/frontend/dockerfile/instructions"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

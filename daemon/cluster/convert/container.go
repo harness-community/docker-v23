@@ -1,12 +1,12 @@
-package convert // import "github.com/DevanshMathur19/docker-v23/daemon/cluster/convert"
+package convert // import "github.com/harness-community/docker-v23/daemon/cluster/convert"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/DevanshMathur19/docker-v23/api/types/container"
-	mounttypes "github.com/DevanshMathur19/docker-v23/api/types/mount"
-	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/api/types/container"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	types "github.com/harness-community/docker-v23/api/types/swarm"
 	"github.com/docker/go-units"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"

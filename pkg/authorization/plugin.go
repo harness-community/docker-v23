@@ -1,10 +1,10 @@
-package authorization // import "github.com/DevanshMathur19/docker-v23/pkg/authorization"
+package authorization // import "github.com/harness-community/docker-v23/pkg/authorization"
 
 import (
 	"sync"
 
-	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
-	"github.com/DevanshMathur19/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
 )
 
 // Plugin allows third party plugins to authorize requests and responses
