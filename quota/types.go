@@ -1,4 +1,4 @@
-package quota // import "github.com/docker/docker/quota"
+package quota // import "github.com/DevanshMathur19/docker-v23/quota"
 
 import "sync"
 

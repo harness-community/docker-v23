@@ -1,9 +1,9 @@
-package supervisor // import "github.com/docker/docker/libcontainerd/supervisor"
+package supervisor // import "github.com/DevanshMathur19/docker-v23/libcontainerd/supervisor"
 
 import (
 	"os"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/DevanshMathur19/docker-v23/pkg/system"
 )
 
 const (

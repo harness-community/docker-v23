@@ -1,4 +1,4 @@
-package dmesg // import "github.com/docker/docker/pkg/dmesg"
+package dmesg // import "github.com/DevanshMathur19/docker-v23/pkg/dmesg"
 
 import (
 	"testing"

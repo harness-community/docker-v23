@@ -1,14 +1,14 @@
 //go:build linux
 // +build linux
 
-package vfs // import "github.com/docker/docker/daemon/graphdriver/vfs"
+package vfs // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/vfs"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/graphdriver/graphtest"
+	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/graphtest"
 
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/DevanshMathur19/docker-v23/pkg/reexec"
 )
 
 func init() {

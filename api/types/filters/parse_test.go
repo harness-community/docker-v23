@@ -1,4 +1,4 @@
-package filters // import "github.com/docker/docker/api/types/filters"
+package filters // import "github.com/DevanshMathur19/docker-v23/api/types/filters"
 
 import (
 	"encoding/json"

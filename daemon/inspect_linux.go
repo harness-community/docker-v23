@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/versions/v1p19"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/backend"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions/v1p19"
+	"github.com/DevanshMathur19/docker-v23/container"
+	"github.com/DevanshMathur19/docker-v23/daemon/exec"
 )
 
 // This sets platform-specific fields

@@ -1,7 +1,7 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"fmt"
@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/links"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/runconfig"
+	"github.com/DevanshMathur19/docker-v23/container"
+	"github.com/DevanshMathur19/docker-v23/daemon/links"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/DevanshMathur19/docker-v23/libnetwork"
+	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/DevanshMathur19/docker-v23/runconfig"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"

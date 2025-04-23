@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/daemon/graphdriver/devmapper"
-	"github.com/docker/docker/pkg/devicemapper"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/devmapper"
+	"github.com/DevanshMathur19/docker-v23/pkg/devicemapper"
+	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
 	"github.com/sirupsen/logrus"
 )
 

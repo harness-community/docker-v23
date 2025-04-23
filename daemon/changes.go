@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"errors"
 	"time"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/DevanshMathur19/docker-v23/pkg/archive"
 )
 
 // ContainerChanges returns a list of container fs changes

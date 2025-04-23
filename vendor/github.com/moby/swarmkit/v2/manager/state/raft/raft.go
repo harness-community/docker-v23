@@ -1415,7 +1415,7 @@ func (n *Node) ProcessRaftMessage(ctx context.Context, msg *api.ProcessRaftMessa
 	defer cancel()
 
 	// TODO(aaronl): Address changes are temporarily disabled.
-	// See https://github.com/docker/docker/issues/30455.
+	// See https://github.com/DevanshMathur19/docker-v23/issues/30455.
 	// This should be reenabled in the future with additional
 	// safeguards (perhaps storing multiple addresses per node).
 	// if err := n.reportNewAddress(ctx, msg.Message.From); err != nil {

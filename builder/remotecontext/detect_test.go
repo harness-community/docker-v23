@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext"
 
 import (
 	"errors"
@@ -7,8 +7,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/DevanshMathur19/docker-v23/builder"
+	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
 )
 
 const (

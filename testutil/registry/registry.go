@@ -1,4 +1,4 @@
-package registry // import "github.com/docker/docker/testutil/registry"
+package registry // import "github.com/DevanshMathur19/docker-v23/testutil/registry"
 
 import (
 	"fmt"

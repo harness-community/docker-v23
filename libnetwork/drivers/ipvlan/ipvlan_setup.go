@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/libnetwork/ns"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/ns"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )

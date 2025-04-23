@@ -1,10 +1,10 @@
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/DevanshMathur19/docker-v23/opts"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 )
 
 // RuntimeOpt defines a map of Runtimes

@@ -7,15 +7,15 @@
 // read-only and writable layers. The exported
 // tar data for a read-only layer should match
 // the tar used to create the layer.
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/DevanshMathur19/docker-v23/layer"
 
 import (
 	"errors"
 	"io"
 
 	"github.com/docker/distribution"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/DevanshMathur19/docker-v23/pkg/archive"
+	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

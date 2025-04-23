@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/DevanshMathur19/docker-v23/client"
 
 import (
 	"bytes"
@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/api/types/image"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 )
 
 func TestImageHistoryError(t *testing.T) {

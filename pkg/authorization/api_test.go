@@ -1,4 +1,4 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/DevanshMathur19/docker-v23/pkg/authorization"
 
 import (
 	"crypto/rand"

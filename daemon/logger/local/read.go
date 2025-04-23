@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types/plugins/logdriver"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/api/types/plugins/logdriver"
+	"github.com/DevanshMathur19/docker-v23/daemon/logger"
+	"github.com/DevanshMathur19/docker-v23/daemon/logger/loggerutils"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"github.com/pkg/errors"
 )
 

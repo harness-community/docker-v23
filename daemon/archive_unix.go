@@ -1,11 +1,11 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
-	"github.com/docker/docker/container"
-	volumemounts "github.com/docker/docker/volume/mounts"
+	"github.com/DevanshMathur19/docker-v23/container"
+	volumemounts "github.com/DevanshMathur19/docker-v23/volume/mounts"
 )
 
 // checkIfPathIsInAVolume checks if the path is in a volume. If it is, it

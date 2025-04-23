@@ -1,4 +1,4 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/DevanshMathur19/docker-v23/daemon/cluster"
 
 const (
 	// errNoSwarm is returned on leaving a cluster that was never initialized

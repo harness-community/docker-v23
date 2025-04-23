@@ -1,14 +1,14 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"bytes"
 	"strconv"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/config"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/daemon/config"
 )
 
 // reloadPlatform updates configuration with platform specific options

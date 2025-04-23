@@ -1,12 +1,12 @@
 //go:build !windows
 // +build !windows
 
-package plugins // import "github.com/docker/docker/pkg/plugins"
+package plugins // import "github.com/DevanshMathur19/docker-v23/pkg/plugins"
 import (
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/homedir"
-	"github.com/docker/docker/pkg/rootless"
+	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
+	"github.com/DevanshMathur19/docker-v23/pkg/rootless"
 )
 
 const globalConfigPluginsPath = "/etc/docker/plugins"

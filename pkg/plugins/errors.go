@@ -1,4 +1,4 @@
-package plugins // import "github.com/docker/docker/pkg/plugins"
+package plugins // import "github.com/DevanshMathur19/docker-v23/pkg/plugins"
 
 import (
 	"fmt"

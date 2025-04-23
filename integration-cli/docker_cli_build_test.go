@@ -16,14 +16,14 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/system"
-	"github.com/docker/docker/testutil"
-	"github.com/docker/docker/testutil/fakecontext"
-	"github.com/docker/docker/testutil/fakegit"
-	"github.com/docker/docker/testutil/fakestorage"
+	"github.com/DevanshMathur19/docker-v23/integration-cli/cli"
+	"github.com/DevanshMathur19/docker-v23/integration-cli/cli/build"
+	"github.com/DevanshMathur19/docker-v23/pkg/archive"
+	"github.com/DevanshMathur19/docker-v23/pkg/system"
+	"github.com/DevanshMathur19/docker-v23/testutil"
+	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
+	"github.com/DevanshMathur19/docker-v23/testutil/fakegit"
+	"github.com/DevanshMathur19/docker-v23/testutil/fakestorage"
 	"github.com/moby/buildkit/frontend/dockerfile/command"
 	"github.com/opencontainers/go-digest"
 	"gotest.tools/v3/assert"
@@ -442,7 +442,7 @@ ADD %s/file /`
 	}
 }
 
-// Regression for https://github.com/docker/docker/pull/27805
+// Regression for https://github.com/DevanshMathur19/docker-v23/pull/27805
 // Makes sure that we don't use the cache if the contents of
 // a file in a subfolder of the context is modified and we re-build.
 func (s *DockerCLIBuildSuite) TestBuildModifyFileInFolder(c *testing.T) {
@@ -5943,7 +5943,7 @@ func (s *DockerCLIBuildSuite) TestBuildIntermediateTarget(c *testing.T) {
 
 // TestBuildOpaqueDirectory tests that a build succeeds which
 // creates opaque directories.
-// See https://github.com/docker/docker/issues/25244
+// See https://github.com/DevanshMathur19/docker-v23/issues/25244
 func (s *DockerCLIBuildSuite) TestBuildOpaqueDirectory(c *testing.T) {
 	testRequires(c, DaemonIsLinux)
 	dockerFile := `

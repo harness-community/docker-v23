@@ -1,11 +1,11 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/DevanshMathur19/docker-v23/integration/container"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/DevanshMathur19/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

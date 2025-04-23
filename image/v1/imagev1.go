@@ -1,13 +1,13 @@
-package v1 // import "github.com/docker/docker/image/v1"
+package v1 // import "github.com/DevanshMathur19/docker-v23/image/v1"
 
 import (
 	"encoding/json"
 	"strings"
 
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/api/types/versions"
+	"github.com/DevanshMathur19/docker-v23/image"
+	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 )

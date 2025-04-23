@@ -6,11 +6,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/options"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

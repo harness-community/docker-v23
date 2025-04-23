@@ -1,11 +1,11 @@
-package session // import "github.com/docker/docker/integration/session"
+package session // import "github.com/DevanshMathur19/docker-v23/integration/session"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/DevanshMathur19/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

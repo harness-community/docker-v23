@@ -1,4 +1,4 @@
-package fluentd // import "github.com/docker/docker/daemon/logger/fluentd"
+package fluentd // import "github.com/DevanshMathur19/docker-v23/daemon/logger/fluentd"
 import (
 	"testing"
 

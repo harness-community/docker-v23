@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/docker/docker/client"
+	"github.com/DevanshMathur19/docker-v23/client"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/poll"
 )

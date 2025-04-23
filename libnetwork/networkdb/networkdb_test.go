@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/DevanshMathur19/docker-v23/pkg/stringid"
 	"github.com/docker/go-events"
 	"github.com/hashicorp/memberlist"
 	"github.com/hashicorp/serf/serf"

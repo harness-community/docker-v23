@@ -1,6 +1,6 @@
-package checkpoint // import "github.com/docker/docker/api/server/router/checkpoint"
+package checkpoint // import "github.com/DevanshMathur19/docker-v23/api/server/router/checkpoint"
 
-import "github.com/docker/docker/api/types"
+import "github.com/DevanshMathur19/docker-v23/api/types"
 
 // Backend for Checkpoint
 type Backend interface {

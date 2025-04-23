@@ -1,11 +1,11 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/DevanshMathur19/docker-v23/integration/system"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/DevanshMathur19/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

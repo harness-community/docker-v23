@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"context"
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
-	"github.com/docker/docker/restartmanager"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/container"
+	libcontainerdtypes "github.com/DevanshMathur19/docker-v23/libcontainerd/types"
+	"github.com/DevanshMathur19/docker-v23/restartmanager"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

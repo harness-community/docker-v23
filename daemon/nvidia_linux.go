@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/contrib/nvidia"
-	"github.com/docker/docker/pkg/capabilities"
+	"github.com/DevanshMathur19/docker-v23/pkg/capabilities"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 )

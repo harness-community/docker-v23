@@ -1,7 +1,7 @@
 //go:build linux && !exclude_disk_quota && cgo
 // +build linux,!exclude_disk_quota,cgo
 
-package quota // import "github.com/docker/docker/quota"
+package quota // import "github.com/DevanshMathur19/docker-v23/quota"
 
 import (
 	"os"

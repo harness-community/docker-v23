@@ -5,13 +5,13 @@
 // factory, which holds the contextual instance information that
 // allows multiple loggers of the same type to perform different
 // actions, such as logging to different locations.
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/DevanshMathur19/docker-v23/daemon/logger"
 
 import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/api/types/backend"
+	"github.com/DevanshMathur19/docker-v23/api/types/backend"
 )
 
 // ErrReadLogsNotSupported is returned when the underlying log driver does not support reading

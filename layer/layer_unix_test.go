@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/DevanshMathur19/docker-v23/layer"
 
 import (
 	"testing"

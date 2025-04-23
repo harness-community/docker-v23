@@ -1,4 +1,4 @@
-package caps // import "github.com/docker/docker/oci/caps"
+package caps // import "github.com/DevanshMathur19/docker-v23/oci/caps"
 import (
 	"sync"
 

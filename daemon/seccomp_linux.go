@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"context"
@@ -6,9 +6,9 @@ import (
 
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
-	"github.com/docker/docker/container"
-	dconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/profiles/seccomp"
+	"github.com/DevanshMathur19/docker-v23/container"
+	dconfig "github.com/DevanshMathur19/docker-v23/daemon/config"
+	"github.com/DevanshMathur19/docker-v23/profiles/seccomp"
 	"github.com/sirupsen/logrus"
 )
 

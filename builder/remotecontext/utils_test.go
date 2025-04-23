@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/DevanshMathur19/docker-v23/builder/remotecontext"
 
 import (
 	"os"

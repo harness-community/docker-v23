@@ -1,4 +1,4 @@
-package debug // import "github.com/docker/docker/api/server/router/debug"
+package debug // import "github.com/DevanshMathur19/docker-v23/api/server/router/debug"
 
 import (
 	"context"
@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/http/pprof"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/router"
+	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
+	"github.com/DevanshMathur19/docker-v23/api/server/router"
 )
 
 // NewRouter creates a new debug router

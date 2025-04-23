@@ -16,7 +16,7 @@ import (
 
 	"github.com/containerd/containerd/mount"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
 	"github.com/gogo/googleapis/google/rpc"
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/golang/protobuf/ptypes/any"

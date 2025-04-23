@@ -2,7 +2,7 @@
 // There is no 'go.mod' file, as that would imply opting in for all the rules
 // around SemVer, which this repo cannot abide by as it uses CalVer.
 
-module github.com/docker/docker
+module github.com/DevanshMathur19/docker-v23
 
 go 1.18
 

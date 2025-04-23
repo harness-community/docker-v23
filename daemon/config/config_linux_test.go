@@ -1,10 +1,10 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/DevanshMathur19/docker-v23/daemon/config"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/opts"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/opts"
 	units "github.com/docker/go-units"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"

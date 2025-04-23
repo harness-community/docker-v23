@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package overlay2 // import "github.com/docker/docker/daemon/graphdriver/overlay2"
+package overlay2 // import "github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlay2"
 
 import (
 	"context"
@@ -16,15 +16,15 @@ import (
 	"sync"
 
 	"github.com/containerd/continuity/fs"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/daemon/graphdriver/overlayutils"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers"
-	"github.com/docker/docker/quota"
+	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver"
+	"github.com/DevanshMathur19/docker-v23/daemon/graphdriver/overlayutils"
+	"github.com/DevanshMathur19/docker-v23/pkg/archive"
+	"github.com/DevanshMathur19/docker-v23/pkg/chrootarchive"
+	"github.com/DevanshMathur19/docker-v23/pkg/containerfs"
+	"github.com/DevanshMathur19/docker-v23/pkg/directory"
+	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
+	"github.com/DevanshMathur19/docker-v23/pkg/parsers"
+	"github.com/DevanshMathur19/docker-v23/quota"
 	units "github.com/docker/go-units"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

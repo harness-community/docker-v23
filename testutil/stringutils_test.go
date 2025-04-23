@@ -1,4 +1,4 @@
-package testutil // import "github.com/docker/docker/testutil"
+package testutil // import "github.com/DevanshMathur19/docker-v23/testutil"
 
 import (
 	"testing"

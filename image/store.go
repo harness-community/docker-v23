@@ -1,13 +1,13 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/DevanshMathur19/docker-v23/image"
 
 import (
 	"fmt"
 	"sync"
 	"time"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/system"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
+	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/DevanshMathur19/docker-v23/pkg/system"
 	"github.com/opencontainers/go-digest"
 	"github.com/opencontainers/go-digest/digestset"
 	"github.com/pkg/errors"

@@ -1,4 +1,4 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/DevanshMathur19/docker-v23/daemon/config"
 
 import (
 	"fmt"
@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 
 	"github.com/containerd/cgroups"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/opts"
-	"github.com/docker/docker/pkg/homedir"
-	"github.com/docker/docker/pkg/rootless"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	"github.com/DevanshMathur19/docker-v23/opts"
+	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
+	"github.com/DevanshMathur19/docker-v23/pkg/rootless"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

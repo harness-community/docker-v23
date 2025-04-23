@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/DevanshMathur19/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/identity"
 	"github.com/pkg/errors"

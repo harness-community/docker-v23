@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/DevanshMathur19/docker-v23/integration/container"
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/testutil/request"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	mounttypes "github.com/DevanshMathur19/docker-v23/api/types/mount"
+	"github.com/DevanshMathur19/docker-v23/client"
+	"github.com/DevanshMathur19/docker-v23/integration/internal/container"
+	"github.com/DevanshMathur19/docker-v23/testutil/request"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/poll"

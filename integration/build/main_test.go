@@ -1,11 +1,11 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/DevanshMathur19/docker-v23/integration/build"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/DevanshMathur19/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

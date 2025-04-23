@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

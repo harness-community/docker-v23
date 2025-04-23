@@ -1,10 +1,10 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/DevanshMathur19/docker-v23/volume/mounts"
 
 import (
 	"errors"
 	"runtime"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/DevanshMathur19/docker-v23/api/types/mount"
 )
 
 // ErrVolumeTargetIsRoot is returned when the target destination is root.

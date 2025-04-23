@@ -2,4 +2,4 @@
 
 package main
 
-import _ "github.com/docker/docker/cli/winresources/dockerd"
+import _ "github.com/DevanshMathur19/docker-v23/cli/winresources/dockerd"

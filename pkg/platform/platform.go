@@ -1,4 +1,4 @@
-package platform // import "github.com/docker/docker/pkg/platform"
+package platform // import "github.com/DevanshMathur19/docker-v23/pkg/platform"
 
 import (
 	"runtime"

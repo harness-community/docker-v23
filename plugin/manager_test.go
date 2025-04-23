@@ -1,9 +1,9 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/DevanshMathur19/docker-v23/plugin"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
+	"github.com/DevanshMathur19/docker-v23/api/types"
 )
 
 func TestValidatePrivileges(t *testing.T) {

@@ -7,12 +7,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/idm"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/datastore"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/discoverapi"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/driverapi"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/idm"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

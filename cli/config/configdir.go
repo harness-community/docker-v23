@@ -1,10 +1,10 @@
-package config // import "github.com/docker/docker/cli/config"
+package config // import "github.com/DevanshMathur19/docker-v23/cli/config"
 
 import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/DevanshMathur19/docker-v23/pkg/homedir"
 )
 
 var (

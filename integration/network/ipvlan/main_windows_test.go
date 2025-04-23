@@ -1,1 +1,1 @@
-package ipvlan // import "github.com/docker/docker/integration/network/ipvlan"
+package ipvlan // import "github.com/DevanshMathur19/docker-v23/integration/network/ipvlan"

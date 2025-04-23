@@ -1,4 +1,4 @@
-package common // import "github.com/docker/docker/integration/plugin/common"
+package common // import "github.com/DevanshMathur19/docker-v23/integration/plugin/common"
 
 import (
 	"context"
@@ -16,12 +16,12 @@ import (
 
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/remotes/docker"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/fixtures/plugin"
-	"github.com/docker/docker/testutil/registry"
-	"github.com/docker/docker/testutil/request"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/pkg/jsonmessage"
+	"github.com/DevanshMathur19/docker-v23/testutil/daemon"
+	"github.com/DevanshMathur19/docker-v23/testutil/fixtures/plugin"
+	"github.com/DevanshMathur19/docker-v23/testutil/registry"
+	"github.com/DevanshMathur19/docker-v23/testutil/request"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"

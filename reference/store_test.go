@@ -1,4 +1,4 @@
-package reference // import "github.com/docker/docker/reference"
+package reference // import "github.com/DevanshMathur19/docker-v23/reference"
 
 import (
 	"bytes"

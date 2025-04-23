@@ -1,13 +1,13 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
 
 import (
 	"encoding/json"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/DevanshMathur19/docker-v23/api/types/backend"
+	"github.com/DevanshMathur19/docker-v23/image"
+	"github.com/DevanshMathur19/docker-v23/layer"
+	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
 	"github.com/pkg/errors"
 )
 

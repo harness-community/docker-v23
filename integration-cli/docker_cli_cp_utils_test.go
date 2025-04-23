@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/DevanshMathur19/docker-v23/pkg/archive"
 	"gotest.tools/v3/assert"
 )
 

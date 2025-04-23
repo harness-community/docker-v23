@@ -1,10 +1,10 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
 
 import (
 	"io"
 	"strings"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
 )
 
 // DecodeHostConfig creates a HostConfig based on the specified Reader.

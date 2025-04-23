@@ -1,10 +1,10 @@
-package convert // import "github.com/docker/docker/daemon/cluster/convert"
+package convert // import "github.com/DevanshMathur19/docker-v23/daemon/cluster/convert"
 
 import (
 	"fmt"
 	"strings"
 
-	types "github.com/docker/docker/api/types/swarm"
+	types "github.com/DevanshMathur19/docker-v23/api/types/swarm"
 	gogotypes "github.com/gogo/protobuf/types"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	"github.com/moby/swarmkit/v2/ca"

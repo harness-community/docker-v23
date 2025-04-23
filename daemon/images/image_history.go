@@ -1,12 +1,12 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/DevanshMathur19/docker-v23/daemon/images"
 
 import (
 	"fmt"
 	"time"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/layer"
+	"github.com/DevanshMathur19/docker-v23/api/types/image"
+	"github.com/DevanshMathur19/docker-v23/layer"
 )
 
 // ImageHistory returns a slice of ImageHistory structures for the specified image

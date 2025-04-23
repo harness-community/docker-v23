@@ -1,10 +1,10 @@
-package backend // import "github.com/docker/docker/api/types/backend"
+package backend // import "github.com/DevanshMathur19/docker-v23/api/types/backend"
 
 import (
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/DevanshMathur19/docker-v23/api/types"
+	"github.com/DevanshMathur19/docker-v23/pkg/streamformatter"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

@@ -1,4 +1,4 @@
-package service // import "github.com/docker/docker/volume/service"
+package service // import "github.com/DevanshMathur19/docker-v23/volume/service"
 
 import (
 	"context"
@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/volume"
-	volumedrivers "github.com/docker/docker/volume/drivers"
-	"github.com/docker/docker/volume/service/opts"
-	volumetestutils "github.com/docker/docker/volume/testutils"
+	"github.com/DevanshMathur19/docker-v23/volume"
+	volumedrivers "github.com/DevanshMathur19/docker-v23/volume/drivers"
+	"github.com/DevanshMathur19/docker-v23/volume/service/opts"
+	volumetestutils "github.com/DevanshMathur19/docker-v23/volume/testutils"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

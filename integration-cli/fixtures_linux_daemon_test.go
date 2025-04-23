@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/testutil/fixtures/load"
+	"github.com/DevanshMathur19/docker-v23/testutil/fixtures/load"
 	"gotest.tools/v3/assert"
 )
 

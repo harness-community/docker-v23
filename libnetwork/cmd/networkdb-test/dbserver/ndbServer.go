@@ -9,9 +9,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/docker/docker/libnetwork/cmd/networkdb-test/dummyclient"
-	"github.com/docker/docker/libnetwork/diagnostic"
-	"github.com/docker/docker/libnetwork/networkdb"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/cmd/networkdb-test/dummyclient"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/diagnostic"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/networkdb"
 	"github.com/sirupsen/logrus"
 )
 

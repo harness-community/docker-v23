@@ -8,10 +8,10 @@ import (
 
 	"github.com/Microsoft/hcsshim"
 	"github.com/Microsoft/hcsshim/osversion"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/drivers/windows"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/driverapi"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/drivers/windows"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/netlabel"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

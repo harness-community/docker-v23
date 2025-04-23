@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/DevanshMathur19/docker-v23/builder/dockerfile"
 
 import (
 	"os"

@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"runtime"
 	"time"
 
-	"github.com/docker/docker/daemon/stats"
-	"github.com/docker/docker/pkg/system"
+	"github.com/DevanshMathur19/docker-v23/daemon/stats"
+	"github.com/DevanshMathur19/docker-v23/pkg/system"
 )
 
 // newStatsCollector returns a new statsCollector that collections

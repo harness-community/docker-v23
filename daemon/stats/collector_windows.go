@@ -1,4 +1,4 @@
-package stats // import "github.com/docker/docker/daemon/stats"
+package stats // import "github.com/DevanshMathur19/docker-v23/daemon/stats"
 
 // getSystemCPUUsage returns the host system's cpu usage in
 // nanoseconds. An error is returned if the format of the underlying

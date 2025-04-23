@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/integration/image"
+package image // import "github.com/DevanshMathur19/docker-v23/integration/image"
 
 import (
 	"context"
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/testutil"
+	"github.com/DevanshMathur19/docker-v23/testutil"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

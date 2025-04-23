@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/DevanshMathur19/docker-v23/distribution"
 
 import (
 	"fmt"
@@ -12,8 +12,8 @@ import (
 	v2 "github.com/docker/distribution/registry/api/v2"
 	"github.com/docker/distribution/registry/client"
 	"github.com/docker/distribution/registry/client/auth"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/distribution/xfer"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

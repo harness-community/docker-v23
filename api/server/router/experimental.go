@@ -1,10 +1,10 @@
-package router // import "github.com/docker/docker/api/server/router"
+package router // import "github.com/DevanshMathur19/docker-v23/api/server/router"
 
 import (
 	"context"
 	"net/http"
 
-	"github.com/docker/docker/api/server/httputils"
+	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
 )
 
 // ExperimentalRoute defines an experimental API route that can be enabled or disabled.

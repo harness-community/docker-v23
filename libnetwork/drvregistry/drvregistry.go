@@ -6,10 +6,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/driverapi"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamapi"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
+	"github.com/DevanshMathur19/docker-v23/pkg/plugingetter"
 )
 
 type driverData struct {

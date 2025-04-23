@@ -1,4 +1,4 @@
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/DevanshMathur19/docker-v23/opts"
 
 import (
 	"fmt"

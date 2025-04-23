@@ -10,11 +10,11 @@ import (
 	"net"
 	"strings"
 
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/resolvconf"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/ipamutils"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/ns"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/osl"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/resolvconf"
+	"github.com/DevanshMathur19/docker-v23/libnetwork/types"
 	"github.com/pkg/errors"
 	"github.com/vishvananda/netlink"
 )

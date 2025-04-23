@@ -1,4 +1,4 @@
-package runconfig // import "github.com/docker/docker/runconfig"
+package runconfig // import "github.com/DevanshMathur19/docker-v23/runconfig"
 
 import (
 	"bytes"
@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/DevanshMathur19/docker-v23/api/types/container"
+	networktypes "github.com/DevanshMathur19/docker-v23/api/types/network"
+	"github.com/DevanshMathur19/docker-v23/api/types/strslice"
+	"github.com/DevanshMathur19/docker-v23/pkg/sysinfo"
 )
 
 type f struct {

@@ -1,8 +1,8 @@
-package checkpoint // import "github.com/docker/docker/api/server/router/checkpoint"
+package checkpoint // import "github.com/DevanshMathur19/docker-v23/api/server/router/checkpoint"
 
 import (
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/router"
+	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
+	"github.com/DevanshMathur19/docker-v23/api/server/router"
 )
 
 // checkpointRouter is a router to talk with the checkpoint controller

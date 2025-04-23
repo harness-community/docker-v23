@@ -1,9 +1,9 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/DevanshMathur19/docker-v23/daemon"
 
 import (
 	"testing"
 
-	volumemounts "github.com/docker/docker/volume/mounts"
+	volumemounts "github.com/DevanshMathur19/docker-v23/volume/mounts"
 )
 
 func TestParseVolumesFrom(t *testing.T) {

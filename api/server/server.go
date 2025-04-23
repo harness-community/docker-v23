@@ -1,4 +1,4 @@
-package server // import "github.com/docker/docker/api/server"
+package server // import "github.com/DevanshMathur19/docker-v23/api/server"
 
 import (
 	"context"
@@ -8,12 +8,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/server/httpstatus"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/server/middleware"
-	"github.com/docker/docker/api/server/router"
-	"github.com/docker/docker/api/server/router/debug"
-	"github.com/docker/docker/dockerversion"
+	"github.com/DevanshMathur19/docker-v23/api/server/httpstatus"
+	"github.com/DevanshMathur19/docker-v23/api/server/httputils"
+	"github.com/DevanshMathur19/docker-v23/api/server/middleware"
+	"github.com/DevanshMathur19/docker-v23/api/server/router"
+	"github.com/DevanshMathur19/docker-v23/api/server/router/debug"
+	"github.com/DevanshMathur19/docker-v23/dockerversion"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"
 )

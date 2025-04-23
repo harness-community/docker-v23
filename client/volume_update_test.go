@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/DevanshMathur19/docker-v23/client"
 
 import (
 	"bytes"
@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/swarm"
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/errdefs"
+	"github.com/DevanshMathur19/docker-v23/api/types/swarm"
+	volumetypes "github.com/DevanshMathur19/docker-v23/api/types/volume"
+	"github.com/DevanshMathur19/docker-v23/errdefs"
 )
 
 func TestVolumeUpdateError(t *testing.T) {

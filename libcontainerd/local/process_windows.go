@@ -1,11 +1,11 @@
-package local // import "github.com/docker/docker/libcontainerd/local"
+package local // import "github.com/DevanshMathur19/docker-v23/libcontainerd/local"
 
 import (
 	"io"
 	"sync"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/DevanshMathur19/docker-v23/pkg/ioutils"
 )
 
 type autoClosingReader struct {

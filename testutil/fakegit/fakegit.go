@@ -1,4 +1,4 @@
-package fakegit // import "github.com/docker/docker/testutil/fakegit"
+package fakegit // import "github.com/DevanshMathur19/docker-v23/testutil/fakegit"
 
 import (
 	"fmt"
@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/testutil/fakecontext"
-	"github.com/docker/docker/testutil/fakestorage"
+	"github.com/DevanshMathur19/docker-v23/testutil/fakecontext"
+	"github.com/DevanshMathur19/docker-v23/testutil/fakestorage"
 )
 
 type gitServer interface {
