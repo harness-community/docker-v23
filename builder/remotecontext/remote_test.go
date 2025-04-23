@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"bytes"
@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/docker/docker/builder"
+	"github.com/harness-community/docker-v23/builder"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

@@ -1,7 +1,7 @@
 //go:build linux
 // +build linux
 
-package trap // import "github.com/docker/docker/cmd/dockerd/trap"
+package trap // import "github.com/harness-community/docker-v23/cmd/dockerd/trap"
 
 import (
 	"os"

@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/harness-community/docker-v23/layer"
 
 import (
 	"errors"

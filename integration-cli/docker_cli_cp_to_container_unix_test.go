@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"gotest.tools/v3/assert"
 )
 

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/cache"
 	"github.com/moby/buildkit/exporter"
 	"github.com/moby/buildkit/session"

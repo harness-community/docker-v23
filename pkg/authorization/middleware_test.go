@@ -1,4 +1,4 @@
-package authorization // import "github.com/docker/docker/pkg/authorization"
+package authorization // import "github.com/harness-community/docker-v23/pkg/authorization"
 
 import (
 	"net/http"
@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
 	"gotest.tools/v3/assert"
 )
 

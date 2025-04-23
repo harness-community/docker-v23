@@ -8,7 +8,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 )

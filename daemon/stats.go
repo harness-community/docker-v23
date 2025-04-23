@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -7,13 +7,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/api/types/versions/v1p20"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 )
 
 // ContainerStats writes information about the container to the stream

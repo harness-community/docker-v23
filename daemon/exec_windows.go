@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/exec"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/daemon/exec"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -1,12 +1,12 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/harness-community/docker-v23/plugin"
 
 import (
 	"fmt"
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/pkg/plugins"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	v2 "github.com/harness-community/docker-v23/plugin/v2"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

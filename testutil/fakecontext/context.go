@@ -1,4 +1,4 @@
-package fakecontext // import "github.com/docker/docker/testutil/fakecontext"
+package fakecontext // import "github.com/harness-community/docker-v23/testutil/fakecontext"
 
 import (
 	"bytes"
@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/archive"
 )
 
 // New creates a fake build context

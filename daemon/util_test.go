@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/containerd/containerd"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

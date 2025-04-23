@@ -1,8 +1,8 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/container"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/container"
 )
 
 // Windows network stats are obtained directly through HCS, hence this is a no-op.

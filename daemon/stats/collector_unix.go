@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package stats // import "github.com/docker/docker/daemon/stats"
+package stats // import "github.com/harness-community/docker-v23/daemon/stats"
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package cli // import "github.com/docker/docker/cli"
+package cli // import "github.com/harness-community/docker-v23/cli"
 
 import (
 	"fmt"

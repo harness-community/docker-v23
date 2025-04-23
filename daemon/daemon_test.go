@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"os"
@@ -6,13 +6,13 @@ import (
 	"runtime"
 	"testing"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/truncindex"
-	volumesservice "github.com/docker/docker/volume/service"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/truncindex"
+	volumesservice "github.com/harness-community/docker-v23/volume/service"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"
@@ -20,7 +20,7 @@ import (
 )
 
 //
-// https://github.com/docker/docker/issues/8069
+// https://github.com/harness-community/docker-v23/issues/8069
 //
 
 func TestGetContainer(t *testing.T) {

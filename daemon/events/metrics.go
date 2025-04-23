@@ -1,4 +1,4 @@
-package events // import "github.com/docker/docker/daemon/events"
+package events // import "github.com/harness-community/docker-v23/daemon/events"
 
 import metrics "github.com/docker/go-metrics"
 

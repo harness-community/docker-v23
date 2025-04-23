@@ -1,4 +1,4 @@
-package stream // import "github.com/docker/docker/container/stream"
+package stream // import "github.com/harness-community/docker-v23/container/stream"
 
 import (
 	"context"
@@ -8,9 +8,9 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/cio"
-	"github.com/docker/docker/pkg/broadcaster"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
+	"github.com/harness-community/docker-v23/pkg/broadcaster"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/pools"
 	"github.com/sirupsen/logrus"
 )
 

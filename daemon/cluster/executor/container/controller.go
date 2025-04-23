@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/daemon/cluster/executor/container"
+package container // import "github.com/harness-community/docker-v23/daemon/cluster/executor/container"
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	executorpkg "github.com/docker/docker/daemon/cluster/executor"
-	"github.com/docker/docker/libnetwork"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/events"
+	executorpkg "github.com/harness-community/docker-v23/daemon/cluster/executor"
+	"github.com/harness-community/docker-v23/libnetwork"
 	"github.com/docker/go-connections/nat"
 	gogotypes "github.com/gogo/protobuf/types"
 	"github.com/moby/swarmkit/v2/agent/exec"

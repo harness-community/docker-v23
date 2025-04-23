@@ -1,4 +1,4 @@
-package tarsum // import "github.com/docker/docker/pkg/tarsum"
+package tarsum // import "github.com/harness-community/docker-v23/pkg/tarsum"
 
 import (
 	"archive/tar"

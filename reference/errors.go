@@ -1,4 +1,4 @@
-package reference // import "github.com/docker/docker/reference"
+package reference // import "github.com/harness-community/docker-v23/reference"
 
 type notFoundError string
 

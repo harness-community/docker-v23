@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"bufio"
@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/containerd/continuity/driver"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext/urlutil"
-	"github.com/docker/docker/errdefs"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/builder"
+	"github.com/harness-community/docker-v23/builder/remotecontext/urlutil"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/moby/buildkit/frontend/dockerfile/dockerignore"
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 	"github.com/moby/patternmatcher"

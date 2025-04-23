@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"fmt"
 	"os"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/system"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

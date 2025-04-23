@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/testutils"
+	"github.com/harness-community/docker-v23/libnetwork/testutils"
 	"github.com/vishvananda/netlink"
 )
 

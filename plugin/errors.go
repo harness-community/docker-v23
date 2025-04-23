@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/harness-community/docker-v23/plugin"
 
 import "fmt"
 

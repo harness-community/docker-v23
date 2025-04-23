@@ -3,7 +3,7 @@
 
 // Package journald provides the log driver for forwarding server logs
 // to endpoints that receive the systemd format.
-package journald // import "github.com/docker/docker/daemon/logger/journald"
+package journald // import "github.com/harness-community/docker-v23/daemon/logger/journald"
 
 import (
 	"fmt"
@@ -11,8 +11,8 @@ import (
 	"unicode"
 
 	"github.com/coreos/go-systemd/v22/journal"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/loggerutils"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/loggerutils"
 )
 
 const name = "journald"

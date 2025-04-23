@@ -1,7 +1,7 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/harness-community/docker-v23/api/server/router/network"
 
 import (
-	"github.com/docker/docker/api/server/router"
+	"github.com/harness-community/docker-v23/api/server/router"
 )
 
 // networkRouter is a router to talk with the network controller

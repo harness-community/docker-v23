@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -10,10 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/rootless"
-	"github.com/docker/docker/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/pkg/rootless"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

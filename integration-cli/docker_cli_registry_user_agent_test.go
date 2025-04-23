@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/docker/docker/testutil/registry"
+	"github.com/harness-community/docker-v23/testutil/registry"
 	"gotest.tools/v3/assert"
 )
 

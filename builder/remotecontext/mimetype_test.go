@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"testing"

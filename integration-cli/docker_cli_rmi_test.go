@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/cli/build"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"
 )
@@ -149,7 +149,7 @@ func (s *DockerCLIRmiSuite) TestRmiImgIDForce(c *testing.T) {
 	}
 }
 
-// See https://github.com/docker/docker/issues/14116
+// See https://github.com/harness-community/docker-v23/issues/14116
 func (s *DockerCLIRmiSuite) TestRmiImageIDForceWithRunningContainersAndMultipleTags(c *testing.T) {
 	dockerfile := "FROM busybox\nRUN echo test 14116\n"
 	buildImageSuccessfully(c, "test-14116", build.WithDockerfile(dockerfile))

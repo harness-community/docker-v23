@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	cliconfig "github.com/docker/docker/cli/config"
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/opts"
+	cliconfig "github.com/harness-community/docker-v23/cli/config"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/opts"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/spf13/pflag"
 )

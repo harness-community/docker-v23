@@ -1,11 +1,11 @@
-package distribution // import "github.com/docker/docker/api/server/router/distribution"
+package distribution // import "github.com/harness-community/docker-v23/api/server/router/distribution"
 
 import (
 	"context"
 
 	"github.com/docker/distribution"
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 // Backend is all the methods that need to be implemented

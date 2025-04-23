@@ -1,4 +1,4 @@
-package layer // import "github.com/docker/docker/layer"
+package layer // import "github.com/harness-community/docker-v23/layer"
 
 import (
 	"compress/gzip"
@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/docker/distribution"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

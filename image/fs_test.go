@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/harness-community/docker-v23/image"
 
 import (
 	"crypto/rand"

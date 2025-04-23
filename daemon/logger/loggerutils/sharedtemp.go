@@ -1,4 +1,4 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/harness-community/docker-v23/daemon/logger/loggerutils"
 
 import (
 	"io"

@@ -1,10 +1,10 @@
-package caps // import "github.com/docker/docker/oci/caps"
+package caps // import "github.com/harness-community/docker-v23/oci/caps"
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/docker/errdefs"
+	"github.com/harness-community/docker-v23/errdefs"
 )
 
 var (

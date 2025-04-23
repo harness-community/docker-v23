@@ -1,11 +1,11 @@
-package logging // import "github.com/docker/docker/integration/plugin/logging"
+package logging // import "github.com/harness-community/docker-v23/integration/plugin/logging"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var (

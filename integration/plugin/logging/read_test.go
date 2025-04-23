@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil/daemon"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/testutil/daemon"
 	"gotest.tools/v3/assert"
 )
 

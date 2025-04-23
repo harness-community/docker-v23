@@ -1,4 +1,4 @@
-package system // import "github.com/docker/docker/integration/system"
+package system // import "github.com/harness-community/docker-v23/integration/system"
 
 import (
 	"context"

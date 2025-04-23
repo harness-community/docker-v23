@@ -3,7 +3,7 @@ package host
 import (
 	"testing"
 
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 )
 
 func TestDriver(t *testing.T) {

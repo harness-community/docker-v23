@@ -1,10 +1,10 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 	"gotest.tools/v3/fs"

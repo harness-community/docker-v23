@@ -1,4 +1,4 @@
-package parsers // import "github.com/docker/docker/pkg/parsers"
+package parsers // import "github.com/harness-community/docker-v23/pkg/parsers"
 
 import (
 	"reflect"

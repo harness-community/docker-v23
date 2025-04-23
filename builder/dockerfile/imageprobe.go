@@ -1,8 +1,8 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/builder"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/builder"
 	"github.com/sirupsen/logrus"
 )
 

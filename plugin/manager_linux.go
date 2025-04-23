@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/harness-community/docker-v23/plugin"
 
 import (
 	"context"
@@ -9,14 +9,14 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/content"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/daemon/initlayer"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/pkg/stringid"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/daemon/initlayer"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	v2 "github.com/harness-community/docker-v23/plugin/v2"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"

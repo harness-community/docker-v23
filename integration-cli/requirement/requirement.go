@@ -1,4 +1,4 @@
-package requirement // import "github.com/docker/docker/integration-cli/requirement"
+package requirement // import "github.com/harness-community/docker-v23/integration-cli/requirement"
 
 import (
 	"path"

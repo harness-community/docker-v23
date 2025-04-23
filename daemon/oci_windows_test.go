@@ -9,8 +9,8 @@ import (
 
 	"gotest.tools/v3/fs"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/container"
 	swarmagent "github.com/moby/swarmkit/v2/agent"
 	swarmapi "github.com/moby/swarmkit/v2/api"
 	specs "github.com/opencontainers/runtime-spec/specs-go"

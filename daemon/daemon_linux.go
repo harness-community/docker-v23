@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"bufio"
@@ -9,9 +9,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/resolvconf"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/libnetwork/ns"
+	"github.com/harness-community/docker-v23/libnetwork/resolvconf"
 	"github.com/moby/sys/mount"
 	"github.com/moby/sys/mountinfo"
 	"github.com/pkg/errors"

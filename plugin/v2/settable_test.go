@@ -1,4 +1,4 @@
-package v2 // import "github.com/docker/docker/plugin/v2"
+package v2 // import "github.com/harness-community/docker-v23/plugin/v2"
 
 import (
 	"reflect"

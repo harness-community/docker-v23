@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"fmt"
@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/daemon/images"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/image"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/daemon/images"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/image"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

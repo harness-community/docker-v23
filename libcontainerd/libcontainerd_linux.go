@@ -1,11 +1,11 @@
-package libcontainerd // import "github.com/docker/docker/libcontainerd"
+package libcontainerd // import "github.com/harness-community/docker-v23/libcontainerd"
 
 import (
 	"context"
 
 	"github.com/containerd/containerd"
-	"github.com/docker/docker/libcontainerd/remote"
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
+	"github.com/harness-community/docker-v23/libcontainerd/remote"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 )
 
 // NewClient creates a new libcontainerd client from a containerd client

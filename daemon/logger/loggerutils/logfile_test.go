@@ -1,4 +1,4 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/harness-community/docker-v23/daemon/logger/loggerutils"
 
 import (
 	"bufio"
@@ -13,8 +13,8 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/pkg/tailfile"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/pkg/tailfile"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/poll"
 )

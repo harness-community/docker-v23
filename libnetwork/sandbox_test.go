@@ -5,12 +5,12 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/testutils"
+	"github.com/harness-community/docker-v23/libnetwork/config"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/options"
+	"github.com/harness-community/docker-v23/libnetwork/osl"
+	"github.com/harness-community/docker-v23/libnetwork/testutils"
 	"gotest.tools/v3/skip"
 )
 

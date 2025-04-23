@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/daemon/cluster/controllers/plugin"
+package plugin // import "github.com/harness-community/docker-v23/daemon/cluster/controllers/plugin"
 
 import (
 	"context"
@@ -10,10 +10,10 @@ import (
 	"time"
 
 	"github.com/docker/distribution/reference"
-	enginetypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm/runtime"
-	"github.com/docker/docker/plugin"
-	v2 "github.com/docker/docker/plugin/v2"
+	enginetypes "github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/swarm/runtime"
+	"github.com/harness-community/docker-v23/plugin"
+	v2 "github.com/harness-community/docker-v23/plugin/v2"
 	"github.com/moby/pubsub"
 	"github.com/sirupsen/logrus"
 )

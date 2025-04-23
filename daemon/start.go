@@ -1,14 +1,14 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 	"runtime"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

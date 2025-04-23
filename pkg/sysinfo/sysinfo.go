@@ -1,6 +1,6 @@
-package sysinfo // import "github.com/docker/docker/pkg/sysinfo"
+package sysinfo // import "github.com/harness-community/docker-v23/pkg/sysinfo"
 
-import "github.com/docker/docker/pkg/parsers"
+import "github.com/harness-community/docker-v23/pkg/parsers"
 
 // Opt for New().
 type Opt func(info *SysInfo)

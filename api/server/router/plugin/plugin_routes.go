@@ -1,4 +1,4 @@
-package plugin // import "github.com/docker/docker/api/server/router/plugin"
+package plugin // import "github.com/harness-community/docker-v23/api/server/router/plugin"
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/streamformatter"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/streamformatter"
 	"github.com/pkg/errors"
 )
 

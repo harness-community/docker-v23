@@ -1,13 +1,13 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 )
 
 // ContainerExport writes the contents of the container to the given

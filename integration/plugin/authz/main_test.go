@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package authz // import "github.com/docker/docker/integration/plugin/authz"
+package authz // import "github.com/harness-community/docker-v23/integration/plugin/authz"
 
 import (
 	"encoding/json"
@@ -13,10 +13,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/pkg/authorization"
-	"github.com/docker/docker/pkg/plugins"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/environment"
+	"github.com/harness-community/docker-v23/pkg/authorization"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	"github.com/harness-community/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/testutil/environment"
 	"gotest.tools/v3/skip"
 )
 

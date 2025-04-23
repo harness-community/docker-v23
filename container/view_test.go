@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
 	"github.com/google/uuid"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

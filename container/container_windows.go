@@ -1,14 +1,14 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"fmt"
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/api/types"
-	containertypes "github.com/docker/docker/api/types/container"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/system"
+	"github.com/harness-community/docker-v23/api/types"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/pkg/system"
 )
 
 const (

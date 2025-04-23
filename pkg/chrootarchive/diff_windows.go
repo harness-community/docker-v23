@@ -1,4 +1,4 @@
-package chrootarchive // import "github.com/docker/docker/pkg/chrootarchive"
+package chrootarchive // import "github.com/harness-community/docker-v23/pkg/chrootarchive"
 
 import (
 	"fmt"
@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/longpath"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/longpath"
 )
 
 // applyLayerHandler parses a diff in the standard layer format from `layer`, and

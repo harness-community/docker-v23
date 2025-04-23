@@ -13,9 +13,9 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/docker/docker/libnetwork/iptables"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/harness-community/docker-v23/libnetwork/iptables"
+	"github.com/harness-community/docker-v23/libnetwork/ns"
+	"github.com/harness-community/docker-v23/pkg/reexec"
 	"github.com/gogo/protobuf/proto"
 	"github.com/ishidawataru/sctp"
 	"github.com/moby/ipvs"

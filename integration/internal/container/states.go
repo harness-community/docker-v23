@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/docker/docker/client"
+	"github.com/harness-community/docker-v23/client"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/poll"
 )

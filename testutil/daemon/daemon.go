@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/testutil/daemon"
+package daemon // import "github.com/harness-community/docker-v23/testutil/daemon"
 
 import (
 	"context"
@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/events"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/testutil/request"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/events"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"github.com/docker/go-connections/sockets"
 	"github.com/docker/go-connections/tlsconfig"
 	"github.com/pkg/errors"

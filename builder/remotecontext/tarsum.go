@@ -1,10 +1,10 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"os"
 	"sync"
 
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
 	iradix "github.com/hashicorp/go-immutable-radix"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"

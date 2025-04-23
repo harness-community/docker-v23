@@ -6,9 +6,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/ipamutils"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/ipamutils"
+	"github.com/harness-community/docker-v23/libnetwork/testutils"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/vishvananda/netlink"
 )
 

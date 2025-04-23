@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"errors"

@@ -7,7 +7,7 @@ import (
 	"path"
 	"text/template"
 
-	"github.com/docker/docker/pkg/aaparser"
+	"github.com/harness-community/docker-v23/pkg/aaparser"
 )
 
 type profileData struct {

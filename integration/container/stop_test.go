@@ -1,12 +1,12 @@
-package container // import "github.com/docker/docker/integration/container"
+package container // import "github.com/harness-community/docker-v23/integration/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/integration/internal/container"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/integration/internal/container"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/poll"
 )

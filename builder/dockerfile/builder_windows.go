@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 func defaultShellForOS(os string) []string {
 	if os == "linux" {

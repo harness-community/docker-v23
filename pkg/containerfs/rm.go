@@ -1,7 +1,7 @@
 //go:build !darwin && !windows
 // +build !darwin,!windows
 
-package containerfs // import "github.com/docker/docker/pkg/containerfs"
+package containerfs // import "github.com/harness-community/docker-v23/pkg/containerfs"
 
 import (
 	"os"

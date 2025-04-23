@@ -1,4 +1,4 @@
-package seccomp // import "github.com/docker/docker/profiles/seccomp"
+package seccomp // import "github.com/harness-community/docker-v23/profiles/seccomp"
 
 import (
 	"encoding/json"

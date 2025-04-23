@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/idm"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	"github.com/harness-community/docker-v23/libnetwork/idm"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

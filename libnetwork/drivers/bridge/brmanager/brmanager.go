@@ -1,10 +1,10 @@
 package brmanager
 
 import (
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/discoverapi"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 )
 
 const networkType = "bridge"

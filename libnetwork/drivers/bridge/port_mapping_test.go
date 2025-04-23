@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/testutils"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/ns"
+	"github.com/harness-community/docker-v23/libnetwork/testutils"
+	"github.com/harness-community/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/pkg/reexec"
 )
 
 func TestMain(m *testing.M) {

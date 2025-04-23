@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/cli/build"
-	"github.com/docker/docker/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/cli/build"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
 	units "github.com/docker/go-units"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/icmd"

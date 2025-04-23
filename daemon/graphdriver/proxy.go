@@ -1,15 +1,15 @@
-package graphdriver // import "github.com/docker/docker/daemon/graphdriver"
+package graphdriver // import "github.com/harness-community/docker-v23/daemon/graphdriver"
 
 import (
 	"errors"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
 )
 
 type graphDriverProxy struct {

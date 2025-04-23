@@ -10,12 +10,12 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/volume/service/opts"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/volume"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/volume/service/opts"
 )
 
 func callGetVolume(v *volumeRouter, name string) (*httptest.ResponseRecorder, error) {

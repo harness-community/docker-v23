@@ -1,7 +1,7 @@
 //go:build !windows
 // +build !windows
 
-package kernel // import "github.com/docker/docker/pkg/parsers/kernel"
+package kernel // import "github.com/harness-community/docker-v23/pkg/parsers/kernel"
 
 import (
 	"fmt"

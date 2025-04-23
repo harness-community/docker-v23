@@ -1,7 +1,7 @@
 //go:build linux || freebsd || darwin
 // +build linux freebsd darwin
 
-package directory // import "github.com/docker/docker/pkg/directory"
+package directory // import "github.com/harness-community/docker-v23/pkg/directory"
 
 import (
 	"context"

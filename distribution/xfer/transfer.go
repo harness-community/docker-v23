@@ -1,11 +1,11 @@
-package xfer // import "github.com/docker/docker/distribution/xfer"
+package xfer // import "github.com/harness-community/docker-v23/distribution/xfer"
 
 import (
 	"context"
 	"runtime"
 	"sync"
 
-	"github.com/docker/docker/pkg/progress"
+	"github.com/harness-community/docker-v23/pkg/progress"
 	"github.com/pkg/errors"
 )
 

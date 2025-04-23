@@ -1,4 +1,4 @@
-package supervisor // import "github.com/docker/docker/libcontainerd/supervisor"
+package supervisor // import "github.com/harness-community/docker-v23/libcontainerd/supervisor"
 
 import (
 	"os"
@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/defaults"
-	"github.com/docker/docker/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 )
 
 const (

@@ -1,16 +1,16 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 	"fmt"
 	"io"
 
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/container"
-	"github.com/docker/docker/container/stream"
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/container/stream"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
 	"github.com/moby/term"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

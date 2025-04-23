@@ -21,7 +21,7 @@ aufs driver directory structure
 
 */
 
-package aufs // import "github.com/docker/docker/daemon/graphdriver/aufs"
+package aufs // import "github.com/harness-community/docker-v23/daemon/graphdriver/aufs"
 
 import (
 	"bufio"
@@ -37,12 +37,12 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/chrootarchive"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/chrootarchive"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/directory"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"
 	"github.com/opencontainers/selinux/go-selinux/label"

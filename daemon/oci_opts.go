@@ -5,7 +5,7 @@ import (
 
 	"github.com/containerd/containerd/containers"
 	coci "github.com/containerd/containerd/oci"
-	"github.com/docker/docker/container"
+	"github.com/harness-community/docker-v23/container"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

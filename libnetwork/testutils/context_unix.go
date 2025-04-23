@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/ns"
+	"github.com/harness-community/docker-v23/libnetwork/ns"
 )
 
 // SetupTestOSContext joins a new network namespace, and returns its associated

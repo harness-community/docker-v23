@@ -1,4 +1,4 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/harness-community/docker-v23/api/server/httputils"
 
 import (
 	"context"
@@ -7,11 +7,11 @@ import (
 	"net/url"
 	"sort"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
 )
 
 // WriteLogStream writes an encoded byte stream of log messages from the

@@ -1,4 +1,4 @@
-package rootless // import "github.com/docker/docker/pkg/rootless"
+package rootless // import "github.com/harness-community/docker-v23/pkg/rootless"
 
 import (
 	"os"

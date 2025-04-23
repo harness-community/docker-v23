@@ -1,9 +1,9 @@
-package cluster // import "github.com/docker/docker/daemon/cluster"
+package cluster // import "github.com/harness-community/docker-v23/daemon/cluster"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/filters"
 )
 
 func TestNewListSecretsFilters(t *testing.T) {

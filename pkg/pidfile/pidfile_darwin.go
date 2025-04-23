@@ -1,7 +1,7 @@
 //go:build darwin
 // +build darwin
 
-package pidfile // import "github.com/docker/docker/pkg/pidfile"
+package pidfile // import "github.com/harness-community/docker-v23/pkg/pidfile"
 
 import (
 	"golang.org/x/sys/unix"

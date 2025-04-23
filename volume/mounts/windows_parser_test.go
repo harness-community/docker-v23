@@ -1,11 +1,11 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/harness-community/docker-v23/volume/mounts"
 
 import (
 	"fmt"
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/mount"
 	"gotest.tools/v3/assert"
 )
 

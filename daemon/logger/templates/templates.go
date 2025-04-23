@@ -1,4 +1,4 @@
-package templates // import "github.com/docker/docker/daemon/logger/templates"
+package templates // import "github.com/harness-community/docker-v23/daemon/logger/templates"
 
 import (
 	"bytes"

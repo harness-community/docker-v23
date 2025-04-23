@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/testutil/fixtures/plugin"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/testutil/fixtures/plugin"
 	"github.com/moby/locker"
 	"github.com/pkg/errors"
 	"gotest.tools/v3/assert"

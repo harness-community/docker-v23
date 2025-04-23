@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/discoverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/discoverapi"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 	"github.com/sirupsen/logrus"
 )
 

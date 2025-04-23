@@ -1,13 +1,13 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 	"fmt"
 
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	volumemounts "github.com/docker/docker/volume/mounts"
-	volumeopts "github.com/docker/docker/volume/service/opts"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/container"
+	volumemounts "github.com/harness-community/docker-v23/volume/mounts"
+	volumeopts "github.com/harness-community/docker-v23/volume/service/opts"
 )
 
 // createContainerOSSpecificSettings performs host-OS specific container create functionality

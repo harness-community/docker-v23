@@ -3,8 +3,8 @@ package bitseq
 import (
 	"encoding/json"
 
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 )
 
 // Key provides the Key to be used in KV Store

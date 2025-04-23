@@ -1,15 +1,15 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"testing"
 
 	coci "github.com/containerd/containerd/oci"
-	containertypes "github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/container"
-	dconfig "github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/oci"
-	"github.com/docker/docker/pkg/sysinfo"
-	"github.com/docker/docker/profiles/seccomp"
+	containertypes "github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/container"
+	dconfig "github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/oci"
+	"github.com/harness-community/docker-v23/pkg/sysinfo"
+	"github.com/harness-community/docker-v23/profiles/seccomp"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"gotest.tools/v3/assert"
 )

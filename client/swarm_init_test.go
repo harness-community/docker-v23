@@ -1,4 +1,4 @@
-package client // import "github.com/docker/docker/client"
+package client // import "github.com/harness-community/docker-v23/client"
 
 import (
 	"bytes"
@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/errdefs"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/errdefs"
 )
 
 func TestSwarmInitError(t *testing.T) {

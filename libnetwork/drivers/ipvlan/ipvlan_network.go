@@ -6,14 +6,14 @@ package ipvlan
 import (
 	"fmt"
 
-	"github.com/docker/docker/libnetwork/driverapi"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/ns"
-	"github.com/docker/docker/libnetwork/options"
-	"github.com/docker/docker/libnetwork/osl"
-	"github.com/docker/docker/libnetwork/types"
-	"github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/ns"
+	"github.com/harness-community/docker-v23/libnetwork/options"
+	"github.com/harness-community/docker-v23/libnetwork/osl"
+	"github.com/harness-community/docker-v23/libnetwork/types"
+	"github.com/harness-community/docker-v23/pkg/parsers/kernel"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 	"github.com/sirupsen/logrus"
 )
 

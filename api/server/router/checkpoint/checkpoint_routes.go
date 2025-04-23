@@ -1,11 +1,11 @@
-package checkpoint // import "github.com/docker/docker/api/server/router/checkpoint"
+package checkpoint // import "github.com/harness-community/docker-v23/api/server/router/checkpoint"
 
 import (
 	"context"
 	"net/http"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 func (s *checkpointRouter) postContainerCheckpoint(ctx context.Context, w http.ResponseWriter, r *http.Request, vars map[string]string) error {

@@ -1,4 +1,4 @@
-package httputils // import "github.com/docker/docker/api/server/httputils"
+package httputils // import "github.com/harness-community/docker-v23/api/server/httputils"
 
 import (
 	"net/http"

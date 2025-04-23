@@ -1,11 +1,11 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"os"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/system"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/pkg/archive"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"github.com/pkg/errors"
 )
 

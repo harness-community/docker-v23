@@ -1,4 +1,4 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	libcontainerdtypes "github.com/docker/docker/libcontainerd/types"
+	libcontainerdtypes "github.com/harness-community/docker-v23/libcontainerd/types"
 )
 
 // ContainerResize changes the size of the TTY of the process running

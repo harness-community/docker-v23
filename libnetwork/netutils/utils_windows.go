@@ -3,7 +3,7 @@ package netutils
 import (
 	"net"
 
-	"github.com/docker/docker/libnetwork/types"
+	"github.com/harness-community/docker-v23/libnetwork/types"
 )
 
 // ElectInterfaceAddresses looks for an interface on the OS with the specified name

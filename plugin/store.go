@@ -1,14 +1,14 @@
-package plugin // import "github.com/docker/docker/plugin"
+package plugin // import "github.com/harness-community/docker-v23/plugin"
 
 import (
 	"fmt"
 	"strings"
 
 	"github.com/docker/distribution/reference"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/plugingetter"
-	"github.com/docker/docker/pkg/plugins"
-	v2 "github.com/docker/docker/plugin/v2"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugins"
+	v2 "github.com/harness-community/docker-v23/plugin/v2"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

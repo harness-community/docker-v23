@@ -1,11 +1,11 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"context"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 )
 
 func TestIsValidHealthString(t *testing.T) {

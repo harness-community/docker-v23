@@ -1,4 +1,4 @@
-package syslog // import "github.com/docker/docker/daemon/logger/syslog"
+package syslog // import "github.com/harness-community/docker-v23/daemon/logger/syslog"
 
 import (
 	"log"

@@ -1,4 +1,4 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"bytes"
@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/containerd/containerd/platforms"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
 	"golang.org/x/sys/windows"
 )
 

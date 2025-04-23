@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/creack/pty"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/testutil/request"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"gotest.tools/v3/assert"
 )
 

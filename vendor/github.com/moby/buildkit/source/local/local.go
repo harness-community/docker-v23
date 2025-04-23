@@ -9,7 +9,7 @@ import (
 	srctypes "github.com/moby/buildkit/source/types"
 	"github.com/moby/buildkit/util/bklog"
 
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/cache"
 	"github.com/moby/buildkit/cache/contenthash"
 	"github.com/moby/buildkit/client"

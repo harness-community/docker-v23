@@ -1,9 +1,9 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/harness-community/docker-v23/daemon/logger/loggerutils"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger"
 )
 
 func TestParseLogTagDefaultTag(t *testing.T) {

@@ -1,13 +1,13 @@
 package libnetwork
 
 import (
-	"github.com/docker/docker/libnetwork/drivers/bridge"
-	"github.com/docker/docker/libnetwork/drivers/host"
-	"github.com/docker/docker/libnetwork/drivers/ipvlan"
-	"github.com/docker/docker/libnetwork/drivers/macvlan"
-	"github.com/docker/docker/libnetwork/drivers/null"
-	"github.com/docker/docker/libnetwork/drivers/overlay"
-	"github.com/docker/docker/libnetwork/drivers/remote"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/bridge"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/host"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/ipvlan"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/macvlan"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/null"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/overlay"
+	"github.com/harness-community/docker-v23/libnetwork/drivers/remote"
 )
 
 func getInitializers() []initializer {

@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	cliconfig "github.com/docker/docker/cli/config"
-	"github.com/docker/docker/daemon/config"
+	cliconfig "github.com/harness-community/docker-v23/cli/config"
+	"github.com/harness-community/docker-v23/daemon/config"
 	"github.com/spf13/pflag"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

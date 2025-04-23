@@ -14,18 +14,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/versions/v1p20"
-	"github.com/docker/docker/integration-cli/cli"
-	"github.com/docker/docker/integration-cli/daemon"
-	"github.com/docker/docker/libnetwork/driverapi"
-	remoteapi "github.com/docker/docker/libnetwork/drivers/remote/api"
-	"github.com/docker/docker/libnetwork/ipamapi"
-	remoteipam "github.com/docker/docker/libnetwork/ipams/remote/api"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/runconfig"
-	testdaemon "github.com/docker/docker/testutil/daemon"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/versions/v1p20"
+	"github.com/harness-community/docker-v23/integration-cli/cli"
+	"github.com/harness-community/docker-v23/integration-cli/daemon"
+	"github.com/harness-community/docker-v23/libnetwork/driverapi"
+	remoteapi "github.com/harness-community/docker-v23/libnetwork/drivers/remote/api"
+	"github.com/harness-community/docker-v23/libnetwork/ipamapi"
+	remoteipam "github.com/harness-community/docker-v23/libnetwork/ipams/remote/api"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/runconfig"
+	testdaemon "github.com/harness-community/docker-v23/testutil/daemon"
 	"github.com/vishvananda/netlink"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
@@ -1734,7 +1734,7 @@ func (s *DockerNetworkSuite) TestDockerNetworkDisconnectFromBridge(c *testing.T)
 	assert.NilError(c, err)
 }
 
-// TestConntrackFlowsLeak covers the failure scenario of ticket: https://github.com/docker/docker/issues/8795
+// TestConntrackFlowsLeak covers the failure scenario of ticket: https://github.com/harness-community/docker-v23/issues/8795
 // Validates that conntrack is correctly cleaned once a container is destroyed
 func (s *DockerNetworkSuite) TestConntrackFlowsLeak(c *testing.T) {
 	testRequires(c, IsAmd64, DaemonIsLinux, Network, testEnv.IsLocalDaemon)

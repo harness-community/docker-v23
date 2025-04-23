@@ -2,19 +2,19 @@
 //
 // Historically, only server-side Dockerfile interpreters existed.
 // This package allows for other implementations of Docker builders.
-package builder // import "github.com/docker/docker/builder"
+package builder // import "github.com/harness-community/docker-v23/builder"
 
 import (
 	"context"
 	"io"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/backend"
-	"github.com/docker/docker/api/types/container"
-	containerpkg "github.com/docker/docker/container"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/containerfs"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/backend"
+	"github.com/harness-community/docker-v23/api/types/container"
+	containerpkg "github.com/harness-community/docker-v23/container"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
 )
 
 const (

@@ -1,8 +1,8 @@
-package config // import "github.com/docker/docker/daemon/config"
+package config // import "github.com/harness-community/docker-v23/daemon/config"
 
 import (
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/cluster/convert"
+	"github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/daemon/cluster/convert"
 	"github.com/moby/swarmkit/v2/api/genericresource"
 )
 

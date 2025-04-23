@@ -10,8 +10,8 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/docker/docker/libnetwork/iptables"
-	"github.com/docker/docker/pkg/reexec"
+	"github.com/harness-community/docker-v23/libnetwork/iptables"
+	"github.com/harness-community/docker-v23/pkg/reexec"
 	"github.com/sirupsen/logrus"
 	"github.com/vishvananda/netns"
 )

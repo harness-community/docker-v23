@@ -1,4 +1,4 @@
-package splunk // import "github.com/docker/docker/daemon/logger/splunk"
+package splunk // import "github.com/harness-community/docker-v23/daemon/logger/splunk"
 
 import (
 	"compress/gzip"

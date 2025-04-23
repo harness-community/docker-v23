@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/integration-cli/cli/build"
+	"github.com/harness-community/docker-v23/integration-cli/cli/build"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/assert/cmp"
 )

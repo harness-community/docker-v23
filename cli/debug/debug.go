@@ -1,4 +1,4 @@
-package debug // import "github.com/docker/docker/cli/debug"
+package debug // import "github.com/harness-community/docker-v23/cli/debug"
 
 import (
 	"os"

@@ -1,4 +1,4 @@
-package build // import "github.com/docker/docker/integration/build"
+package build // import "github.com/harness-community/docker-v23/integration/build"
 
 import (
 	"bufio"
@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/integration/internal/container"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/docker/docker/testutil/daemon"
-	"github.com/docker/docker/testutil/fakecontext"
-	"github.com/docker/docker/testutil/fixtures/load"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/integration/internal/container"
+	"github.com/harness-community/docker-v23/pkg/jsonmessage"
+	"github.com/harness-community/docker-v23/pkg/stdcopy"
+	"github.com/harness-community/docker-v23/testutil/daemon"
+	"github.com/harness-community/docker-v23/testutil/fakecontext"
+	"github.com/harness-community/docker-v23/testutil/fixtures/load"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"
 )

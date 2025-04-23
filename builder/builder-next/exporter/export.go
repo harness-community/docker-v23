@@ -9,8 +9,8 @@ import (
 
 	"github.com/docker/distribution/reference"
 	distref "github.com/docker/distribution/reference"
-	"github.com/docker/docker/image"
-	"github.com/docker/docker/layer"
+	"github.com/harness-community/docker-v23/image"
+	"github.com/harness-community/docker-v23/layer"
 	"github.com/moby/buildkit/exporter"
 	"github.com/moby/buildkit/exporter/containerimage/exptypes"
 	"github.com/moby/buildkit/util/compression"

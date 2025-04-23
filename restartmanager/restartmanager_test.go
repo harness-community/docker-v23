@@ -1,10 +1,10 @@
-package restartmanager // import "github.com/docker/docker/restartmanager"
+package restartmanager // import "github.com/harness-community/docker-v23/restartmanager"
 
 import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/container"
+	"github.com/harness-community/docker-v23/api/types/container"
 )
 
 func TestRestartManagerTimeout(t *testing.T) {

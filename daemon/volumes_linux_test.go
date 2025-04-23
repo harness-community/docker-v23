@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types/mount"
+	"github.com/harness-community/docker-v23/api/types/mount"
 )
 
 func TestBindDaemonRoot(t *testing.T) {

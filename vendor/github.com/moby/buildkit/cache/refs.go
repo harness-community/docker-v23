@@ -16,7 +16,7 @@ import (
 	"github.com/containerd/containerd/leases"
 	"github.com/containerd/containerd/mount"
 	"github.com/containerd/containerd/snapshots"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/hashicorp/go-multierror"
 	"github.com/moby/buildkit/cache/config"
 	"github.com/moby/buildkit/identity"

@@ -1,4 +1,4 @@
-package session // import "github.com/docker/docker/api/server/router/session"
+package session // import "github.com/harness-community/docker-v23/api/server/router/session"
 
 import (
 	"context"

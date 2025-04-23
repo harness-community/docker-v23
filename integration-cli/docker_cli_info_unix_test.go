@@ -7,8 +7,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/daemon/config"
+	"github.com/harness-community/docker-v23/client"
+	"github.com/harness-community/docker-v23/daemon/config"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

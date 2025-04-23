@@ -1,4 +1,4 @@
-package remote // import "github.com/docker/docker/libcontainerd/remote"
+package remote // import "github.com/harness-community/docker-v23/libcontainerd/remote"
 
 import (
 	"io"

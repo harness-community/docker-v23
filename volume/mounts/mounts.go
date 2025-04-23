@@ -1,4 +1,4 @@
-package mounts // import "github.com/docker/docker/volume/mounts"
+package mounts // import "github.com/harness-community/docker-v23/volume/mounts"
 
 import (
 	"fmt"
@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"syscall"
 
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/volume"
+	mounttypes "github.com/harness-community/docker-v23/api/types/mount"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/volume"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/pkg/errors"
 )
@@ -34,7 +34,7 @@ type MountPoint struct {
 	Name string
 	// Driver is the volume driver used to create the volume (if it is a volume)
 	Driver string
-	// Type of mount to use, see `Type<foo>` definitions in github.com/docker/docker/api/types/mount
+	// Type of mount to use, see `Type<foo>` definitions in github.com/harness-community/docker-v23/api/types/mount
 	Type mounttypes.Type `json:",omitempty"`
 	// Volume is the volume providing data to this mountpoint.
 	// This is nil unless `Type` is set to `TypeVolume`

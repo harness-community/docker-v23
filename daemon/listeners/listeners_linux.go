@@ -1,4 +1,4 @@
-package listeners // import "github.com/docker/docker/daemon/listeners"
+package listeners // import "github.com/harness-community/docker-v23/daemon/listeners"
 
 import (
 	"crypto/tls"
@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/coreos/go-systemd/v22/activation"
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/harness-community/docker-v23/pkg/homedir"
 	"github.com/docker/go-connections/sockets"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

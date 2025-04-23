@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/docker/docker/api/types/filters"
-	volumetypes "github.com/docker/docker/api/types/volume"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/directory"
-	"github.com/docker/docker/volume"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	volumetypes "github.com/harness-community/docker-v23/api/types/volume"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/directory"
+	"github.com/harness-community/docker-v23/volume"
 	"github.com/sirupsen/logrus"
 )
 

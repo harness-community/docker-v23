@@ -1,5 +1,5 @@
 // Package capabilities allows to generically handle capabilities.
-package capabilities // import "github.com/docker/docker/pkg/capabilities"
+package capabilities // import "github.com/harness-community/docker-v23/pkg/capabilities"
 
 // Set represents a set of capabilities.
 type Set map[string]struct{}

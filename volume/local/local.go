@@ -1,7 +1,7 @@
 // Package local provides the default implementation for volumes. It
 // is used to mount data volume containers and directories local to
 // the host server.
-package local // import "github.com/docker/docker/volume/local"
+package local // import "github.com/harness-community/docker-v23/volume/local"
 
 import (
 	"encoding/json"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/docker/daemon/names"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/quota"
-	"github.com/docker/docker/volume"
+	"github.com/harness-community/docker-v23/daemon/names"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/quota"
+	"github.com/harness-community/docker-v23/volume"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

@@ -1,4 +1,4 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"fmt"
@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	swarmtypes "github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/daemon/logger/jsonfilelog"
+	"github.com/harness-community/docker-v23/api/types/container"
+	swarmtypes "github.com/harness-community/docker-v23/api/types/swarm"
+	"github.com/harness-community/docker-v23/daemon/logger/jsonfilelog"
 	"github.com/moby/sys/signal"
 	"gotest.tools/v3/assert"
 )

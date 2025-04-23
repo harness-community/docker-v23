@@ -14,7 +14,7 @@ import (
 	"github.com/containerd/containerd/filters"
 	"github.com/containerd/containerd/gc"
 	"github.com/containerd/containerd/leases"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/cache/metadata"
 	"github.com/moby/buildkit/client"
 	"github.com/moby/buildkit/identity"

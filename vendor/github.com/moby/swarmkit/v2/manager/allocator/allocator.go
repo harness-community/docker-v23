@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/docker/docker/pkg/plugingetter"
+	"github.com/harness-community/docker-v23/pkg/plugingetter"
 	"github.com/docker/go-events"
 	"github.com/moby/swarmkit/v2/api"
 	"github.com/moby/swarmkit/v2/manager/allocator/cnmallocator"

@@ -1,4 +1,4 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"bytes"
@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/pkg/ioutils"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
 	"github.com/pkg/errors"
 )
 

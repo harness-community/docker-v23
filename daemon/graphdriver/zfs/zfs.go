@@ -1,7 +1,7 @@
 //go:build linux || freebsd
 // +build linux freebsd
 
-package zfs // import "github.com/docker/docker/daemon/graphdriver/zfs"
+package zfs // import "github.com/harness-community/docker-v23/daemon/graphdriver/zfs"
 
 import (
 	"fmt"
@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/docker/daemon/graphdriver"
-	"github.com/docker/docker/pkg/containerfs"
-	"github.com/docker/docker/pkg/idtools"
-	"github.com/docker/docker/pkg/parsers"
+	"github.com/harness-community/docker-v23/daemon/graphdriver"
+	"github.com/harness-community/docker-v23/pkg/containerfs"
+	"github.com/harness-community/docker-v23/pkg/idtools"
+	"github.com/harness-community/docker-v23/pkg/parsers"
 	zfs "github.com/mistifyio/go-zfs"
 	"github.com/moby/locker"
 	"github.com/moby/sys/mount"

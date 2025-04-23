@@ -1,4 +1,4 @@
-package devicemapper // import "github.com/docker/docker/pkg/devicemapper"
+package devicemapper // import "github.com/harness-community/docker-v23/pkg/devicemapper"
 
 // definitions from lvm2 lib/log/log.h
 const (

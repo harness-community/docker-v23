@@ -1,4 +1,4 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/harness-community/docker-v23/image"
 
 import (
 	"encoding/json"
@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/layer"
+	"github.com/harness-community/docker-v23/api/types/container"
+	"github.com/harness-community/docker-v23/layer"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"

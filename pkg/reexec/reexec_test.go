@@ -1,4 +1,4 @@
-package reexec // import "github.com/docker/docker/pkg/reexec"
+package reexec // import "github.com/harness-community/docker-v23/pkg/reexec"
 
 import (
 	"os"

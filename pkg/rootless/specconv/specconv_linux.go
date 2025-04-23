@@ -1,4 +1,4 @@
-package specconv // import "github.com/docker/docker/pkg/rootless/specconv"
+package specconv // import "github.com/harness-community/docker-v23/pkg/rootless/specconv"
 
 import (
 	"fmt"

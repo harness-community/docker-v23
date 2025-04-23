@@ -3,7 +3,7 @@ package daemon
 import (
 	"os/user"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 // Option is used to configure a daemon.

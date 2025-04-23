@@ -1,6 +1,6 @@
 // Package operatingsystem provides helper function to get the operating system
 // name for different platforms.
-package operatingsystem // import "github.com/docker/docker/pkg/parsers/operatingsystem"
+package operatingsystem // import "github.com/harness-community/docker-v23/pkg/parsers/operatingsystem"
 
 import (
 	"bufio"

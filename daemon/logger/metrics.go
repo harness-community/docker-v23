@@ -1,4 +1,4 @@
-package logger // import "github.com/docker/docker/daemon/logger"
+package logger // import "github.com/harness-community/docker-v23/daemon/logger"
 
 import (
 	metrics "github.com/docker/go-metrics"

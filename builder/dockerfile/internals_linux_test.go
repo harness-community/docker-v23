@@ -1,12 +1,12 @@
-package dockerfile // import "github.com/docker/docker/builder/dockerfile"
+package dockerfile // import "github.com/harness-community/docker-v23/builder/dockerfile"
 
 import (
 	"os"
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

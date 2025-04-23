@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
@@ -13,9 +13,9 @@ import (
 	"github.com/docker/distribution/registry/client"
 	"github.com/docker/distribution/registry/client/auth"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/dockerversion"
-	"github.com/docker/docker/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/dockerversion"
+	"github.com/harness-community/docker-v23/registry"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 
@@ -41,8 +41,8 @@ var (
 		schema2.MediaTypeImageConfig,
 		ocispec.MediaTypeImageConfig,
 		// Handle unexpected values from https://github.com/docker/distribution/issues/1621
-		// (see also https://github.com/docker/docker/issues/22378,
-		// https://github.com/docker/docker/issues/30083)
+		// (see also https://github.com/harness-community/docker-v23/issues/22378,
+		// https://github.com/harness-community/docker-v23/issues/30083)
 		"application/octet-stream",
 		"application/json",
 		"text/html",

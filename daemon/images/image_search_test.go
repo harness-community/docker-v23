@@ -1,15 +1,15 @@
-package images // import "github.com/docker/docker/daemon/images"
+package images // import "github.com/harness-community/docker-v23/daemon/images"
 
 import (
 	"context"
 	"errors"
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	registrytypes "github.com/harness-community/docker-v23/api/types/registry"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/registry"
 	"gotest.tools/v3/assert"
 )
 

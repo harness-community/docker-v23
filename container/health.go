@@ -1,9 +1,9 @@
-package container // import "github.com/docker/docker/container"
+package container // import "github.com/harness-community/docker-v23/container"
 
 import (
 	"sync"
 
-	"github.com/docker/docker/api/types"
+	"github.com/harness-community/docker-v23/api/types"
 	"github.com/sirupsen/logrus"
 )
 

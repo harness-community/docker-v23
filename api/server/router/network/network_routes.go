@@ -1,4 +1,4 @@
-package network // import "github.com/docker/docker/api/server/router/network"
+package network // import "github.com/harness-community/docker-v23/api/server/router/network"
 
 import (
 	"context"
@@ -6,14 +6,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/docker/api/server/httputils"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/libnetwork"
-	netconst "github.com/docker/docker/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/api/server/httputils"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/filters"
+	"github.com/harness-community/docker-v23/api/types/network"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/libnetwork"
+	netconst "github.com/harness-community/docker-v23/libnetwork/datastore"
 	"github.com/pkg/errors"
 )
 

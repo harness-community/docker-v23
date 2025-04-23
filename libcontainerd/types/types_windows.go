@@ -1,4 +1,4 @@
-package types // import "github.com/docker/docker/libcontainerd/types"
+package types // import "github.com/harness-community/docker-v23/libcontainerd/types"
 
 import (
 	"time"

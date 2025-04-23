@@ -1,11 +1,11 @@
-package remotecontext // import "github.com/docker/docker/builder/remotecontext"
+package remotecontext // import "github.com/harness-community/docker-v23/builder/remotecontext"
 
 import (
 	"os"
 
-	"github.com/docker/docker/builder"
-	"github.com/docker/docker/builder/remotecontext/git"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/harness-community/docker-v23/builder"
+	"github.com/harness-community/docker-v23/builder/remotecontext/git"
+	"github.com/harness-community/docker-v23/pkg/archive"
 	"github.com/sirupsen/logrus"
 )
 

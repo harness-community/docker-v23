@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/docker/docker/daemon/config"
-	"github.com/docker/docker/libnetwork"
-	"github.com/docker/docker/pkg/idtools"
+	"github.com/harness-community/docker-v23/daemon/config"
+	"github.com/harness-community/docker-v23/libnetwork"
+	"github.com/harness-community/docker-v23/pkg/idtools"
 	"github.com/moby/buildkit/executor"
 	"github.com/moby/buildkit/executor/oci"
 )

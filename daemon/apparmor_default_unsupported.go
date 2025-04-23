@@ -1,7 +1,7 @@
 //go:build !linux
 // +build !linux
 
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 func ensureDefaultAppArmorProfile() error {
 	return nil

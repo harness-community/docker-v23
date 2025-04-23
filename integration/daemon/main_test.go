@@ -1,11 +1,11 @@
-package daemon // import "github.com/docker/docker/integration/daemon"
+package daemon // import "github.com/harness-community/docker-v23/integration/daemon"
 
 import (
 	"fmt"
 	"os"
 	"testing"
 
-	"github.com/docker/docker/testutil/environment"
+	"github.com/harness-community/docker-v23/testutil/environment"
 )
 
 var testEnv *environment.Execution

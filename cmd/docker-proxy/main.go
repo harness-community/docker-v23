@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/docker/docker/dockerversion"
+	"github.com/harness-community/docker-v23/dockerversion"
 	"github.com/ishidawataru/sctp"
 )
 

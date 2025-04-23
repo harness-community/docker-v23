@@ -1,10 +1,10 @@
-package loggerutils // import "github.com/docker/docker/daemon/logger/loggerutils"
+package loggerutils // import "github.com/harness-community/docker-v23/daemon/logger/loggerutils"
 
 import (
 	"bytes"
 
-	"github.com/docker/docker/daemon/logger"
-	"github.com/docker/docker/daemon/logger/templates"
+	"github.com/harness-community/docker-v23/daemon/logger"
+	"github.com/harness-community/docker-v23/daemon/logger/templates"
 )
 
 // DefaultTemplate defines the defaults template logger should use.

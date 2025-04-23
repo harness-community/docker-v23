@@ -1,4 +1,4 @@
-package archive // import "github.com/docker/docker/pkg/archive"
+package archive // import "github.com/harness-community/docker-v23/pkg/archive"
 
 import (
 	"os"
@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/containerd/containerd/pkg/userns"
-	"github.com/docker/docker/pkg/system"
+	"github.com/harness-community/docker-v23/pkg/system"
 	"golang.org/x/sys/unix"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/skip"

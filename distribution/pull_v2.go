@@ -1,4 +1,4 @@
-package distribution // import "github.com/docker/docker/distribution"
+package distribution // import "github.com/harness-community/docker-v23/distribution"
 
 import (
 	"context"
@@ -19,17 +19,17 @@ import (
 	"github.com/docker/distribution/manifest/schema2"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/distribution/registry/client/transport"
-	"github.com/docker/docker/distribution/metadata"
-	"github.com/docker/docker/distribution/xfer"
-	"github.com/docker/docker/image"
-	v1 "github.com/docker/docker/image/v1"
-	"github.com/docker/docker/layer"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/stringid"
-	"github.com/docker/docker/pkg/system"
-	refstore "github.com/docker/docker/reference"
-	"github.com/docker/docker/registry"
+	"github.com/harness-community/docker-v23/distribution/metadata"
+	"github.com/harness-community/docker-v23/distribution/xfer"
+	"github.com/harness-community/docker-v23/image"
+	v1 "github.com/harness-community/docker-v23/image/v1"
+	"github.com/harness-community/docker-v23/layer"
+	"github.com/harness-community/docker-v23/pkg/ioutils"
+	"github.com/harness-community/docker-v23/pkg/progress"
+	"github.com/harness-community/docker-v23/pkg/stringid"
+	"github.com/harness-community/docker-v23/pkg/system"
+	refstore "github.com/harness-community/docker-v23/reference"
+	"github.com/harness-community/docker-v23/registry"
 	"github.com/opencontainers/go-digest"
 	specs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
@@ -681,7 +681,7 @@ func (p *puller) pullSchema2Layers(ctx context.Context, target distribution.Desc
 		layerStoreOS = platform.OS
 	}
 
-	// https://github.com/docker/docker/issues/24766 - Err on the side of caution,
+	// https://github.com/harness-community/docker-v23/issues/24766 - Err on the side of caution,
 	// explicitly blocking images intended for linux from the Windows daemon. On
 	// Windows, we do this before the attempt to download, effectively serialising
 	// the download slightly slowing it down. We have to do it this way, as

@@ -1,10 +1,10 @@
-package registry // import "github.com/docker/docker/registry"
+package registry // import "github.com/harness-community/docker-v23/registry"
 
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/registry"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/registry"
 	"gotest.tools/v3/assert"
 )
 

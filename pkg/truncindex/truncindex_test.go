@@ -1,11 +1,11 @@
-package truncindex // import "github.com/docker/docker/pkg/truncindex"
+package truncindex // import "github.com/harness-community/docker-v23/pkg/truncindex"
 
 import (
 	"math/rand"
 	"testing"
 	"time"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/harness-community/docker-v23/pkg/stringid"
 )
 
 // Test the behavior of TruncIndex, an index for querying IDs from a non-conflicting prefix.

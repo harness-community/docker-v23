@@ -1,11 +1,11 @@
-package image // import "github.com/docker/docker/image"
+package image // import "github.com/harness-community/docker-v23/image"
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/docker/errdefs"
-	"github.com/docker/docker/layer"
+	"github.com/harness-community/docker-v23/errdefs"
+	"github.com/harness-community/docker-v23/layer"
 	"gotest.tools/v3/assert"
 	is "gotest.tools/v3/assert/cmp"
 )

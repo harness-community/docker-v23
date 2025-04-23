@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/testutil/request"
+	"github.com/harness-community/docker-v23/api"
+	"github.com/harness-community/docker-v23/api/types/versions"
+	"github.com/harness-community/docker-v23/testutil/request"
 	"gotest.tools/v3/assert"
 )
 

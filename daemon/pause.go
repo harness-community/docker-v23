@@ -1,10 +1,10 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/container"
+	"github.com/harness-community/docker-v23/container"
 	"github.com/sirupsen/logrus"
 )
 

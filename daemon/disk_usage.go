@@ -1,12 +1,12 @@
-package daemon // import "github.com/docker/docker/daemon"
+package daemon // import "github.com/harness-community/docker-v23/daemon"
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/docker/docker/api/server/router/system"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/volume"
+	"github.com/harness-community/docker-v23/api/server/router/system"
+	"github.com/harness-community/docker-v23/api/types"
+	"github.com/harness-community/docker-v23/api/types/volume"
 	"golang.org/x/sync/errgroup"
 )
 

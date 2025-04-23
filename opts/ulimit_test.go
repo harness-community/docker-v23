@@ -1,4 +1,4 @@
-package opts // import "github.com/docker/docker/opts"
+package opts // import "github.com/harness-community/docker-v23/opts"
 
 import (
 	"testing"

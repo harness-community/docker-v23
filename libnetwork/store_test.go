@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/docker/libnetwork/config"
-	"github.com/docker/docker/libnetwork/datastore"
-	"github.com/docker/docker/libnetwork/netlabel"
-	"github.com/docker/docker/libnetwork/options"
+	"github.com/harness-community/docker-v23/libnetwork/config"
+	"github.com/harness-community/docker-v23/libnetwork/datastore"
+	"github.com/harness-community/docker-v23/libnetwork/netlabel"
+	"github.com/harness-community/docker-v23/libnetwork/options"
 	"github.com/docker/libkv/store"
 )
 
